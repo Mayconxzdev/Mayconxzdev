@@ -6,7 +6,7 @@ Atuo com **n8n, APIs REST, webhooks, Python, JavaScript, SQL/PostgreSQL, Docker,
 
 **Open to roles in Brazil, Latin America and remote:** AI Automation Analyst, Automation & Integration Analyst, n8n Developer, AI Workflow Engineer and Applied AI / Integration Engineer.
 
-[Portfólio de casos](https://mayconxzdev.github.io/) · [Currículo](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Analista_Automacao_IA_Integracoes.pdf) · [LinkedIn: www.linkedin.com/in/maycon-ferreira-7bb870231/](https://www.linkedin.com/in/maycon-ferreira-7bb870231/)
+[Portfólio de casos](https://mayconxzdev.github.io/) · [Currículo PT-BR](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Analista_Automacao_IA_Integracoes.pdf) · [Resume EN](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf) · [LinkedIn: www.linkedin.com/in/maycon-ferreira-7bb870231/](https://www.linkedin.com/in/maycon-ferreira-7bb870231/)
 
 ## Como avalio uma automação
 
