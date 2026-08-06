@@ -6,7 +6,7 @@ Hoje atuo principalmente com **n8n self-hosted, Python, FastAPI, APIs REST, webh
 
 ## Resultados em uso
 
-- administro uma instância n8n com **10 mil+ execuções de produção**, distribuídas entre diferentes automações;
+- administro uma instância n8n com **10 mil+ execuções de workflows em produção**, distribuídas entre diferentes automações;
 - executei **6 campanhas** na Mala Direta sobre uma base de **1.020 contatos**, incluindo uma campanha para **900+ destinatários**;
 - implantei o Produção Operacional em **10+ computadores e uma TV**, apoiando **20+ profissionais em 9 setores produtivos**;
 - desenvolvi um HelpDesk utilizado por **11 usuários**;
@@ -41,7 +41,7 @@ Nos repositórios públicos, removo credenciais, dados pessoais, fornecedores, p
 ## Idiomas e disponibilidade
 
 - Português nativo;
-- inglês básico, com leitura independente de documentação técnica e escrita/conversação básicas;
+- inglês com leitura técnica independente; escrita e conversação básicas;
 - disponibilidade para trabalho remoto, híbrido ou presencial, viagens e mudança.
 
 ## Contato
