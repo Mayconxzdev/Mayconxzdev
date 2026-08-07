@@ -1,0 +1,65 @@
+name: Validate public profile
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Validate current professional positioning
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          path = Path('README.md')
+          text = path.read_text(encoding='utf-8')
+
+          required = [
+              'Analista de Automação, IA e Integrações',
+              '10 mil+ execuções de workflows em produção',
+              '10+ computadores e uma TV',
+              '20+ profissionais em 9 setores produtivos',
+              'Catálogo Operacional de Compras',
+              'Portal',
+              'Em desenvolvimento',
+              'inglês com leitura técnica independente; escrita e conversação básicas',
+          ]
+          forbidden = [
+              'Portal Vesper',
+              'ProcureFlow',
+              'PlanilhaCompras',
+              '3h → 5min',
+              '10 mil+ execuções da Mala Direta',
+              '11 computadores do escritório',
+              'sênior em IA',
+              'senior AI',
+          ]
+
+          errors = []
+          for phrase in required:
+              if phrase not in text:
+                  errors.append(f'missing current profile fact: {phrase}')
+          for phrase in forbidden:
+              if phrase in text:
+                  errors.append(f'stale or inflated profile wording: {phrase}')
+
+          if errors:
+              for error in errors:
+                  print(f'ERROR: {error}')
+              raise SystemExit(1)
+
+          print('Public profile positioning and current facts validated.')
+          PY
