@@ -4,6 +4,8 @@
 
 ### Automação · IA aplicada · Integrações
 
+**Analista de Automação, IA e Integrações**
+
 **Transformo processos espalhados entre planilhas, e-mails, documentos e sistemas em automações e ferramentas internas que as pessoas conseguem usar no dia a dia.**
 
 [![Portfólio](https://img.shields.io/badge/PORTFÓLIO-VER_CASES-111111?style=for-the-badge)](https://mayconxzdev.github.io/)
@@ -22,14 +24,14 @@ Meu núcleo técnico é **n8n self-hosted, Python, FastAPI, APIs REST/webhooks, 
 
 ## Resultados em uso
 
-- **10 mil+ execuções** de workflows no ambiente n8n self-hosted que administro;
+- **10 mil+ execuções de workflows em produção** no ambiente n8n self-hosted que administro;
 - propostas simples: **2–4 min → menos de 30 s**, com uso diário por **4 profissionais**;
-- Produção Operacional em **10+ PCs + 1 TV**, apoiando **20+ profissionais em 9 setores**;
+- Produção Operacional implantada em **10+ computadores e uma TV**, apoiando **20+ profissionais em 9 setores produtivos**;
 - HelpDesk em uso por **11 pessoas**;
 - manutenção digitalizada de **40+ ativos**, com checklists, evidências e histórico;
 - **30+ pessoas** treinadas ou orientadas em soluções implantadas;
 - Mala Direta: **6 campanhas**, base de **1.020 contatos** e uma campanha com **900+ destinatários**;
-- Catálogo Operacional: **24 categorias e 480+ códigos**, com uso diário.
+- Catálogo Operacional de Compras: **24 categorias e 480+ códigos**, com uso diário.
 
 ## Por onde eu começaria para avaliar meu trabalho
 
@@ -38,11 +40,13 @@ Meu núcleo técnico é **n8n self-hosted, Python, FastAPI, APIs REST/webhooks, 
 | [Mala Direta](https://github.com/Mayconxzdev/MalaDireta) | n8n em profundidade, filas, deduplicação, retry, cancelamento e auditoria | produção |
 | [Produção Operacional](https://github.com/Mayconxzdev/ProducaoOperacional) | implantação, adoção, desktop Windows e continuidade operacional | produção |
 | [CarreiraPessoal](https://github.com/Mayconxzdev/CarreiraPessoal) | produto, arquitetura full-stack, evidências, QA e IA opcional | produto pessoal em uso |
-| [Catálogo Operacional](https://github.com/Mayconxzdev/CatalogoOperacional) | FastAPI, FTS5, busca, integridade de dados e histórico | uso diário |
+| [Catálogo Operacional de Compras](https://github.com/Mayconxzdev/CatalogoOperacional) | FastAPI, FTS5, busca, integridade de dados e histórico | uso diário |
 | [Postagem Redes](https://github.com/Mayconxzdev/PostagemRedes) | IA aplicada, RAG/grounding, OAuth 2.0, APIs externas e revisão humana | validado em teste |
 | [HelpDesk](https://github.com/Mayconxzdev/HelpDesk) | sistema interno, tempo real, ativos, acessos, segurança e adoção | uso interno |
 
 Esses seis projetos foram escolhidos porque mostram competências diferentes. O [portfólio](https://mayconxzdev.github.io/) organiza os demais cases por problema, resultado, estado real e evidência, incluindo Proposta Comercial, ComprasVesper, Central ISO, StudioCad, manutenção, dados/cloud, produtos pessoais e sites publicados.
+
+**Portal:** Em desenvolvimento / revalidação. A referência pública mostra arquitetura anterior sanitizada; não é apresentada como produção atual.
 
 ## Como costumo construir soluções
 
@@ -70,7 +74,7 @@ Ferramentas como **MCP, LangGraph e CrewAI** fazem parte de estudos e uso contex
 - **FIRJAN SENAI — Ferramentas de IA: Agentes e Automações (40h)**;
 - Google AI Essentials, RPA e Mapeamento/Automação de Processos.
 
-**Idiomas:** português nativo; inglês com leitura técnica independente e escrita/conversação básicas.
+**Idiomas:** português nativo; inglês com leitura técnica independente; escrita e conversação básicas.
 
 ## Contato
 
