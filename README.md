@@ -1,12 +1,24 @@
-# Maycon Ferreira — Automação, IA e Integrações
+<div align="center">
 
-Transformo processos que estão espalhados entre planilhas, e-mails, documentos e sistemas em **automações, integrações e ferramentas internas que as pessoas conseguem usar e sustentar no dia a dia**.
+# Maycon Ferreira
 
-Hoje atuo ponta a ponta: converso com quem executa e aprova o processo, levanto requisitos, modelo AS-IS/TO-BE/BPMN quando faz sentido, defino regras e riscos, construo, testo, implanto, treino usuários e acompanho a operação depois do go-live.
+### Automação · IA aplicada · Integrações
 
-Meu núcleo técnico é **n8n self-hosted, Python, FastAPI, APIs REST/webhooks, OAuth2, SQL/PostgreSQL e Docker**. Em IA aplicada, uso **IA generativa, RAG/grounding e human-in-the-loop** quando acrescentam valor real ao processo; a operação principal não precisa depender de IA por padrão.
+**Transformo processos espalhados entre planilhas, e-mails, documentos e sistemas em automações e ferramentas internas que as pessoas conseguem usar no dia a dia.**
 
-[Portfólio](https://mayconxzdev.github.io/) · [Currículo PT-BR](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Analista_Automacao_IA_Integracoes.pdf) · [Resume EN](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf) · [LinkedIn](https://www.linkedin.com/in/maycon-ferreira-7bb870231/)
+[![Portfólio](https://img.shields.io/badge/PORTFÓLIO-VER_CASES-111111?style=for-the-badge)](https://mayconxzdev.github.io/)
+[![Currículo](https://img.shields.io/badge/CURRÍCULO-PT--BR-2563EB?style=for-the-badge)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Analista_Automacao_IA_Integracoes.pdf)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-PERFIL-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maycon-ferreira-7bb870231/)
+
+`n8n self-hosted` · `Python` · `FastAPI` · `REST/Webhooks` · `SQL/PostgreSQL` · `Docker` · `RAG/grounding`
+
+</div>
+
+Atuo ponta a ponta: converso com quem executa e aprova o processo, levanto requisitos, modelo AS-IS/TO-BE/BPMN quando faz sentido, defino regras e riscos, construo, testo, implanto, treino usuários e acompanho a operação depois do go-live.
+
+Meu núcleo técnico é **n8n self-hosted, Python, FastAPI, APIs REST/webhooks, OAuth 2.0, SQL/PostgreSQL e Docker**. Em IA aplicada, uso **IA generativa, RAG/grounding e human-in-the-loop** quando acrescentam valor real ao processo; a operação principal não precisa depender de IA por padrão.
+
+[Resume EN](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf) · [GitHub](https://github.com/Mayconxzdev) · [E-mail](mailto:mayconxz00dev@gmail.com)
 
 ## Resultados em uso
 
@@ -27,7 +39,7 @@ Meu núcleo técnico é **n8n self-hosted, Python, FastAPI, APIs REST/webhooks, 
 | [Produção Operacional](https://github.com/Mayconxzdev/ProducaoOperacional) | implantação, adoção, desktop Windows e continuidade operacional | produção |
 | [CarreiraPessoal](https://github.com/Mayconxzdev/CarreiraPessoal) | produto, arquitetura full-stack, evidências, QA e IA opcional | produto pessoal em uso |
 | [Catálogo Operacional](https://github.com/Mayconxzdev/CatalogoOperacional) | FastAPI, FTS5, busca, integridade de dados e histórico | uso diário |
-| [Postagem Redes](https://github.com/Mayconxzdev/PostagemRedes) | IA aplicada, RAG/grounding, OAuth2, APIs externas e revisão humana | validado em teste |
+| [Postagem Redes](https://github.com/Mayconxzdev/PostagemRedes) | IA aplicada, RAG/grounding, OAuth 2.0, APIs externas e revisão humana | validado em teste |
 | [HelpDesk](https://github.com/Mayconxzdev/HelpDesk) | sistema interno, tempo real, ativos, acessos, segurança e adoção | uso interno |
 
 Esses seis projetos foram escolhidos porque mostram competências diferentes. O [portfólio](https://mayconxzdev.github.io/) organiza os demais cases por problema, resultado, estado real e evidência, incluindo Proposta Comercial, ComprasVesper, Central ISO, StudioCad, manutenção, dados/cloud, produtos pessoais e sites publicados.
@@ -43,7 +55,7 @@ Em fluxos com efeitos externos ou dados sensíveis, procuro manter **revisão hu
 
 ## Competências principais
 
-**Automação e integrações:** n8n self-hosted · APIs REST · webhooks · OAuth2 · SMTP/IMAP · Power Automate · Make/Zapier · CRM  
+**Automação e integrações:** n8n self-hosted · APIs REST · webhooks · OAuth 2.0 · SMTP/IMAP · Power Automate · Make/Zapier · CRM  
 **Backend e dados:** Python · FastAPI · SQL · PostgreSQL · SQLite/FTS5 · Docker  
 **Processos e entrega:** BPMN · AS-IS/TO-BE · levantamento de requisitos · regras de negócio · testes/homologação · implantação · treinamento · sustentação  
 **IA aplicada:** IA generativa · RAG/grounding · LangChain · agentes de IA · human-in-the-loop  
