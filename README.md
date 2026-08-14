@@ -1,48 +1,46 @@
-# Maycon Ferreira — Analista de Automação, IA e Integrações
+# Maycon Ferreira — Automação, IA e Integrações
 
-Transformo necessidades operacionais em **automações, integrações e sistemas internos rastreáveis**, do entendimento do processo à implantação e sustentação. Trabalho com usuários, Produção, Qualidade e gestão para mapear AS-IS/TO-BE, requisitos, regras, riscos e pontos de controle antes de escolher a tecnologia.
+Eu gosto de pegar processo que está espalhado em planilha, e-mail, papel ou sistemas diferentes e transformar em algo mais simples de usar e acompanhar.
 
-Meu núcleo atual é **n8n self-hosted, Python, FastAPI, APIs REST/webhooks, SQL/PostgreSQL, Docker, Linux e IA aplicada**, com testes, logs, retries, idempotência, backups, gestão de segredos e revisão humana em fluxos sensíveis.
+Hoje meu núcleo é **n8n self-hosted, Python, FastAPI, APIs REST/webhooks, SQL/PostgreSQL e Docker**. Antes de escolher a ferramenta, procuro entender com quem faz e aprova o processo onde estão as regras, exceções, riscos e o que precisa ficar registrado. Dependendo do caso, também trabalho com **BPMN, Power Automate, Make/Zapier e CRM**. Em IA aplicada, uso **RAG/LangChain** e tenho prática com **MCP, LangGraph e CrewAI** quando fazem sentido para o problema.
 
 [Portfólio](https://mayconxzdev.github.io/) · [Currículo PT-BR](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Analista_Automacao_IA_Integracoes.pdf) · [Resume EN](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf) · [LinkedIn](https://www.linkedin.com/in/maycon-ferreira-7bb870231/)
 
-## Resultados em uso
+## Alguns resultados que já estão em uso
 
-- **10 mil+** execuções de workflows no ambiente n8n que administro;
-- propostas simples: **2–4 min → menos de 30 s**, uso diário por 4 profissionais;
-- Produção Operacional: **10+ PCs + 1 TV**, apoiando **20+ profissionais em 9 setores**;
-- manutenção: **40+ ativos**, com registro por dois responsáveis e consulta da Qualidade;
-- Mala Direta: **6 campanhas**, base de **1.020 contatos**, uma com **900+ destinatários**;
-- Catálogo Operacional: **24 categorias e 480+ códigos**, uso diário por 3 pessoas;
-- **30+ pessoas** treinadas/orientadas em escritório, fábrica e acesso remoto.
+- **10 mil+ execuções** de workflows no ambiente n8n que administro;
+- propostas simples: **2–4 min → menos de 30 s**, com uso diário por 4 profissionais;
+- Produção Operacional em **10+ PCs + 1 TV**, apoiando **20+ profissionais em 9 setores**;
+- manutenção de **40+ ativos**, com registro, evidências, histórico de alterações e consulta da Qualidade;
+- Mala Direta: **6 campanhas**, base de **1.020 contatos**, uma delas com **900+ destinatários**;
+- Catálogo Operacional: **24 categorias e 480+ códigos**, em uso diário;
+- **30+ pessoas** treinadas ou orientadas em soluções que implantei.
 
-## Projetos principais
+## Se quiser conhecer meu trabalho, eu começaria por estes projetos
 
-| Projeto | O que demonstra | Estado |
+| Projeto | O que ele mostra | Estado |
 | --- | --- | --- |
-| [Mala Direta](https://github.com/Mayconxzdev/MalaDireta) | n8n, filas, envio de teste, deduplicação, cancelamento e auditoria | Produção; 158 nós no workflow principal público |
-| [CarreiraPessoal](https://github.com/Mayconxzdev/CarreiraPessoal) | FastAPI, React/TS, Tauri/Rust, Career Goal, EvidenceGuard e Resume Router | Produto pessoal em uso; v12.5.2 com 283 testes Python registrados |
-| [Central ISO](https://github.com/Mayconxzdev/Central-ISO) | Requisitos, regras de negócio, automação documental, FastAPI, n8n e Docker | Piloto técnico funcional; repositório sanitizado e CI verde |
-| [Manutenção em Campo](https://github.com/Mayconxzdev/ManutencaoEmCampo) | Ativos, checklists, evidências, histórico e trilha de eventos | Versão pública funcional com dados sintéticos |
-| [Produção Operacional](https://github.com/Mayconxzdev/ProducaoOperacional) | Desktop Windows, gestão visual e implantação | 10+ PCs, 1 TV, 20+ profissionais, 9 setores |
-| [Catálogo Operacional](https://github.com/Mayconxzdev/CatalogoOperacional) | FastAPI, SQLite FTS5, revisão e histórico de preço | Uso diário; 24 categorias e 480+ códigos |
-| [Postagem Redes](https://github.com/Mayconxzdev/PostagemRedes) | RAG/grounding com LangChain, Supabase, n8n/Docker e Meta Graph | Validado em teste com revisão humana |
-| [HelpDesk](https://github.com/Mayconxzdev/HelpDesk) | Chamados, ativos, usuários, acesso e histórico | Uso interno por 11 pessoas |
-| [Compass UOL](https://github.com/Mayconxzdev/Estagio-CompassUOL) | Linux, Git, Python, SQL, Docker, ETL/Data Lake e AWS/PySpark | 10 sprints concluídas |
+| [CarreiraPessoal](https://github.com/Mayconxzdev/CarreiraPessoal) | produto Windows, FastAPI, React/TS, Tauri/Rust, descoberta de vagas, evidências e testes | produto pessoal em uso |
+| [Mala Direta](https://github.com/Mayconxzdev/MalaDireta) | n8n em profundidade, filas, envio de teste, deduplicação, cancelamento e auditoria | produção |
+| [Produção Operacional](https://github.com/Mayconxzdev/ProducaoOperacional) | aplicação desktop, implantação e adoção em ambiente industrial | produção |
+| [Catálogo Operacional](https://github.com/Mayconxzdev/CatalogoOperacional) | FastAPI, SQLite FTS5, revisão, busca e histórico de preço | uso diário |
+| [Postagem Redes](https://github.com/Mayconxzdev/PostagemRedes) | IA aplicada, RAG/grounding, APIs externas e revisão humana | validado em teste |
 
-## Competências
+Outros projetos mostram partes diferentes da minha atuação, como Qualidade e conformidade ([Central ISO](https://github.com/Mayconxzdev/Central-ISO)), manutenção ([Manutenção em Campo](https://github.com/Mayconxzdev/ManutencaoEmCampo)), suporte interno ([HelpDesk](https://github.com/Mayconxzdev/HelpDesk)), dados/cloud ([Compass UOL](https://github.com/Mayconxzdev/Estagio-CompassUOL)) e sistemas/web. O [portfólio](https://mayconxzdev.github.io/) organiza esses casos por problema, resultado, estado real e evidências.
 
-`automação de processos` · `n8n self-hosted` · `AS-IS/TO-BE` · `requisitos` · `regras de negócio` · `rastreabilidade` · `qualidade/conformidade` · `REST APIs` · `webhooks` · `JSON` · `OAuth2` · `Python` · `FastAPI` · `JavaScript/TypeScript` · `SQL/PostgreSQL` · `SQLite FTS5` · `Docker` · `Linux` · `Git/GitHub Actions` · `testes` · `monitoramento` · `logs` · `retries` · `idempotência` · `backups` · `OpenAI/Gemini/Ollama` · `RAG/grounding` · `LangChain` · `human-in-the-loop` · `AWS/PySpark`
+## Como costumo trabalhar
 
-## Como trabalho
+Normalmente eu recebo um problema ainda pouco estruturado, converso com quem executa e com quem aprova, observo como o processo funciona hoje e desenho uma forma melhor de fazer. Depois construo, testo, implanto, documento, treino quem vai usar e acompanho o que acontece no dia a dia.
 
-Normalmente recebo um problema pouco estruturado, converso com quem executa e aprova, observo o processo, identifico riscos e proponho o TO-BE. Depois desenvolvo, testo, implanto, documento, treino os usuários e acompanho a solução. Em fluxos sensíveis, procuro manter **aprovação humana, histórico, auditoria e controle de mudanças**.
+Em fluxos com dados sensíveis ou ações externas, procuro manter **revisão humana, histórico, logs, controle de mudanças e possibilidade de recuperação**. IA entra quando ajuda de verdade; não trato IA como requisito para todo processo.
 
-## Formação e idiomas
+## Formação
 
-- ADS — UNISUAM, conclusão prevista **dez. 2026**;
-- Piscine 42 Rio — programa intensivo em ambiente Linux/C concluído em jul. 2025;
-- Português nativo; inglês com leitura técnica independente, escrita e conversação básicas.
+- **Análise e Desenvolvimento de Sistemas — UNISUAM**, conclusão prevista para dez. 2026;
+- **Piscine 42 Rio**, programa intensivo em Linux/C concluído em jul. 2025;
+- cursos em agentes de IA e automações (FIRJAN SENAI), Google AI Essentials, RPA e mapeamento/automação de processos (ENAP).
+
+**Idiomas:** português nativo; inglês com leitura técnica independente e escrita/conversação básicas.
 
 ## Contato
 
