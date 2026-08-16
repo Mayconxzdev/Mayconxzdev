@@ -39,7 +39,7 @@ Meu núcleo técnico é **n8n self-hosted, Python, FastAPI, APIs REST/webhooks, 
 | --- | --- | --- |
 | [Mala Direta](https://github.com/Mayconxzdev/MalaDireta) | n8n em profundidade, filas, deduplicação, retry, cancelamento e auditoria | produção |
 | [Produção Operacional](https://github.com/Mayconxzdev/ProducaoOperacional) | implantação, adoção, desktop Windows e continuidade operacional | produção |
-| [CarreiraPessoal](https://github.com/Mayconxzdev/CarreiraPessoal) | produto, arquitetura full-stack, evidências, QA e IA opcional | produto pessoal em uso |
+| [CarreiraPessoal](https://github.com/Mayconxzdev/CarreiraPessoal) | produto, arquitetura de sistemas, evidências, QA e IA opcional | produto pessoal em uso |
 | [Catálogo Operacional de Compras](https://github.com/Mayconxzdev/CatalogoOperacional) | FastAPI, FTS5, busca, integridade de dados e histórico | uso diário |
 | [Postagem Redes](https://github.com/Mayconxzdev/PostagemRedes) | IA aplicada, RAG/grounding, OAuth 2.0, APIs externas e revisão humana | validado em teste |
 | [HelpDesk](https://github.com/Mayconxzdev/HelpDesk) | sistema interno, tempo real, ativos, acessos, segurança e adoção | uso interno |
@@ -59,11 +59,12 @@ Em fluxos com efeitos externos ou dados sensíveis, procuro manter **revisão hu
 
 ## Competências principais
 
-**Automação e integrações:** n8n self-hosted · APIs REST · webhooks · OAuth 2.0 · SMTP/IMAP · Power Automate · Make/Zapier · CRM  
+**Automação e integrações:** n8n self-hosted · APIs REST · webhooks · OAuth 2.0 · SMTP/IMAP  
 **Backend e dados:** Python · FastAPI · SQL · PostgreSQL · SQLite/FTS5 · Docker  
 **Processos e entrega:** BPMN · AS-IS/TO-BE · levantamento de requisitos · regras de negócio · testes/homologação · implantação · treinamento · sustentação  
 **IA aplicada:** IA generativa · RAG/grounding · LangChain · agentes de IA · human-in-the-loop  
-**Engenharia:** JavaScript/TypeScript · Linux · Git/GitHub Actions · CI/CD · testes · logs/monitoramento · retries · idempotência · backups
+**Engenharia:** JavaScript/TypeScript · Linux · Git/GitHub Actions · CI/CD · testes · logs/monitoramento · retries · idempotência · backups  
+**Ferramentas complementares/contextuais:** Power Automate · Make/Zapier · CRM
 
 Ferramentas como **MCP, LangGraph e CrewAI** fazem parte de estudos e uso contextual; não as apresento no mesmo nível de profundidade do meu núcleo profissional.
 
