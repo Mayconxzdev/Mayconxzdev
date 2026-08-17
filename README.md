@@ -14,6 +14,8 @@
 
 `n8n self-hosted` · `Python` · `FastAPI` · `REST/Webhooks` · `SQL/PostgreSQL` · `Docker` · `RAG/grounding`
 
+[English README](README.en.md)
+
 </div>
 
 Atuo ponta a ponta: converso com quem executa e aprova o processo, levanto requisitos, modelo AS-IS/TO-BE/BPMN quando faz sentido, defino regras e riscos, construo, testo, implanto, treino usuários e acompanho a operação depois do go-live.
