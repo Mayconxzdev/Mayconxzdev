@@ -68,14 +68,25 @@ For flows with external effects or sensitive data, I try to preserve **human rev
 **Engineering:** JavaScript/TypeScript · Linux · Git/GitHub Actions · CI/CD · testing · logs/monitoring · retries · idempotency · backups  
 **Complementary/contextual tools:** Power Automate · Make/Zapier · CRM
 
-Tools such as **MCP, LangGraph and CrewAI** are part of study/contextual use; I do not present them at the same depth as my professional core.
+**MCP and Microsoft Foundry** now have hands-on validation through Microsoft Applied Skills, while Make is reinforced by the AI Agent Builder badge; I still present them as credential-backed contextual skills, not as production experience at the same depth as my core. **LangGraph and CrewAI** remain study/contextual tools.
+
+## Selected credentials
+
+- **Microsoft Applied Skills — 3:** Agents in Microsoft Foundry · MCP Tools with Agents · Canvas Apps with Power Apps;
+- **n8n Academy:** N8N102 — Integrations: APIs & Connected Workflows · N8N103 — In Practice: AI, Testing & Best Practices;
+- **Make Academy / Credly:** AI Agent Builder;
+- **UiPath Academy:** Automation Business Analyst Associate Training;
+- **OpenAI Academy:** Agents and Workflows · Applied AI Foundations · AI Foundations;
+- **FIRJAN SENAI:** AI Tools: Agents and Automations (40h).
+
+[View the full credential inventory and classification criteria →](https://mayconxzdev.github.io/en/credentials/)
 
 ## Education
 
 - **Systems Analysis and Development — UNISUAM**, expected Dec. 2026;
 - **42 Rio Piscine**, intensive Linux/C program completed Jul. 2025;
-- **FIRJAN SENAI — AI Tools: Agents and Automations (40h)**;
-- Google AI Essentials, RPA and Process Mapping/Automation.
+- **Google AI Essentials**;
+- **ENAP:** RPA (25h) · Process Mapping & Automation (20h) · Introduction to LGPD (10h).
 
 **Languages:** Portuguese native; English with independent technical reading and basic writing/conversation.
 
