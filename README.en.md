@@ -41,9 +41,9 @@ My technical core is **self-hosted n8n, Python, FastAPI, REST APIs/webhooks, OAu
 | --- | --- | --- |
 | [Mala Direta](https://github.com/Mayconxzdev/MalaDireta) | deep n8n work, queues, deduplication, retries, cancellation and auditability | production |
 | [Production Operations](https://github.com/Mayconxzdev/ProducaoOperacional) | deployment, adoption, Windows desktop and operational continuity | production |
-| [CarreiraPessoal](https://github.com/Mayconxzdev/CarreiraPessoal) | product thinking, systems architecture, evidence controls, QA and optional AI | personal product in use |
+| [CarreiraPessoal](https://github.com/Mayconxzdev/CarreiraPessoal) | product thinking, systems architecture, evidence controls, QA and a reproducible public demo | personal product in use |
 | [Operational Procurement Catalog](https://github.com/Mayconxzdev/CatalogoOperacional) | FastAPI, FTS5, search, data integrity and history | daily use |
-| [Social Publishing](https://github.com/Mayconxzdev/PostagemRedes) | applied AI, RAG/grounding, OAuth 2.0, external APIs and human review | validated in testing |
+| [Social Publishing](https://github.com/Mayconxzdev/PostagemRedes) | applied AI, RAG/grounding, external APIs, human review and offline evals | validated in testing |
 | [HelpDesk](https://github.com/Mayconxzdev/HelpDesk) | internal system, real-time features, assets, access, security and adoption | internal use |
 
 These six projects were chosen because they demonstrate different capabilities. The [portfolio](https://mayconxzdev.github.io/en/) organizes the remaining cases by problem, outcome, real state and evidence, including Commercial Proposals, procurement, Central ISO, StudioCad, maintenance, data/cloud, personal products and published websites.
