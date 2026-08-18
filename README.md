@@ -41,9 +41,9 @@ Meu núcleo técnico é **n8n self-hosted, Python, FastAPI, APIs REST/webhooks, 
 | --- | --- | --- |
 | [Mala Direta](https://github.com/Mayconxzdev/MalaDireta) | n8n em profundidade, filas, deduplicação, retry, cancelamento e auditoria | produção |
 | [Produção Operacional](https://github.com/Mayconxzdev/ProducaoOperacional) | implantação, adoção, desktop Windows e continuidade operacional | produção |
-| [CarreiraPessoal](https://github.com/Mayconxzdev/CarreiraPessoal) | produto, arquitetura de sistemas, evidências, QA e IA opcional | produto pessoal em uso |
+| [CarreiraPessoal](https://github.com/Mayconxzdev/CarreiraPessoal) | produto, arquitetura, evidências, QA e demo pública reproduzível | produto pessoal em uso |
 | [Catálogo Operacional de Compras](https://github.com/Mayconxzdev/CatalogoOperacional) | FastAPI, FTS5, busca, integridade de dados e histórico | uso diário |
-| [Postagem Redes](https://github.com/Mayconxzdev/PostagemRedes) | IA aplicada, RAG/grounding, OAuth 2.0, APIs externas e revisão humana | validado em teste |
+| [Postagem Redes](https://github.com/Mayconxzdev/PostagemRedes) | IA aplicada, RAG/grounding, APIs externas, revisão humana e evals offline | validado em teste |
 | [HelpDesk](https://github.com/Mayconxzdev/HelpDesk) | sistema interno, tempo real, ativos, acessos, segurança e adoção | uso interno |
 
 Esses seis projetos foram escolhidos porque mostram competências diferentes. O [portfólio](https://mayconxzdev.github.io/) organiza os demais cases por problema, resultado, estado real e evidência, incluindo Proposta Comercial, ComprasVesper, Central ISO, StudioCad, manutenção, dados/cloud, produtos pessoais e sites publicados.
