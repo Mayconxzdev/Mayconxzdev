@@ -9,7 +9,7 @@
 **Transformo processos espalhados entre planilhas, e-mails, documentos e sistemas em automações e ferramentas internas que as pessoas conseguem usar no dia a dia.**
 
 [![Portfólio](https://img.shields.io/badge/PORTFÓLIO-VER_CASES-111111?style=for-the-badge)](https://mayconxzdev.github.io/)
-[![Currículo](https://img.shields.io/badge/CURRÍCULO-PT--BR-2563EB?style=for-the-badge)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Analista_Automacao_IA_Integracoes.pdf)
+[![Currículo](https://img.shields.io/badge/CURRÍCULO-PT--BR-2563EB?style=for-the-badge)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Analista_Automacao_IA_Integracoes.pdf?v=20260819)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-PERFIL-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maycon-ferreira-7bb870231/)
 
 `n8n self-hosted` · `low-code/no-code` · `Python` · `FastAPI` · `REST/Webhooks` · `SQL/PostgreSQL` · `Docker` · `BPMN` · `RAG/grounding`
@@ -22,7 +22,7 @@ Atuo ponta a ponta: converso com usuários, quem executa/aprova o processo e out
 
 Meu núcleo técnico é **n8n self-hosted, Python, FastAPI, APIs REST/JSON e webhooks, OAuth 2.0, SQL/PostgreSQL e Docker**. Em IA aplicada, trabalho com **IA generativa/LLMs, agentes de IA, RAG/grounding e human-in-the-loop** quando acrescentam valor real ao processo. Também trato a camada operacional: **logs/monitoramento, troubleshooting, tratamento de erros, retries, idempotência, rastreabilidade e gestão de segredos**.
 
-[Resume EN](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf) · [E-mail](mailto:mayconxz00dev@gmail.com)
+[Resume EN](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf?v=20260819) · [E-mail](mailto:mayconxz00dev@gmail.com)
 
 ## Resultados em uso
 
