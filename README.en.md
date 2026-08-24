@@ -9,18 +9,18 @@
 **I turn processes scattered across spreadsheets, email, documents and systems into automations and internal tools people can actually use day to day.**
 
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-VIEW_CASES-111111?style=for-the-badge)](https://mayconxzdev.github.io/en/)
-[![Resume](https://img.shields.io/badge/RESUME-EN-2563EB?style=for-the-badge)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf?v=20260819)
+[![Resume](https://img.shields.io/badge/RESUME-EN-2563EB?style=for-the-badge)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf?v=20260824)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-PROFILE-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maycon-ferreira-7bb870231/)
 
-`self-hosted n8n` · `low-code/no-code` · `Python` · `FastAPI` · `REST/Webhooks` · `SQL/PostgreSQL` · `Docker` · `BPMN` · `RAG/grounding`
+`self-hosted n8n` · `Python` · `FastAPI` · `REST/Webhooks` · `SQL/PostgreSQL` · `Docker` · `BPMN` · `Power Automate` · `RAG/LangChain`
 
 [Português](README.md)
 
 </div>
 
-I work end to end: I talk with users, the people who execute/approve the process and other stakeholders; gather requirements, map AS-IS/TO-BE/BPMN when useful, define rules and risks, build, test/UAT, deploy, train users and follow the operation after go-live.
+I work end to end: I talk with users, the people who execute/approve the process and other stakeholders; gather requirements, map AS-IS/TO-BE/BPMN when useful, define rules and risks, build, test/UAT, deploy, train users, track impact metrics and support the operation after go-live.
 
-My technical core is **self-hosted n8n, Python, FastAPI, REST/JSON APIs and webhooks, OAuth 2.0, SQL/PostgreSQL and Docker**. In applied AI, I work with **generative AI/LLMs, AI agents, RAG/grounding and human-in-the-loop** when they add real value. I also cover the operational layer: **logs/monitoring, troubleshooting, error handling, retries, idempotency, traceability and secret management**.
+My technical core is **self-hosted n8n, Python, FastAPI, REST/JSON APIs and webhooks, OAuth 2.0, SQL/PostgreSQL and Docker**. In applied AI, I work with **generative AI/LLMs, LLM APIs, AI agents, RAG/grounding, LangChain, human-in-the-loop and evals** when they add real value. I also cover the operational layer: **logs, monitoring/observability, troubleshooting, error handling, retries, idempotency, traceability and secret management**.
 
 [Portfolio](https://mayconxzdev.github.io/en/) · [Email](mailto:mayconxz00dev@gmail.com)
 
@@ -43,7 +43,7 @@ My technical core is **self-hosted n8n, Python, FastAPI, REST/JSON APIs and webh
 | [Production Operations](https://github.com/Mayconxzdev/ProducaoOperacional) | deployment, adoption, Windows desktop and operational continuity | production |
 | [CarreiraPessoal](https://github.com/Mayconxzdev/CarreiraPessoal) | product thinking, systems architecture, evidence controls, QA and a reproducible public demo | personal product in use |
 | [Operational Procurement Catalog](https://github.com/Mayconxzdev/CatalogoOperacional) | FastAPI, FTS5, search, data integrity, history and daily operation | daily use |
-| [Social Publishing](https://github.com/Mayconxzdev/PostagemRedes) | applied AI, RAG/grounding, human-in-the-loop, external APIs and reproducible offline evals | validated in testing |
+| [Social Publishing](https://github.com/Mayconxzdev/PostagemRedes) | applied AI, RAG/LangChain, human-in-the-loop, external APIs and reproducible evals | validated in testing |
 
 [HelpDesk](https://github.com/Mayconxzdev/HelpDesk) complements the showcase with an internal system, real-time features, assets, access controls, security and adoption by 11 users. The [portfolio](https://mayconxzdev.github.io/en/) organizes the remaining cases by problem, outcome, real state and evidence, including Commercial Proposals, procurement, Central ISO, StudioCad, maintenance, data/cloud, personal products and published websites.
 
@@ -53,19 +53,18 @@ My technical core is **self-hosted n8n, Python, FastAPI, REST/JSON APIs and webh
 
 ```text
 UNDERSTAND → MAP → DEFINE RULES/RISKS → BUILD
-→ TEST/UAT → DEPLOY → TRAIN → MONITOR → IMPROVE
+→ TEST/UAT → DEPLOY → TRAIN → MONITOR → MEASURE → IMPROVE
 ```
 
-For flows with external effects or sensitive data, I aim to preserve **human review, traceability, logs, change control, integration security, secret management, retries/idempotency and recovery paths**. I also clearly separate what is in production, internal use, testing, pilot or development.
+For flows with external effects or sensitive data, I aim to preserve **human review, traceability, logs, monitoring/observability, change control, integration security, secret management, retries/idempotency and recovery paths**. I also clearly separate what is in production, internal use, testing, pilot or development.
 
 ## Core skills
 
-**Automation & integrations:** self-hosted n8n · low-code/no-code · REST/JSON APIs · webhooks · OAuth 2.0 · SMTP/IMAP  
-**Backend & data:** Python · FastAPI · SQL · PostgreSQL · SQLite/FTS5 · Docker  
-**Process & delivery:** BPMN · AS-IS/TO-BE · requirements/stakeholders · business rules · testing · UAT · documentation · deployment · training · support  
-**Applied AI:** generative AI/LLMs · LLM APIs · RAG/grounding · LangChain · AI agents · human-in-the-loop · offline evals  
-**Engineering & reliability:** JavaScript/TypeScript · Linux · Git/GitHub Actions · CI/CD · logs/monitoring · troubleshooting · error handling · retries · idempotency · backups  
-**Complementary/contextual tools:** Power Platform (Power Apps/Power Automate) · Make · Zapier · CRM
+**Automation, integrations & backend:** self-hosted n8n · low-code/no-code · Python · FastAPI · REST/JSON APIs · webhooks · OAuth 2.0 · SQL/PostgreSQL · Docker  
+**Process & delivery:** BPMN · AS-IS/TO-BE · requirements/stakeholders · business rules · testing · UAT · documentation · impact metrics · deployment · training · production support  
+**Applied AI:** generative AI/LLMs · LLM APIs · RAG/grounding · LangChain · AI agents · human-in-the-loop · evals  
+**Engineering & reliability:** JavaScript/TypeScript · Linux · Git/GitHub Actions · CI/CD · logs · monitoring/observability · troubleshooting · error handling · retries · idempotency · backups  
+**Complementary/contextual tools:** Power Apps · Power Automate · Make · Zapier
 
 **MCP and Microsoft Foundry** have hands-on validation through Microsoft Applied Skills; **Power Apps** has hands-on lab validation; **Make** is reinforced by the AI Agent Builder badge. These remain contextual whenever equivalent production evidence does not exist. **LangGraph and CrewAI** remain study/prototype tools.
 

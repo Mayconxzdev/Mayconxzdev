@@ -34,7 +34,7 @@ jobs:
               '20+ profissionais em 9 setores produtivos',
               'Catálogo Operacional de Compras',
               'Portal',
-              'Em desenvolvimento',
+              'em desenvolvimento',
               'inglês com leitura técnica independente; escrita e conversação básicas',
           ]
           forbidden = [
