@@ -9,20 +9,20 @@
 **Transformo processos espalhados entre planilhas, e-mails, documentos e sistemas em automações e ferramentas internas que as pessoas conseguem usar no dia a dia.**
 
 [![Portfólio](https://img.shields.io/badge/PORTFÓLIO-VER_CASES-111111?style=for-the-badge)](https://mayconxzdev.github.io/)
-[![Currículo](https://img.shields.io/badge/CURRÍCULO-PT--BR-2563EB?style=for-the-badge)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Analista_Automacao_IA_Integracoes.pdf?v=20260819)
+[![Currículo](https://img.shields.io/badge/CURRÍCULO-PT--BR-2563EB?style=for-the-badge)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Analista_Automacao_IA_Integracoes.pdf?v=20260824)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-PERFIL-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maycon-ferreira-7bb870231/)
 
-`n8n self-hosted` · `low-code/no-code` · `Python` · `FastAPI` · `REST/Webhooks` · `SQL/PostgreSQL` · `Docker` · `BPMN` · `RAG/grounding`
+`n8n self-hosted` · `Python` · `FastAPI` · `REST/Webhooks` · `SQL/PostgreSQL` · `Docker` · `BPMN` · `Power Automate` · `RAG/LangChain`
 
 [English README](README.en.md)
 
 </div>
 
-Atuo ponta a ponta: converso com usuários, quem executa/aprova o processo e outros stakeholders; levanto requisitos, modelo AS-IS/TO-BE/BPMN quando faz sentido, defino regras e riscos, construo, testo/homologo, implanto, treino usuários e acompanho a operação depois do go-live.
+Atuo ponta a ponta: converso com usuários, quem executa/aprova o processo e outros stakeholders; levanto requisitos, modelo AS-IS/TO-BE/BPMN quando faz sentido, defino regras e riscos, construo, testo/UAT, implanto, treino usuários, acompanho métricas de impacto e sustento a operação depois do go-live.
 
-Meu núcleo técnico é **n8n self-hosted, Python, FastAPI, APIs REST/JSON e webhooks, OAuth 2.0, SQL/PostgreSQL e Docker**. Em IA aplicada, trabalho com **IA generativa/LLMs, agentes de IA, RAG/grounding e human-in-the-loop** quando acrescentam valor real ao processo. Também trato a camada operacional: **logs/monitoramento, troubleshooting, tratamento de erros, retries, idempotência, rastreabilidade e gestão de segredos**.
+Meu núcleo técnico é **n8n self-hosted, Python, FastAPI, APIs REST/JSON e webhooks, OAuth 2.0, SQL/PostgreSQL e Docker**. Em IA aplicada, trabalho com **IA generativa/LLMs, APIs de LLM, agentes de IA, RAG/grounding, LangChain, human-in-the-loop e evals** quando acrescentam valor real ao processo. Também trato a camada operacional: **logs, monitoramento/observabilidade, troubleshooting, tratamento de erros, retries, idempotência, rastreabilidade e gestão de segredos**.
 
-[Resume EN](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf?v=20260819) · [E-mail](mailto:mayconxz00dev@gmail.com)
+[Resume EN](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf?v=20260824) · [E-mail](mailto:mayconxz00dev@gmail.com)
 
 ## Resultados em uso
 
@@ -43,7 +43,7 @@ Meu núcleo técnico é **n8n self-hosted, Python, FastAPI, APIs REST/JSON e web
 | [Produção Operacional](https://github.com/Mayconxzdev/ProducaoOperacional) | implantação, adoção, desktop Windows e continuidade operacional | produção |
 | [CarreiraPessoal](https://github.com/Mayconxzdev/CarreiraPessoal) | produto, arquitetura de sistemas, evidências, QA e demo pública reproduzível | produto pessoal em uso |
 | [Catálogo Operacional de Compras](https://github.com/Mayconxzdev/CatalogoOperacional) | FastAPI, FTS5, busca, integridade de dados, histórico e operação diária | uso diário |
-| [Postagem Redes](https://github.com/Mayconxzdev/PostagemRedes) | IA aplicada, RAG/grounding, human-in-the-loop, APIs externas e evals offline reproduzíveis | validado em teste |
+| [Postagem Redes](https://github.com/Mayconxzdev/PostagemRedes) | IA aplicada, RAG/LangChain, human-in-the-loop, APIs externas e evals reproduzíveis | validado em teste |
 
 O [HelpDesk](https://github.com/Mayconxzdev/HelpDesk) complementa a vitrine com sistema interno, tempo real, ativos, acessos, segurança e adoção por 11 usuários. O [portfólio](https://mayconxzdev.github.io/) organiza os demais cases por problema, resultado, estado real e evidência, incluindo Proposta Comercial, Compras, Central ISO, StudioCad, manutenção, dados/cloud, produtos pessoais e sites publicados.
 
@@ -53,19 +53,18 @@ O [HelpDesk](https://github.com/Mayconxzdev/HelpDesk) complementa a vitrine com 
 
 ```text
 ENTENDER → MAPEAR → DEFINIR REGRAS/RISCOS → CONSTRUIR
-→ TESTAR/UAT/HOMOLOGAR → IMPLANTAR → TREINAR → MONITORAR → MELHORAR
+→ TESTAR/UAT → IMPLANTAR → TREINAR → MONITORAR → MEDIR → MELHORAR
 ```
 
-Em fluxos com efeitos externos ou dados sensíveis, procuro manter **revisão humana, rastreabilidade, logs, controle de mudanças, segurança de integrações, gestão de segredos, retries/idempotência e caminhos de recuperação**. Também separo claramente o que está em produção, em uso interno, em teste, em piloto ou ainda em desenvolvimento.
+Em fluxos com efeitos externos ou dados sensíveis, procuro manter **revisão humana, rastreabilidade, logs, monitoramento/observabilidade, controle de mudanças, segurança de integrações, gestão de segredos, retries/idempotência e caminhos de recuperação**. Também separo claramente o que está em produção, em uso interno, em teste, em piloto ou ainda em desenvolvimento.
 
 ## Competências principais
 
-**Automação e integrações:** n8n self-hosted · low-code/no-code · APIs REST/JSON · webhooks · OAuth 2.0 · SMTP/IMAP  
-**Backend e dados:** Python · FastAPI · SQL · PostgreSQL · SQLite/FTS5 · Docker  
-**Processos e entrega:** BPMN · AS-IS/TO-BE · requisitos/stakeholders · regras de negócio · testes · UAT/homologação · documentação · implantação · treinamento · sustentação  
-**IA aplicada:** IA generativa/LLMs · APIs de LLM · RAG/grounding · LangChain · agentes de IA · human-in-the-loop · evals offline  
-**Engenharia e confiabilidade:** JavaScript/TypeScript · Linux · Git/GitHub Actions · CI/CD · logs/monitoramento · troubleshooting · tratamento de erros · retries · idempotência · backups  
-**Ferramentas complementares/contextuais:** Power Platform (Power Apps/Power Automate) · Make · Zapier · CRM
+**Automação, integrações e backend:** n8n self-hosted · low-code/no-code · Python · FastAPI · APIs REST/JSON · webhooks · OAuth 2.0 · SQL/PostgreSQL · Docker  
+**Processos e entrega:** BPMN · AS-IS/TO-BE · requisitos/stakeholders · regras de negócio · testes · UAT/homologação · documentação · métricas de impacto · implantação · treinamento · sustentação  
+**IA aplicada:** IA generativa/LLMs · APIs de LLM · RAG/grounding · LangChain · agentes de IA · human-in-the-loop · evals  
+**Engenharia e confiabilidade:** JavaScript/TypeScript · Linux · Git/GitHub Actions · CI/CD · logs · monitoramento/observabilidade · troubleshooting · tratamento de erros · retries · idempotência · backups  
+**Ferramentas complementares/contextuais:** Power Apps · Power Automate · Make · Zapier
 
 **MCP e Microsoft Foundry** possuem validação prática por Microsoft Applied Skills; **Power Apps** tem validação prática em laboratório; **Make** é reforçado pelo AI Agent Builder. Essas competências continuam contextuais quando não há evidência equivalente de produção. **LangGraph e CrewAI** permanecem em estudo/protótipos.
 
