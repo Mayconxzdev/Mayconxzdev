@@ -2,11 +2,11 @@
 
 # Maycon Ferreira
 
-### Automação · IA aplicada · Integrações
+### Automação · IA aplicada
 
-**Analista de Automação, IA e Integrações**
+**Analista de Automação e IA**
 
-**Transformo processos espalhados entre planilhas, e-mails, documentos e sistemas em automações e ferramentas internas que as pessoas conseguem usar no dia a dia.**
+**Transformo processos manuais e rotinas operacionais em automações e soluções com IA que funcionam no dia a dia.**
 
 [![Portfólio](https://img.shields.io/badge/PORTFÓLIO-VER_CASES-111111?style=for-the-badge)](https://mayconxzdev.github.io/)
 [![Currículo](https://img.shields.io/badge/CURRÍCULO-PT--BR-2563EB?style=for-the-badge)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Analista_Automacao_IA_Integracoes.pdf?v=20260824)
@@ -20,7 +20,7 @@
 
 Atuo ponta a ponta: converso com usuários, quem executa/aprova o processo e outros stakeholders; levanto requisitos, modelo AS-IS/TO-BE/BPMN quando faz sentido, defino regras e riscos, construo, testo/UAT, implanto, treino usuários, acompanho métricas de impacto e sustento a operação depois do go-live.
 
-Meu núcleo técnico é **n8n self-hosted, Python, FastAPI, APIs REST/JSON e webhooks, OAuth 2.0, SQL/PostgreSQL e Docker**. Em IA aplicada, trabalho com **IA generativa/LLMs, APIs de LLM, agentes de IA, RAG/grounding, LangChain, human-in-the-loop e evals** quando acrescentam valor real ao processo. Também trato a camada operacional: **logs, monitoramento/observabilidade, troubleshooting, tratamento de erros, retries, idempotência, rastreabilidade e gestão de segredos**.
+Meu núcleo técnico é **n8n self-hosted, Python, FastAPI, APIs REST/JSON, SQL/PostgreSQL e Docker**. Em IA aplicada, uso **APIs de LLM, agentes de IA, RAG/grounding, LangChain, human-in-the-loop e evals** quando melhoram o processo. Priorizo implantação, resultado mensurável, logs, retries/idempotência e revisão humana em fluxos sensíveis.
 
 [Resume EN](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf?v=20260824) · [E-mail](mailto:mayconxz00dev@gmail.com)
 
@@ -40,10 +40,10 @@ Meu núcleo técnico é **n8n self-hosted, Python, FastAPI, APIs REST/JSON e web
 | Projeto | O que ele prova | Estado |
 | --- | --- | --- |
 | [Mala Direta](https://github.com/Mayconxzdev/MalaDireta) | n8n em profundidade, filas por destinatário, deduplicação, retry, cancelamento e auditoria | produção |
-| [Produção Operacional](https://github.com/Mayconxzdev/ProducaoOperacional) | implantação, adoção, desktop Windows e continuidade operacional | produção |
-| [CarreiraPessoal](https://github.com/Mayconxzdev/CarreiraPessoal) | produto, arquitetura de sistemas, evidências, QA e demo pública reproduzível | produto pessoal em uso |
-| [Catálogo Operacional de Compras](https://github.com/Mayconxzdev/CatalogoOperacional) | FastAPI, FTS5, busca, integridade de dados, histórico e operação diária | uso diário |
 | [Postagem Redes](https://github.com/Mayconxzdev/PostagemRedes) | IA aplicada, RAG/LangChain, human-in-the-loop, APIs externas e evals reproduzíveis | validado em teste |
+| [CarreiraPessoal](https://github.com/Mayconxzdev/CarreiraPessoal) | produto, arquitetura de sistemas, evidências, QA e demo pública reproduzível | produto pessoal em uso |
+| [Produção Operacional](https://github.com/Mayconxzdev/ProducaoOperacional) | implantação, adoção, desktop Windows e continuidade operacional | produção |
+| [Catálogo Operacional de Compras](https://github.com/Mayconxzdev/CatalogoOperacional) | FastAPI, FTS5, busca, integridade de dados, histórico e operação diária | uso diário |
 
 O [HelpDesk](https://github.com/Mayconxzdev/HelpDesk) complementa a vitrine com sistema interno, tempo real, ativos, acessos, segurança e adoção por 11 usuários. O [portfólio](https://mayconxzdev.github.io/) organiza os demais cases por problema, resultado, estado real e evidência, incluindo Proposta Comercial, Compras, Central ISO, StudioCad, manutenção, dados/cloud, produtos pessoais e sites publicados.
 
