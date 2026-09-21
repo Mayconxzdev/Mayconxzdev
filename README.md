@@ -22,7 +22,7 @@ Atuo ponta a ponta: converso com usuários, quem executa/aprova o processo e out
 
 Meu núcleo técnico é **n8n self-hosted, Python, FastAPI, APIs REST/JSON, SQL/PostgreSQL e Docker**. Em IA aplicada, uso **APIs de LLM, agentes de IA, RAG/grounding, LangChain, human-in-the-loop e evals** quando melhoram o processo. Priorizo implantação, resultado mensurável, logs, retries/idempotência e revisão humana em fluxos sensíveis.
 
-[Resume EN](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf?v=20260824) · [E-mail](mailto:mayconxz00dev@gmail.com)
+[Resume EN](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf?v=20260921) · [E-mail](mailto:mayconxz00dev@gmail.com)
 
 ## Resultados em uso
 
