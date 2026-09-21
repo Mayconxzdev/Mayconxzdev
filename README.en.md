@@ -9,7 +9,7 @@
 **I turn manual processes and operational routines into automations and AI-powered solutions that work in day-to-day operations.**
 
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-VIEW_CASES-111111?style=for-the-badge)](https://mayconxzdev.github.io/en/)
-[![Resume](https://img.shields.io/badge/RESUME-EN-2563EB?style=for-the-badge)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf?v=20260824)
+[![Resume](https://img.shields.io/badge/RESUME-EN-2563EB?style=for-the-badge)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf?v=20260921)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-PROFILE-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maycon-ferreira-7bb870231/)
 
 `self-hosted n8n` · `Python` · `FastAPI` · `REST/Webhooks` · `SQL/PostgreSQL` · `Docker` · `BPMN` · `Power Automate` · `RAG/LangChain`
@@ -60,7 +60,7 @@ For flows with external effects or sensitive data, I aim to preserve **human rev
 
 ## Core skills
 
-**Automation, integrations & backend:** self-hosted n8n · low-code/no-code · Python · FastAPI · REST/JSON APIs · webhooks · OAuth 2.0 · SQL/PostgreSQL · Docker  
+**Automation & integrations:** self-hosted n8n · Python · FastAPI · REST/JSON APIs · webhooks · OAuth 2.0 · SQL/PostgreSQL · Docker  
 **Process & delivery:** BPMN · AS-IS/TO-BE · requirements/stakeholders · business rules · testing · UAT · documentation · impact metrics · deployment · training · production support  
 **Applied AI:** generative AI/LLMs · LLM APIs · RAG/grounding · LangChain · AI agents · human-in-the-loop · evals  
 **Engineering & reliability:** JavaScript/TypeScript · Linux · Git/GitHub Actions · CI/CD · logs · monitoring/observability · troubleshooting · error handling · retries · idempotency · backups  
