@@ -2,11 +2,11 @@
 
 # Maycon Ferreira
 
-### Automation · Applied AI · Integrations
+### Automation · Applied AI
 
-**Automation, AI & Integrations Analyst**
+**Automation & AI Analyst**
 
-**I turn processes scattered across spreadsheets, email, documents and systems into automations and internal tools people can actually use day to day.**
+**I turn manual processes and operational routines into automations and AI-powered solutions that work in day-to-day operations.**
 
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-VIEW_CASES-111111?style=for-the-badge)](https://mayconxzdev.github.io/en/)
 [![Resume](https://img.shields.io/badge/RESUME-EN-2563EB?style=for-the-badge)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf?v=20260824)
@@ -20,7 +20,7 @@
 
 I work end to end: I talk with users, the people who execute/approve the process and other stakeholders; gather requirements, map AS-IS/TO-BE/BPMN when useful, define rules and risks, build, test/UAT, deploy, train users, track impact metrics and support the operation after go-live.
 
-My technical core is **self-hosted n8n, Python, FastAPI, REST/JSON APIs and webhooks, OAuth 2.0, SQL/PostgreSQL and Docker**. In applied AI, I work with **generative AI/LLMs, LLM APIs, AI agents, RAG/grounding, LangChain, human-in-the-loop and evals** when they add real value. I also cover the operational layer: **logs, monitoring/observability, troubleshooting, error handling, retries, idempotency, traceability and secret management**.
+My technical core is **self-hosted n8n, Python, FastAPI, REST/JSON APIs, SQL/PostgreSQL and Docker**. In applied AI, I use **LLM APIs, AI agents, RAG/grounding, LangChain, human-in-the-loop and evals** when they improve the process. I prioritize deployment, measurable outcomes, logs, retries/idempotency and human review for sensitive workflows.
 
 [Portfolio](https://mayconxzdev.github.io/en/) · [Email](mailto:mayconxz00dev@gmail.com)
 
@@ -40,10 +40,10 @@ My technical core is **self-hosted n8n, Python, FastAPI, REST/JSON APIs and webh
 | Project | What it demonstrates | State |
 | --- | --- | --- |
 | [Mala Direta](https://github.com/Mayconxzdev/MalaDireta) | deep n8n work, per-recipient queues, deduplication, retries, cancellation and auditability | production |
-| [Production Operations](https://github.com/Mayconxzdev/ProducaoOperacional) | deployment, adoption, Windows desktop and operational continuity | production |
-| [CarreiraPessoal](https://github.com/Mayconxzdev/CarreiraPessoal) | product thinking, systems architecture, evidence controls, QA and a reproducible public demo | personal product in use |
-| [Operational Procurement Catalog](https://github.com/Mayconxzdev/CatalogoOperacional) | FastAPI, FTS5, search, data integrity, history and daily operation | daily use |
 | [Social Publishing](https://github.com/Mayconxzdev/PostagemRedes) | applied AI, RAG/LangChain, human-in-the-loop, external APIs and reproducible evals | validated in testing |
+| [CarreiraPessoal](https://github.com/Mayconxzdev/CarreiraPessoal) | product thinking, systems architecture, evidence controls, QA and a reproducible public demo | personal product in use |
+| [Production Operations](https://github.com/Mayconxzdev/ProducaoOperacional) | deployment, adoption, Windows desktop and operational continuity | production |
+| [Operational Procurement Catalog](https://github.com/Mayconxzdev/CatalogoOperacional) | FastAPI, FTS5, search, data integrity, history and daily operation | daily use |
 
 [HelpDesk](https://github.com/Mayconxzdev/HelpDesk) complements the showcase with an internal system, real-time features, assets, access controls, security and adoption by 11 users. The [portfolio](https://mayconxzdev.github.io/en/) organizes the remaining cases by problem, outcome, real state and evidence, including Commercial Proposals, procurement, Central ISO, StudioCad, maintenance, data/cloud, personal products and published websites.
 
