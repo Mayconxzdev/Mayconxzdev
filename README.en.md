@@ -12,7 +12,7 @@
 [![Resume](https://img.shields.io/badge/RESUME-EN-2563EB?style=for-the-badge)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf?v=20260921)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-PROFILE-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maycon-ferreira-7bb870231/)
 
-`self-hosted n8n` · `Python` · `FastAPI` · `REST/Webhooks` · `SQL/PostgreSQL` · `Docker` · `BPMN` · `Power Automate` · `RAG/LangChain`
+`self-hosted n8n` · `Power Automate` · `Python/APIs` · `Power BI` · `PostgreSQL/Redis` · `Prompt Engineering` · `RAG/MCP`
 
 [Português](README.md)
 
@@ -20,7 +20,7 @@
 
 I work end to end: I talk with users, the people who execute/approve the process and other stakeholders; gather requirements, map AS-IS/TO-BE/BPMN when useful, define rules and risks, build, test/UAT, deploy, train users, track impact metrics and support the operation after go-live.
 
-My technical core is **self-hosted n8n, Python, FastAPI, REST/JSON APIs, SQL/PostgreSQL and Docker**. In applied AI, I use **LLM APIs, AI agents, RAG/grounding, LangChain, human-in-the-loop and evals** when they improve the process. I prioritize deployment, measurable outcomes, logs, retries/idempotency and human review for sensitive workflows.
+My technical core combines **self-hosted n8n, Power Automate Cloud/Desktop, Python/FastAPI, REST/JSON APIs, SQL/PostgreSQL, Redis and Docker**. In applied AI, I use **Prompt Engineering, LLM APIs, AI agents, RAG/grounding, LangChain, MCP, human-in-the-loop and evals**. In data/BI, I work with **Power BI, DAX, Power Query, Excel/Google Sheets and VBA**.
 
 [Portfolio](https://mayconxzdev.github.io/en/) · [Email](mailto:mayconxz00dev@gmail.com)
 
@@ -32,6 +32,7 @@ My technical core is **self-hosted n8n, Python, FastAPI, REST/JSON APIs, SQL/Pos
 - HelpDesk used by **11 people**;
 - maintenance digitized for **40+ assets**, with checklists, evidence and history;
 - **30+ people** trained or guided on deployed solutions;
+- **Paid freelance IT instructor since Oct. 2024**, with weekly classes covering Excel/Power BI, Power Query/VBA and Office;
 - Direct Mail: **6 campaigns**, a **1,020-contact** base and one campaign with **900+ recipients**;
 - Operational Procurement Catalog: **24 categories and 480+ codes**, used daily.
 
@@ -60,11 +61,11 @@ For flows with external effects or sensitive data, I aim to preserve **human rev
 
 ## Core skills
 
-**Automation & integrations:** self-hosted n8n · Python · FastAPI · REST/JSON APIs · webhooks · OAuth 2.0 · SQL/PostgreSQL · Docker  
-**Process & delivery:** BPMN · AS-IS/TO-BE · requirements/stakeholders · business rules · testing · UAT · documentation · impact metrics · deployment · training · production support  
-**Applied AI:** generative AI/LLMs · LLM APIs · RAG/grounding · LangChain · AI agents · human-in-the-loop · evals  
-**Engineering & reliability:** JavaScript/TypeScript · Linux · Git/GitHub Actions · CI/CD · logs · monitoring/observability · troubleshooting · error handling · retries · idempotency · backups  
-**Complementary/contextual tools:** Power Apps · Power Automate · Make · Zapier
+**Automation & integrations:** self-hosted n8n · Power Automate Cloud/Desktop · Python · FastAPI · REST/JSON APIs · webhooks · OAuth 2.0 · WhatsApp Cloud API · PostgreSQL · Redis · Docker  
+**Applied AI:** Prompt Engineering · LLM APIs · AI agents · RAG/grounding · LangChain · MCP · human-in-the-loop · evals  
+**Data & BI:** Power BI · DAX · Power Query · Excel/Google Sheets · VBA · SQL · dashboards and KPIs  
+**Process & reliability:** BPMN · AS-IS/TO-BE · requirements/stakeholders · UAT · deployment · Git/GitHub Actions · CI/CD · logs · retries · idempotency  
+**Complementary tools:** Power Apps · Make · Zapier · Selenium/Playwright/Puppeteer · PyAutoGUI · UiPath
 
 **MCP and Microsoft Foundry** have hands-on validation through Microsoft Applied Skills; **Power Apps** has hands-on lab validation; **Make** is reinforced by the AI Agent Builder badge. These remain contextual whenever equivalent production evidence does not exist. **LangGraph and CrewAI** remain study/prototype tools.
 
@@ -79,6 +80,10 @@ For flows with external effects or sensitive data, I aim to preserve **human rev
 The UiPath item above is **Professional Training**, not the separate exam-based professional certification. The full inventory keeps courses, badges and certificates classified accurately.
 
 [View the full credential inventory and classification criteria →](https://mayconxzdev.github.io/en/credentials/)
+
+## Parallel experience — teaching
+
+Since **Oct. 2024**, I have worked as a **Freelance IT Instructor** in paid classes. I currently teach around 3 hours per week to learners of different ages and skill levels, covering Excel/Google Sheets, Power BI, Power Query, VBA, Word, PowerPoint, Outlook, Windows and Linux fundamentals, plus administration and marketing topics.
 
 ## Education
 

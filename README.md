@@ -12,7 +12,7 @@
 [![Currículo](https://img.shields.io/badge/CURRÍCULO-PT--BR-2563EB?style=for-the-badge)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Analista_Automacao_IA_Integracoes.pdf?v=20260921)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-PERFIL-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maycon-ferreira-7bb870231/)
 
-`n8n self-hosted` · `Python` · `FastAPI` · `REST/Webhooks` · `SQL/PostgreSQL` · `Docker` · `BPMN` · `Power Automate` · `RAG/LangChain`
+`n8n self-hosted` · `Power Automate` · `Python/APIs` · `Power BI` · `PostgreSQL/Redis` · `Prompt Engineering` · `RAG/MCP`
 
 [English README](README.en.md)
 
@@ -20,7 +20,7 @@
 
 Atuo ponta a ponta: converso com usuários, quem executa/aprova o processo e outros stakeholders; levanto requisitos, modelo AS-IS/TO-BE/BPMN quando faz sentido, defino regras e riscos, construo, testo/UAT, implanto, treino usuários, acompanho métricas de impacto e sustento a operação depois do go-live.
 
-Meu núcleo técnico é **n8n self-hosted, Python, FastAPI, APIs REST/JSON, SQL/PostgreSQL e Docker**. Em IA aplicada, uso **APIs de LLM, agentes de IA, RAG/grounding, LangChain, human-in-the-loop e evals** quando melhoram o processo. Priorizo implantação, resultado mensurável, logs, retries/idempotência e revisão humana em fluxos sensíveis.
+Meu núcleo técnico combina **n8n self-hosted, Power Automate Cloud/Desktop, Python/FastAPI, APIs REST/JSON, SQL/PostgreSQL, Redis e Docker**. Em IA aplicada, uso **Prompt Engineering, APIs de LLM, agentes, RAG/grounding, LangChain, MCP, human-in-the-loop e evals**. Em dados/BI, trabalho com **Power BI, DAX, Power Query, Excel/Google Sheets e VBA**.
 
 [Resume EN](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf?v=20260921) · [E-mail](mailto:mayconxz00dev@gmail.com)
 
@@ -32,6 +32,7 @@ Meu núcleo técnico é **n8n self-hosted, Python, FastAPI, APIs REST/JSON, SQL/
 - HelpDesk em uso por **11 pessoas**;
 - manutenção digitalizada de **40+ ativos**, com checklists, evidências e histórico;
 - **30+ pessoas** treinadas ou orientadas em soluções implantadas;
+- **Instrutor freelancer pago desde out. 2024**, com aulas semanais de informática, Excel/Power BI, Power Query/VBA e Pacote Office;
 - Mala Direta: **6 campanhas**, base de **1.020 contatos** e uma campanha com **900+ destinatários**;
 - Catálogo Operacional de Compras: **24 categorias e 480+ códigos**, com uso diário.
 
@@ -60,13 +61,13 @@ Em fluxos com efeitos externos ou dados sensíveis, procuro manter **revisão hu
 
 ## Competências principais
 
-**Automação e integrações:** n8n self-hosted · Python · FastAPI · APIs REST/JSON · webhooks · OAuth 2.0 · SQL/PostgreSQL · Docker  
-**Processos e entrega:** BPMN · AS-IS/TO-BE · requisitos/stakeholders · regras de negócio · testes · UAT/homologação · documentação · métricas de impacto · implantação · treinamento · sustentação  
-**IA aplicada:** IA generativa/LLMs · APIs de LLM · RAG/grounding · LangChain · agentes de IA · human-in-the-loop · evals  
-**Engenharia e confiabilidade:** JavaScript/TypeScript · Linux · Git/GitHub Actions · CI/CD · logs · monitoramento/observabilidade · troubleshooting · tratamento de erros · retries · idempotência · backups  
-**Ferramentas complementares/contextuais:** Power Apps · Power Automate · Make · Zapier
+**Automação e integrações:** n8n self-hosted · Power Automate Cloud/Desktop · Python · FastAPI · APIs REST/JSON · webhooks · OAuth 2.0 · WhatsApp Cloud API · PostgreSQL · Redis · Docker  
+**IA aplicada:** Prompt Engineering · APIs de LLM · agentes de IA · RAG/grounding · LangChain · MCP · human-in-the-loop · evals  
+**Dados e BI:** Power BI · DAX · Power Query · Excel/Google Sheets · VBA · SQL · dashboards e indicadores  
+**Processos e confiabilidade:** BPMN · AS-IS/TO-BE · requisitos/stakeholders · UAT · implantação · Git/GitHub Actions · CI/CD · logs · retries · idempotência  
+**Ferramentas complementares:** Power Apps · Make · Zapier · Selenium/Playwright/Puppeteer · PyAutoGUI · UiPath
 
-**MCP e Microsoft Foundry** possuem validação prática por Microsoft Applied Skills; **Power Apps** tem validação prática em laboratório; **Make** é reforçado pelo AI Agent Builder. Essas competências continuam contextuais quando não há evidência equivalente de produção. **LangGraph e CrewAI** permanecem em estudo/protótipos.
+Além das Microsoft Applied Skills, já desenvolvi **servidor/cliente MCP, tools e integrações com agentes**. Power Apps, Make, Zapier e ferramentas de automação web/RPA aparecem como complementares quando a vaga ou o projeto justificam. **LangGraph e CrewAI** permanecem em estudo/protótipos.
 
 ## Credenciais selecionadas
 
@@ -80,6 +81,10 @@ A formação UiPath acima é **Professional Training**, não a certificação pr
 
 [Ver inventário completo e critérios de classificação →](https://mayconxzdev.github.io/competencias/credenciais/)
 
+## Experiência paralela — ensino
+
+Desde **out. 2024**, atuo como **Instrutor de Informática Freelancer** em aulas pagas. Hoje mantenho uma rotina semanal de aproximadamente 3h, ensinando públicos de diferentes idades e níveis em Excel/Google Sheets, Power BI, Power Query, VBA, Word, PowerPoint, Outlook, Windows e fundamentos de Linux, além de conteúdos de administração e marketing.
+
 ## Formação
 
 - **Tecnólogo em Análise e Desenvolvimento de Sistemas — UNISUAM**, conclusão prevista para dez. 2026;
@@ -87,7 +92,7 @@ A formação UiPath acima é **Professional Training**, não a certificação pr
 - experiência acadêmica/prática anterior em dados e cloud pela Compass UOL com Python, SQL, Docker, S3, Lambda, Glue/PySpark, Athena e QuickSight;
 - Google AI Essentials e formações ENAP em RPA, mapeamento/automação de processos e LGPD permanecem no inventário detalhado.
 
-**Idiomas:** português nativo; inglês com leitura técnica independente; escrita e conversação básicas.
+**Idiomas:** português nativo; inglês com leitura técnica intermediária; escrita e conversação básicas.
 
 ## Contato
 
