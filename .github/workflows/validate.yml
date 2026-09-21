@@ -28,14 +28,19 @@ jobs:
           text = path.read_text(encoding='utf-8')
 
           required = [
-              'Analista de Automação, IA e Integrações',
+              'Analista de Automação e IA',
               '10 mil+ execuções de workflows em produção',
               '10+ computadores e uma TV',
               '20+ profissionais em 9 setores produtivos',
               'Catálogo Operacional de Compras',
               'Portal',
               'em desenvolvimento',
-              'inglês com leitura técnica independente; escrita e conversação básicas',
+              'inglês com leitura técnica intermediária; escrita e conversação básicas',
+              'Power Automate Cloud/Desktop',
+              'Power BI',
+              'Prompt Engineering',
+              'Redis',
+              'Instrutor de Informática Freelancer',
           ]
           forbidden = [
               'Portal Vesper',
