@@ -9,7 +9,7 @@
 **Transformo processos manuais e rotinas operacionais em automações e soluções com IA que funcionam no dia a dia.**
 
 [![Portfólio](https://img.shields.io/badge/PORTFÓLIO-VER_CASES-111111?style=for-the-badge)](https://mayconxzdev.github.io/)
-[![Currículo](https://img.shields.io/badge/CURRÍCULO-PT--BR-2563EB?style=for-the-badge)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Analista_Automacao_IA_Integracoes.pdf?v=20260824)
+[![Currículo](https://img.shields.io/badge/CURRÍCULO-PT--BR-2563EB?style=for-the-badge)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Analista_Automacao_IA_Integracoes.pdf?v=20260921)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-PERFIL-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maycon-ferreira-7bb870231/)
 
 `n8n self-hosted` · `Python` · `FastAPI` · `REST/Webhooks` · `SQL/PostgreSQL` · `Docker` · `BPMN` · `Power Automate` · `RAG/LangChain`
@@ -60,7 +60,7 @@ Em fluxos com efeitos externos ou dados sensíveis, procuro manter **revisão hu
 
 ## Competências principais
 
-**Automação, integrações e backend:** n8n self-hosted · low-code/no-code · Python · FastAPI · APIs REST/JSON · webhooks · OAuth 2.0 · SQL/PostgreSQL · Docker  
+**Automação e integrações:** n8n self-hosted · Python · FastAPI · APIs REST/JSON · webhooks · OAuth 2.0 · SQL/PostgreSQL · Docker  
 **Processos e entrega:** BPMN · AS-IS/TO-BE · requisitos/stakeholders · regras de negócio · testes · UAT/homologação · documentação · métricas de impacto · implantação · treinamento · sustentação  
 **IA aplicada:** IA generativa/LLMs · APIs de LLM · RAG/grounding · LangChain · agentes de IA · human-in-the-loop · evals  
 **Engenharia e confiabilidade:** JavaScript/TypeScript · Linux · Git/GitHub Actions · CI/CD · logs · monitoramento/observabilidade · troubleshooting · tratamento de erros · retries · idempotência · backups  
