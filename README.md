@@ -12,7 +12,7 @@
 [![Currículo](https://img.shields.io/badge/CURRÍCULO-PT--BR-2563EB?style=for-the-badge)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Analista_Automacao_IA_Integracoes.pdf?v=20260921)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-PERFIL-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maycon-ferreira-7bb870231/)
 
-`n8n self-hosted` · `Power Automate` · `Python/APIs` · `Power BI` · `PostgreSQL/Redis` · `Prompt Engineering` · `RAG/MCP`
+`n8n` · `Power Automate` · `Python` · `Power BI` · `PostgreSQL/Redis` · `Agentes/RAG/MCP`
 
 [English README](README.en.md)
 
@@ -22,7 +22,7 @@ Atuo ponta a ponta: converso com usuários, quem executa/aprova o processo e out
 
 Meu núcleo técnico combina **n8n self-hosted, Power Automate Cloud/Desktop, Python/FastAPI, APIs REST/JSON, SQL/PostgreSQL, Redis e Docker**. Em IA aplicada, uso **Prompt Engineering, APIs de LLM, agentes, RAG/grounding, LangChain, MCP, human-in-the-loop e evals**. Em dados/BI, trabalho com **Power BI, DAX, Power Query, Excel/Google Sheets e VBA**.
 
-[Resume EN](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf?v=20260921) · [E-mail](mailto:mayconxz00dev@gmail.com)
+[Currículo IA/agentes](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Automacao_IA_n8n_Python_LLMs.pdf?v=20260921) · [Currículo Power Platform/BI](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Automacao_BI_Power_Automate_Power_BI.pdf?v=20260921) · [Resume EN](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf?v=20260921)
 
 ## Resultados em uso
 
@@ -40,13 +40,13 @@ Meu núcleo técnico combina **n8n self-hosted, Power Automate Cloud/Desktop, Py
 
 | Projeto | O que ele prova | Estado |
 | --- | --- | --- |
-| [Mala Direta](https://github.com/Mayconxzdev/MalaDireta) | n8n em profundidade, filas por destinatário, deduplicação, retry, cancelamento e auditoria | produção |
-| [Postagem Redes](https://github.com/Mayconxzdev/PostagemRedes) | IA aplicada, RAG/LangChain, human-in-the-loop, APIs externas e evals reproduzíveis | validado em teste |
-| [CarreiraPessoal](https://github.com/Mayconxzdev/CarreiraPessoal) | produto, arquitetura de sistemas, evidências, QA e demo pública reproduzível | produto pessoal em uso |
+| [Mala Direta](https://github.com/Mayconxzdev/MalaDireta) | n8n em produção, filas, deduplicação, retry, cancelamento e auditoria | produção |
+| [HelpDesk](https://github.com/Mayconxzdev/HelpDesk) | sistema interno, agente operacional, ativos, Redis, tempo real e segurança | uso interno · 11 usuários |
+| [Postagem Redes](https://github.com/Mayconxzdev/PostagemRedes) | Prompt Engineering, RAG/LangChain, human-in-the-loop, APIs e evals | validado em teste |
 | [Produção Operacional](https://github.com/Mayconxzdev/ProducaoOperacional) | implantação, adoção, desktop Windows e continuidade operacional | produção |
 | [Catálogo Operacional de Compras](https://github.com/Mayconxzdev/CatalogoOperacional) | FastAPI, FTS5, busca, integridade de dados, histórico e operação diária | uso diário |
 
-O [HelpDesk](https://github.com/Mayconxzdev/HelpDesk) complementa a vitrine com sistema interno, tempo real, ativos, acessos, segurança e adoção por 11 usuários. O [portfólio](https://mayconxzdev.github.io/) organiza os demais cases por problema, resultado, estado real e evidência, incluindo Proposta Comercial, Compras, Central ISO, StudioCad, manutenção, dados/cloud, produtos pessoais e sites publicados.
+O [CarreiraPessoal](https://github.com/Mayconxzdev/CarreiraPessoal) complementa a vitrine com arquitetura full-stack, EvidenceGuard, QA e demo reproduzível. O [Central ISO](https://github.com/Mayconxzdev/Central-ISO) mostra regras determinísticas, n8n/FastAPI e rastreabilidade em piloto técnico. O [portfólio](https://mayconxzdev.github.io/) organiza os demais cases por problema, resultado e estado real.
 
 **Portal:** em desenvolvimento / revalidação. A referência pública mostra arquitetura anterior sanitizada; não é apresentada como produção atual.
 

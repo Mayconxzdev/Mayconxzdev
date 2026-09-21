@@ -12,7 +12,7 @@
 [![Resume](https://img.shields.io/badge/RESUME-EN-2563EB?style=for-the-badge)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf?v=20260921)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-PROFILE-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maycon-ferreira-7bb870231/)
 
-`self-hosted n8n` · `Power Automate` · `Python/APIs` · `Power BI` · `PostgreSQL/Redis` · `Prompt Engineering` · `RAG/MCP`
+`n8n` · `Power Automate` · `Python` · `Power BI` · `PostgreSQL/Redis` · `Agents/RAG/MCP`
 
 [Português](README.md)
 
