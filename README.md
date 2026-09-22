@@ -6,13 +6,13 @@
 
 **Analista de Automação e IA**
 
-**Transformo processos manuais e rotinas operacionais em automações e soluções com IA que funcionam no dia a dia.**
+**Transformo processos e rotinas operacionais em sistemas, automações e soluções com IA que funcionam no dia a dia.**
 
 [![Portfólio](https://img.shields.io/badge/PORTFÓLIO-VER_CASES-111111?style=for-the-badge)](https://mayconxzdev.github.io/)
-[![Currículo](https://img.shields.io/badge/CURRÍCULO-PT--BR-2563EB?style=for-the-badge)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Analista_Automacao_IA_Integracoes.pdf?v=20260921)
+[![Currículo](https://img.shields.io/badge/CURRÍCULO-PT--BR-2563EB?style=for-the-badge)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Analista_Automacao_IA_Integracoes.pdf?v=20260922)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-PERFIL-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maycon-ferreira-7bb870231/)
 
-`n8n` · `Power Automate` · `Python` · `Power BI` · `PostgreSQL/Redis` · `Agentes/RAG/MCP`
+`Python` · `n8n` · `Power Automate` · `Rust/Windows` · `Power BI` · `Agentes/RAG/MCP`
 
 [English README](README.en.md)
 
@@ -20,15 +20,16 @@
 
 Atuo ponta a ponta: converso com usuários, quem executa/aprova o processo e outros stakeholders; levanto requisitos, modelo AS-IS/TO-BE/BPMN quando faz sentido, defino regras e riscos, construo, testo/UAT, implanto, treino usuários, acompanho métricas de impacto e sustento a operação depois do go-live.
 
-Meu núcleo técnico combina **n8n self-hosted, Power Automate Cloud/Desktop, Python/FastAPI, APIs REST/JSON, SQL/PostgreSQL, Redis e Docker**. Em IA aplicada, uso **Prompt Engineering, APIs de LLM, agentes, RAG/grounding, LangChain, MCP, human-in-the-loop e evals**. Em dados/BI, trabalho com **Power BI, DAX, Power Query, Excel/Google Sheets e VBA**.
+Meu núcleo técnico combina **Python/FastAPI, n8n self-hosted, Power Automate Cloud/Desktop, APIs REST/JSON, SQL/PostgreSQL, Redis e Docker**. Em sistemas Windows, também trabalho com **Rust/Axum/Tokio, PowerShell/CIM e serviços locais**. Em IA aplicada, uso **Prompt Engineering, APIs de LLM, agentes, RAG/grounding, LangChain, MCP, human-in-the-loop e evals**. Em dados/BI, trabalho com **Power BI, DAX, Power Query, Excel/Google Sheets e VBA**.
 
-[Currículo IA/agentes](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Automacao_IA_n8n_Python_LLMs.pdf?v=20260921) · [Currículo Power Platform/BI](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Automacao_BI_Power_Automate_Power_BI.pdf?v=20260921) · [Resume EN](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf?v=20260921)
+[Currículo IA/agentes](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Automacao_IA_n8n_Python_LLMs.pdf?v=20260922) · [Currículo Power Platform/BI](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Automacao_BI_Power_Automate_Power_BI.pdf?v=20260922) · [Resume EN](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf?v=20260922)
 
 ## Resultados em uso
 
 - **10 mil+ execuções de workflows em produção** no ambiente n8n self-hosted que administro;
 - propostas simples: **2–4 min → menos de 30 s**, com uso diário por **4 profissionais**;
 - Produção Operacional implantada em **10+ computadores e uma TV**, apoiando **20+ profissionais em 9 setores produtivos**;
+- **Belarc Inventory em uso interno**, co-desenvolvido com agente Windows em Rust/Tokio, servidor Axum/SQLite e coleta PowerShell/CIM;
 - HelpDesk em uso por **11 pessoas**;
 - manutenção digitalizada de **40+ ativos**, com checklists, evidências e histórico;
 - **30+ pessoas** treinadas ou orientadas em soluções implantadas;
@@ -40,13 +41,13 @@ Meu núcleo técnico combina **n8n self-hosted, Power Automate Cloud/Desktop, Py
 
 | Projeto | O que ele prova | Estado |
 | --- | --- | --- |
-| [Mala Direta](https://github.com/Mayconxzdev/MalaDireta) | n8n em produção, filas, deduplicação, retry, cancelamento e auditoria | produção |
-| [HelpDesk](https://github.com/Mayconxzdev/HelpDesk) | sistema interno, agente operacional, ativos, Redis, tempo real e segurança | uso interno · 11 usuários |
-| [Postagem Redes](https://github.com/Mayconxzdev/PostagemRedes) | Prompt Engineering, RAG/LangChain, human-in-the-loop, APIs e evals | validado em teste |
+| [Belarc Inventory](https://github.com/Mayconxzdev/Belarc-Inventory) | sistema distribuído de TI, agente Windows em Rust, Axum/SQLite, PowerShell/CIM, cache local e service desk | uso interno |
 | [Produção Operacional](https://github.com/Mayconxzdev/ProducaoOperacional) | implantação, adoção, desktop Windows e continuidade operacional | produção |
-| [Catálogo Operacional de Compras](https://github.com/Mayconxzdev/CatalogoOperacional) | FastAPI, FTS5, busca, integridade de dados, histórico e operação diária | uso diário |
+| [ComprasVesper](https://github.com/Mayconxzdev/ComprasProducao) | automação empresarial com fila persistente, IMAP/SMTP, SQLite WAL, idempotência e tracking | uso interno |
+| [Postagem Redes](https://github.com/Mayconxzdev/PostagemRedes) | Prompt Engineering, RAG/LangChain, human-in-the-loop, APIs e evals | validado em teste |
+| [Hubora](https://github.com/Mayconxzdev/Hubora) | produto full-stack local-first, Supabase/RLS, PWA, testes E2E e acessibilidade | demo pública |
 
-O [CarreiraPessoal](https://github.com/Mayconxzdev/CarreiraPessoal) complementa a vitrine com arquitetura full-stack, EvidenceGuard, QA e demo reproduzível. O [Central ISO](https://github.com/Mayconxzdev/Central-ISO) mostra regras determinísticas, n8n/FastAPI e rastreabilidade em piloto técnico. O [portfólio](https://mayconxzdev.github.io/) organiza os demais cases por problema, resultado e estado real.
+A [Mala Direta](https://github.com/Mayconxzdev/MalaDireta), o [HelpDesk](https://github.com/Mayconxzdev/HelpDesk), o [Catálogo Operacional](https://github.com/Mayconxzdev/CatalogoOperacional) e o [CarreiraPessoal](https://github.com/Mayconxzdev/CarreiraPessoal) ficam como evidências complementares. O [Central ISO](https://github.com/Mayconxzdev/Central-ISO) mostra governança e rastreabilidade em piloto técnico. O [portfólio](https://mayconxzdev.github.io/) organiza os demais cases por problema, resultado e estado real.
 
 **Portal:** em desenvolvimento / revalidação. A referência pública mostra arquitetura anterior sanitizada; não é apresentada como produção atual.
 
@@ -63,6 +64,7 @@ Em fluxos com efeitos externos ou dados sensíveis, procuro manter **revisão hu
 
 **Automação e integrações:** n8n self-hosted · Power Automate Cloud/Desktop · Python · FastAPI · APIs REST/JSON · webhooks · OAuth 2.0 · WhatsApp Cloud API · PostgreSQL · Redis · Docker  
 **IA aplicada:** Prompt Engineering · APIs de LLM · agentes de IA · RAG/grounding · LangChain · MCP · human-in-the-loop · evals  
+**Engenharia de sistemas:** Rust · Axum · Tokio · PowerShell/CIM · Windows Service · SQLite · Git/GitHub Actions  
 **Dados e BI:** Power BI · DAX · Power Query · Excel/Google Sheets · VBA · SQL · dashboards e indicadores  
 **Processos e confiabilidade:** BPMN · AS-IS/TO-BE · requisitos/stakeholders · UAT · implantação · Git/GitHub Actions · CI/CD · logs · retries · idempotência  
 **Ferramentas complementares:** Power Apps · Make · Zapier · Selenium/Playwright/Puppeteer · PyAutoGUI · UiPath
