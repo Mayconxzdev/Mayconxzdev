@@ -30,12 +30,8 @@ Meu núcleo técnico combina **Python/FastAPI, n8n self-hosted, Power Automate C
 - propostas simples: **2–4 min → menos de 30 s**, com uso diário por **4 profissionais**;
 - Produção Operacional implantada em **10+ computadores e uma TV**, apoiando **20+ profissionais em 9 setores produtivos**;
 - **Belarc Inventory em uso interno**, co-desenvolvido com agente Windows em Rust/Tokio, servidor Axum/SQLite e coleta PowerShell/CIM;
-- HelpDesk em uso por **11 pessoas**;
 - manutenção digitalizada de **40+ ativos**, com checklists, evidências e histórico;
 - **30+ pessoas** treinadas ou orientadas em soluções implantadas;
-- **Instrutor freelancer pago desde out. 2024**, com aulas semanais de informática, Excel/Power BI, Power Query/VBA e Pacote Office;
-- Mala Direta: **6 campanhas**, base de **1.020 contatos** e uma campanha com **900+ destinatários**;
-- Catálogo Operacional de Compras: **24 categorias e 480+ códigos**, com uso diário.
 
 ## Comece por estes 5 projetos
 
