@@ -30,12 +30,8 @@ My technical core combines **Python/FastAPI, self-hosted n8n, Power Automate Clo
 - simple proposals: **2–4 min → under 30 sec**, used daily by **4 professionals**;
 - Production Operations deployed to **10+ computers and one TV**, supporting **20+ professionals across 9 production sectors**;
 - **Belarc Inventory in internal use**, co-developed with a Rust/Tokio Windows agent, Axum/SQLite server and PowerShell/CIM collection;
-- HelpDesk used by **11 people**;
 - maintenance digitized for **40+ assets**, with checklists, evidence and history;
 - **30+ people** trained or guided on deployed solutions;
-- **Paid freelance IT instructor since Oct. 2024**, with weekly classes covering Excel/Power BI, Power Query/VBA and Office;
-- Direct Mail: **6 campaigns**, a **1,020-contact** base and one campaign with **900+ recipients**;
-- Operational Procurement Catalog: **24 categories and 480+ codes**, used daily.
 
 ## Start with these 5 projects
 
