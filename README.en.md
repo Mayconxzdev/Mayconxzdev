@@ -9,7 +9,7 @@
 **I turn operational processes into internal systems, automations and AI-powered solutions that work in day-to-day operations.**
 
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-VIEW_CASES-111111?style=for-the-badge)](https://mayconxzdev.github.io/en/)
-[![Resume](https://img.shields.io/badge/RESUME-EN-2563EB?style=for-the-badge)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf?v=20260921)
+[![Resume](https://img.shields.io/badge/RESUME-EN-2563EB?style=for-the-badge)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf?v=20260922)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-PROFILE-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maycon-ferreira-7bb870231/)
 
 `Python` · `n8n` · `Power Automate` · `Rust/Windows` · `Power BI` · `Agents/RAG/MCP`
