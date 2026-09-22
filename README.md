@@ -9,7 +9,7 @@
 **Transformo processos e rotinas operacionais em sistemas, automações e soluções com IA que funcionam no dia a dia.**
 
 [![Portfólio](https://img.shields.io/badge/PORTFÓLIO-VER_CASES-111111?style=for-the-badge)](https://mayconxzdev.github.io/)
-[![Currículo](https://img.shields.io/badge/CURRÍCULO-PT--BR-2563EB?style=for-the-badge)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Analista_Automacao_IA_Integracoes.pdf?v=20260921)
+[![Currículo](https://img.shields.io/badge/CURRÍCULO-PT--BR-2563EB?style=for-the-badge)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Analista_Automacao_IA_Integracoes.pdf?v=20260922)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-PERFIL-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maycon-ferreira-7bb870231/)
 
 `Python` · `n8n` · `Power Automate` · `Rust/Windows` · `Power BI` · `Agentes/RAG/MCP`
@@ -22,7 +22,7 @@ Atuo ponta a ponta: converso com usuários, quem executa/aprova o processo e out
 
 Meu núcleo técnico combina **Python/FastAPI, n8n self-hosted, Power Automate Cloud/Desktop, APIs REST/JSON, SQL/PostgreSQL, Redis e Docker**. Em sistemas Windows, também trabalho com **Rust/Axum/Tokio, PowerShell/CIM e serviços locais**. Em IA aplicada, uso **Prompt Engineering, APIs de LLM, agentes, RAG/grounding, LangChain, MCP, human-in-the-loop e evals**. Em dados/BI, trabalho com **Power BI, DAX, Power Query, Excel/Google Sheets e VBA**.
 
-[Currículo IA/agentes](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Automacao_IA_n8n_Python_LLMs.pdf?v=20260921) · [Currículo Power Platform/BI](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Automacao_BI_Power_Automate_Power_BI.pdf?v=20260921) · [Resume EN](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf?v=20260921)
+[Currículo IA/agentes](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Automacao_IA_n8n_Python_LLMs.pdf?v=20260922) · [Currículo Power Platform/BI](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Automacao_BI_Power_Automate_Power_BI.pdf?v=20260922) · [Resume EN](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf?v=20260922)
 
 ## Resultados em uso
 
