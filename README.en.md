@@ -6,13 +6,13 @@
 
 **Automation & AI Analyst**
 
-**I turn manual processes and operational routines into automations and AI-powered solutions that work in day-to-day operations.**
+**I turn operational processes into internal systems, automations and AI-powered solutions that work in day-to-day operations.**
 
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-VIEW_CASES-111111?style=for-the-badge)](https://mayconxzdev.github.io/en/)
 [![Resume](https://img.shields.io/badge/RESUME-EN-2563EB?style=for-the-badge)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf?v=20260921)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-PROFILE-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maycon-ferreira-7bb870231/)
 
-`n8n` · `Power Automate` · `Python` · `Power BI` · `PostgreSQL/Redis` · `Agents/RAG/MCP`
+`Python` · `n8n` · `Power Automate` · `Rust/Windows` · `Power BI` · `Agents/RAG/MCP`
 
 [Português](README.md)
 
@@ -20,7 +20,7 @@
 
 I work end to end: I talk with users, the people who execute/approve the process and other stakeholders; gather requirements, map AS-IS/TO-BE/BPMN when useful, define rules and risks, build, test/UAT, deploy, train users, track impact metrics and support the operation after go-live.
 
-My technical core combines **self-hosted n8n, Power Automate Cloud/Desktop, Python/FastAPI, REST/JSON APIs, SQL/PostgreSQL, Redis and Docker**. In applied AI, I use **Prompt Engineering, LLM APIs, AI agents, RAG/grounding, LangChain, MCP, human-in-the-loop and evals**. In data/BI, I work with **Power BI, DAX, Power Query, Excel/Google Sheets and VBA**.
+My technical core combines **Python/FastAPI, self-hosted n8n, Power Automate Cloud/Desktop, REST/JSON APIs, SQL/PostgreSQL, Redis and Docker**. For Windows systems, I also work with **Rust/Axum/Tokio, PowerShell/CIM and local services**. In applied AI, I use **Prompt Engineering, LLM APIs, AI agents, RAG/grounding, LangChain, MCP, human-in-the-loop and evals**. In data/BI, I work with **Power BI, DAX, Power Query, Excel/Google Sheets and VBA**.
 
 [Portfolio](https://mayconxzdev.github.io/en/) · [Email](mailto:mayconxz00dev@gmail.com)
 
@@ -29,6 +29,7 @@ My technical core combines **self-hosted n8n, Power Automate Cloud/Desktop, Pyth
 - **10k+ production workflow executions** across the self-hosted n8n environment I administer;
 - simple proposals: **2–4 min → under 30 sec**, used daily by **4 professionals**;
 - Production Operations deployed to **10+ computers and one TV**, supporting **20+ professionals across 9 production sectors**;
+- **Belarc Inventory in internal use**, co-developed with a Rust/Tokio Windows agent, Axum/SQLite server and PowerShell/CIM collection;
 - HelpDesk used by **11 people**;
 - maintenance digitized for **40+ assets**, with checklists, evidence and history;
 - **30+ people** trained or guided on deployed solutions;
@@ -40,13 +41,13 @@ My technical core combines **self-hosted n8n, Power Automate Cloud/Desktop, Pyth
 
 | Project | What it demonstrates | State |
 | --- | --- | --- |
-| [Mala Direta](https://github.com/Mayconxzdev/MalaDireta) | deep n8n work, per-recipient queues, deduplication, retries, cancellation and auditability | production |
-| [Social Publishing](https://github.com/Mayconxzdev/PostagemRedes) | applied AI, RAG/LangChain, human-in-the-loop, external APIs and reproducible evals | validated in testing |
-| [CarreiraPessoal](https://github.com/Mayconxzdev/CarreiraPessoal) | product thinking, systems architecture, evidence controls, QA and a reproducible public demo | personal product in use |
+| [Belarc Inventory](https://github.com/Mayconxzdev/Belarc-Inventory) | distributed IT system, Rust Windows agent, Axum/SQLite, PowerShell/CIM, local cache and service desk | internal use |
 | [Production Operations](https://github.com/Mayconxzdev/ProducaoOperacional) | deployment, adoption, Windows desktop and operational continuity | production |
-| [Operational Procurement Catalog](https://github.com/Mayconxzdev/CatalogoOperacional) | FastAPI, FTS5, search, data integrity, history and daily operation | daily use |
+| [ComprasVesper](https://github.com/Mayconxzdev/ComprasProducao) | business automation with durable queueing, IMAP/SMTP, SQLite WAL, idempotency and tracking | internal use |
+| [Social Publishing](https://github.com/Mayconxzdev/PostagemRedes) | applied AI, RAG/LangChain, human-in-the-loop, external APIs and reproducible evals | validated in testing |
+| [Hubora](https://github.com/Mayconxzdev/Hubora) | local-first full-stack product, Supabase/RLS, PWA, E2E tests and accessibility | public demo |
 
-[HelpDesk](https://github.com/Mayconxzdev/HelpDesk) complements the showcase with an internal system, real-time features, assets, access controls, security and adoption by 11 users. The [portfolio](https://mayconxzdev.github.io/en/) organizes the remaining cases by problem, outcome, real state and evidence, including Commercial Proposals, procurement, Central ISO, StudioCad, maintenance, data/cloud, personal products and published websites.
+[Mala Direta](https://github.com/Mayconxzdev/MalaDireta), [HelpDesk](https://github.com/Mayconxzdev/HelpDesk), the [Operational Procurement Catalog](https://github.com/Mayconxzdev/CatalogoOperacional) and [CarreiraPessoal](https://github.com/Mayconxzdev/CarreiraPessoal) remain complementary evidence. [Central ISO](https://github.com/Mayconxzdev/Central-ISO) shows governance and traceability in a technical pilot. The [portfolio](https://mayconxzdev.github.io/en/) organizes the remaining cases by problem, outcome and real state.
 
 **Portal:** in development / revalidation. The public reference shows an earlier sanitized architecture; it is not presented as current production.
 
@@ -63,6 +64,7 @@ For flows with external effects or sensitive data, I aim to preserve **human rev
 
 **Automation & integrations:** self-hosted n8n · Power Automate Cloud/Desktop · Python · FastAPI · REST/JSON APIs · webhooks · OAuth 2.0 · WhatsApp Cloud API · PostgreSQL · Redis · Docker  
 **Applied AI:** Prompt Engineering · LLM APIs · AI agents · RAG/grounding · LangChain · MCP · human-in-the-loop · evals  
+**Systems engineering:** Rust · Axum · Tokio · PowerShell/CIM · Windows Service · SQLite · Git/GitHub Actions  
 **Data & BI:** Power BI · DAX · Power Query · Excel/Google Sheets · VBA · SQL · dashboards and KPIs  
 **Process & reliability:** BPMN · AS-IS/TO-BE · requirements/stakeholders · UAT · deployment · Git/GitHub Actions · CI/CD · logs · retries · idempotency  
 **Complementary tools:** Power Apps · Make · Zapier · Selenium/Playwright/Puppeteer · PyAutoGUI · UiPath
