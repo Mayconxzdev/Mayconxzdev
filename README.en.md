@@ -47,7 +47,7 @@ I understand workflows and their exceptions, choose an appropriate level of auto
 
 **Core:** n8n · Power Automate · Python · REST/JSON APIs · webhooks · SQL.
 
-**Related experience:** Power Automate Cloud/Desktop, FastAPI, PostgreSQL, Redis, Power BI/Power Query and Windows endpoint inventory with Rust and PowerShell/CIM, documented in the relevant projects.
+**Related experience:** Power Automate Cloud/Desktop, Prompt Engineering, FastAPI, PostgreSQL, Redis, Power BI/Power Query and Windows endpoint inventory with Rust and PowerShell/CIM, documented in the relevant projects.
 
 I completed **Microsoft Applied Skills — MCP Tools with Agents**. The Social Publishing case demonstrates RAG and human review in testing; it is not in production.
 

@@ -47,7 +47,7 @@ Entendo o fluxo e suas exceções, escolho o nível adequado de automação, int
 
 **Núcleo:** n8n · Power Automate · Python · APIs REST/JSON · webhooks · SQL.
 
-**Experiência complementar:** Power Automate Cloud/Desktop, FastAPI, PostgreSQL, Redis, Power BI/Power Query e inventário de estações Windows com Rust e PowerShell/CIM, descritos nos projetos correspondentes.
+**Experiência complementar:** Power Automate Cloud/Desktop, Prompt Engineering, FastAPI, PostgreSQL, Redis, Power BI/Power Query e inventário de estações Windows com Rust e PowerShell/CIM, descritos nos projetos correspondentes.
 
 Concluí as **Microsoft Applied Skills — MCP Tools with Agents**. O case Postagem Redes demonstra RAG e revisão humana em testes; não está em produção.
 
