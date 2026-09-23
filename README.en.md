@@ -39,13 +39,15 @@ I work from process discovery through deployment and support: gather rules from 
 
 The [Vesper Proposals case](https://mayconxzdev.github.io/en/cases/vesper-propostas/) documents the impact of an internal system whose source code remains private for business confidentiality. [Mala Direta](https://github.com/Mayconxzdev/MalaDireta) and [HelpDesk](https://github.com/Mayconxzdev/HelpDesk) remain supporting evidence: the former is an n8n production workflow; the latter is an internal system with experimental local assistance.
 
+Additional proof includes [Hubora](https://github.com/Mayconxzdev/Hubora), a demonstration product, and the [Operational Catalog](https://github.com/Mayconxzdev/CatalogoOperacional), another procurement case. The [Portal](https://github.com/Mayconxzdev/Portal) remains **in development and revalidation**; its public reference is an earlier sanitized architecture, not a current production claim.
+
 ## How I work
 
 I understand the workflow and its exceptions, choose an appropriate level of automation, integrate APIs or internal systems, test failures and duplicates, and prepare deployment, training and support. For steps with external effects or AI-generated content, I keep human approval and explicit limits.
 
 **Core:** n8n · Power Automate · Python · REST/JSON APIs · webhooks · SQL.
 
-**Adjacent evidence:** FastAPI, PostgreSQL, Power BI/Power Query and Windows systems with Rust/PowerShell, each shown in its project context.
+**Adjacent evidence:** Power Automate Cloud/Desktop, Prompt Engineering, FastAPI, PostgreSQL, Redis, Power BI/Power Query and Windows systems with Rust/PowerShell, each shown in its project context.
 
 My MCP experience is documented through **Microsoft Applied Skills — MCP Tools with Agents**; I do not present a custom MCP server or client as a proven project. The Social Publishing case is labeled validated in testing. I do not claim production agents or RAG.
 
@@ -59,4 +61,6 @@ My MCP experience is documented through **Microsoft Applied Skills — MCP Tools
 
 ## Education
 
-Technology Degree in Systems Analysis and Development — UNISUAM, expected Dec. 2026. Previous practical data and cloud experience through Compass UOL. Portuguese: native; English: intermediate technical reading and basic writing/conversation.
+Technology Degree in Systems Analysis and Development — UNISUAM, expected Dec. 2026. Previous practical data and cloud experience through Compass UOL. Portuguese: native; English: intermediate technical reading; basic writing and conversation.
+
+Since October 2024, I have also worked as a paid **Freelance Computer Instructor**, teaching office tools, Power BI, Windows and Linux fundamentals to learners with varied backgrounds.
