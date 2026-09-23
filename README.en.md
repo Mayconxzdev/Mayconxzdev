@@ -2,96 +2,61 @@
 
 # Maycon Ferreira
 
-### Automation · Applied AI
+### Automation · applied AI · integrations
 
 **Automation & AI Analyst**
 
-**I turn operational processes into internal systems, automations and AI-powered solutions that work in day-to-day operations.**
+I turn operational processes into automations and internal systems that teams can use and support.
 
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-VIEW_CASES-111111?style=for-the-badge)](https://mayconxzdev.github.io/en/)
-[![Resume](https://img.shields.io/badge/RESUME-EN-2563EB?style=for-the-badge)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf?v=20260922)
+[![Resume](https://img.shields.io/badge/RESUME-EN-2563EB?style=for-the-badge)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf?v=20260923)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-PROFILE-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maycon-ferreira-7bb870231/)
 
-`Python` · `n8n` · `Power Automate` · `Rust/Windows` · `Power BI` · `Agents/RAG/MCP`
+`n8n` · `Power Automate` · `Python` · `APIs`
 
 [Português](README.md)
 
 </div>
 
-I work end to end: I talk with users, the people who execute/approve the process and other stakeholders; gather requirements, map AS-IS/TO-BE/BPMN when useful, define rules and risks, build, test/UAT, deploy, train users, track impact metrics and support the operation after go-live.
-
-My technical core combines **Python/FastAPI, self-hosted n8n, Power Automate Cloud/Desktop, REST/JSON APIs, SQL/PostgreSQL, Redis and Docker**. For Windows systems, I also work with **Rust/Axum/Tokio, PowerShell/CIM and local services**. In applied AI, I use **Prompt Engineering, LLM APIs, AI agents, RAG/grounding, LangChain, MCP, human-in-the-loop and evals**. In data/BI, I work with **Power BI, DAX, Power Query, Excel/Google Sheets and VBA**.
-
-[Portfolio](https://mayconxzdev.github.io/en/) · [Email](mailto:mayconxz00dev@gmail.com)
+I work from process discovery through deployment and support: gather rules from users, automate steps, integrate systems, test, train teams and track outcomes. My focus is **process automation, applied AI with human review, and integrations**, grounded in real operations.
 
 ## Results in use
 
-- **10k+ production workflow executions** across the self-hosted n8n environment I administer;
-- simple proposals: **2–4 min → under 30 sec**, used daily by **4 professionals**;
-- Production Operations deployed to **10+ computers and one TV**, supporting **20+ professionals across 9 production sectors**;
-- **Belarc Inventory in internal use**, co-developed with a Rust/Tokio Windows agent, Axum/SQLite server and PowerShell/CIM collection;
-- maintenance digitized for **40+ assets**, with checklists, evidence and history;
-- **30+ people** trained or guided on deployed solutions;
+- **10k+ production workflow executions** across the n8n environment I administer; this is an environment-wide total, not one workflow.
+- Simple proposals went from **2–4 minutes to under 30 seconds**, used daily by 4 professionals.
+- Production Operations is deployed to **10+ computers and one TV**, supporting **20+ professionals across 9 sectors**.
+- **Belarc Inventory is in internal use**; I co-developed its Rust Windows agent, Axum/SQLite server and PowerShell/CIM collection.
 
-## Start with these 5 projects
+## Start with these proofs
 
-| Project | What it demonstrates | State |
+| Project | Evidence | State |
 | --- | --- | --- |
-| [Belarc Inventory](https://github.com/Mayconxzdev/Belarc-Inventory) | distributed IT system, Rust Windows agent, Axum/SQLite, PowerShell/CIM, local cache and service desk | internal use |
-| [Production Operations](https://github.com/Mayconxzdev/ProducaoOperacional) | deployment, adoption, Windows desktop and operational continuity | production |
-| [ComprasVesper](https://github.com/Mayconxzdev/ComprasProducao) | business automation with durable queueing, IMAP/SMTP, SQLite WAL, idempotency and tracking | internal use |
-| [Social Publishing](https://github.com/Mayconxzdev/PostagemRedes) | applied AI, RAG/LangChain, human-in-the-loop, external APIs and reproducible evals | validated in testing |
-| [Hubora](https://github.com/Mayconxzdev/Hubora) | local-first full-stack product, Supabase/RLS, PWA, E2E tests and accessibility | public demo |
+| [Belarc Inventory](https://github.com/Mayconxzdev/Belarc-Inventory) | Windows agent, local web service, inventory and support context | internal use; sanitized repository |
+| [Production Operations](https://github.com/Mayconxzdev/ProducaoOperacional) | multi-computer deployment, shared display and adoption across teams | production |
+| [ComprasVesper](https://github.com/Mayconxzdev/ComprasProducao) | Python procurement app with email, persistent queueing and failure handling | internal use; public demo blocks network/email |
+| [Social Publishing](https://github.com/Mayconxzdev/PostagemRedes) | grounding/RAG, human approval and reproducible evals | validated in testing; not production |
+| [Central ISO](https://github.com/Mayconxzdev/Central-ISO) | deterministic rules, controlled read-only access and traceability | technical pilot |
 
-[Mala Direta](https://github.com/Mayconxzdev/MalaDireta), [HelpDesk](https://github.com/Mayconxzdev/HelpDesk), the [Operational Procurement Catalog](https://github.com/Mayconxzdev/CatalogoOperacional) and [CarreiraPessoal](https://github.com/Mayconxzdev/CarreiraPessoal) remain complementary evidence. [Central ISO](https://github.com/Mayconxzdev/Central-ISO) shows governance and traceability in a technical pilot. The [portfolio](https://mayconxzdev.github.io/en/) organizes the remaining cases by problem, outcome and real state.
+The [Vesper Proposals case](https://mayconxzdev.github.io/en/cases/vesper-propostas/) documents the impact of an internal system whose source code remains private for business confidentiality. [Mala Direta](https://github.com/Mayconxzdev/MalaDireta) and [HelpDesk](https://github.com/Mayconxzdev/HelpDesk) remain supporting evidence: the former is an n8n production workflow; the latter is an internal system with experimental local assistance.
 
-**Portal:** in development / revalidation. The public reference shows an earlier sanitized architecture; it is not presented as current production.
+## How I work
 
-## How I usually build solutions
+I understand the workflow and its exceptions, choose an appropriate level of automation, integrate APIs or internal systems, test failures and duplicates, and prepare deployment, training and support. For steps with external effects or AI-generated content, I keep human approval and explicit limits.
 
-```text
-UNDERSTAND → MAP → DEFINE RULES/RISKS → BUILD
-→ TEST/UAT → DEPLOY → TRAIN → MONITOR → MEASURE → IMPROVE
-```
+**Core:** n8n · Power Automate · Python · REST/JSON APIs · webhooks · SQL.
 
-For flows with external effects or sensitive data, I aim to preserve **human review, traceability, logs, monitoring/observability, change control, integration security, secret management, retries/idempotency and recovery paths**. I also clearly separate what is in production, internal use, testing, pilot or development.
+**Adjacent evidence:** FastAPI, PostgreSQL, Power BI/Power Query and Windows systems with Rust/PowerShell, each shown in its project context.
 
-## Core skills
+My MCP experience is documented through **Microsoft Applied Skills — MCP Tools with Agents**; I do not present a custom MCP server or client as a proven project. The Social Publishing case is labeled validated in testing. I do not claim production agents or RAG.
 
-**Automation & integrations:** self-hosted n8n · Power Automate Cloud/Desktop · Python · FastAPI · REST/JSON APIs · webhooks · OAuth 2.0 · WhatsApp Cloud API · PostgreSQL · Redis · Docker  
-**Applied AI:** Prompt Engineering · LLM APIs · AI agents · RAG/grounding · LangChain · MCP · human-in-the-loop · evals  
-**Systems engineering:** Rust · Axum · Tokio · PowerShell/CIM · Windows Service · SQLite · Git/GitHub Actions  
-**Data & BI:** Power BI · DAX · Power Query · Excel/Google Sheets · VBA · SQL · dashboards and KPIs  
-**Process & reliability:** BPMN · AS-IS/TO-BE · requirements/stakeholders · UAT · deployment · Git/GitHub Actions · CI/CD · logs · retries · idempotency  
-**Complementary tools:** Power Apps · Make · Zapier · Selenium/Playwright/Puppeteer · PyAutoGUI · UiPath
+## Resumes and profile
 
-**MCP and Microsoft Foundry** have hands-on validation through Microsoft Applied Skills; **Power Apps** has hands-on lab validation; **Make** is reinforced by the AI Agent Builder badge. These remain contextual whenever equivalent production evidence does not exist. **LangGraph and CrewAI** remain study/prototype tools.
-
-## Selected credentials
-
-- **Microsoft Applied Skills — 3:** Agents in Microsoft Foundry · MCP Tools with Agents · Canvas Apps with Power Apps;
-- **UiPath Academy:** Automation Business Analyst Professional Training;
-- **n8n Academy:** N8N102 — Integrations: APIs & Connected Workflows · N8N103 — In Practice: AI, Testing & Best Practices;
-- **Make Academy / Credly:** AI Agent Builder;
-- **FIRJAN SENAI:** AI Tools: Agents and Automations (40h).
-
-The UiPath item above is **Professional Training**, not the separate exam-based professional certification. The full inventory keeps courses, badges and certificates classified accurately.
-
-[View the full credential inventory and classification criteria →](https://mayconxzdev.github.io/en/credentials/)
-
-## Parallel experience — teaching
-
-Since **Oct. 2024**, I have worked as a **Freelance IT Instructor** in paid classes. I currently teach around 3 hours per week to learners of different ages and skill levels, covering Excel/Google Sheets, Power BI, Power Query, VBA, Word, PowerPoint, Outlook, Windows and Linux fundamentals, plus administration and marketing topics.
+- [General — Automation & AI (PT-BR)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Analista_Automacao_IA_Integracoes.pdf)
+- [Automation & AI (PT-BR)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Automacao_IA_n8n_Python_LLMs.pdf)
+- [Automation & BI (PT-BR)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Automacao_BI_Power_Automate_Power_BI.pdf)
+- [General resume (EN)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf)
+- [Portfolio](https://mayconxzdev.github.io/en/) · [LinkedIn](https://www.linkedin.com/in/maycon-ferreira-7bb870231/)
 
 ## Education
 
-- **Technology Degree in Systems Analysis and Development — UNISUAM**, expected Dec. 2026;
-- **42 Rio Piscine**, intensive Linux/C program completed Jul. 2025;
-- previous data/cloud practical experience through Compass UOL with Python, SQL, Docker, S3, Lambda, Glue/PySpark, Athena and QuickSight;
-- Google AI Essentials and ENAP training in RPA, process mapping/automation and LGPD remain in the detailed learning inventory.
-
-**Languages:** Portuguese native; English with independent technical reading and basic writing/conversation.
-
-## Contact
-
-[mayconxz00dev@gmail.com](mailto:mayconxz00dev@gmail.com) · [LinkedIn](https://www.linkedin.com/in/maycon-ferreira-7bb870231/) · [Portfolio](https://mayconxzdev.github.io/en/)
+Technology Degree in Systems Analysis and Development — UNISUAM, expected Dec. 2026. Previous practical data and cloud experience through Compass UOL. Portuguese: native; English: intermediate technical reading and basic writing/conversation.
