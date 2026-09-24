@@ -6,9 +6,9 @@
 
 **Analista de Automação e IA**
 
-Transformo processos operacionais em automações e sistemas internos que as equipes conseguem usar e sustentar.
+Converso com quem faz o trabalho, entendo o processo e construo automações e sistemas que ajudam as equipes no dia a dia. Trabalho principalmente com n8n, Power Automate, Python e APIs; também participo da operação de TI no ambiente industrial onde atuo.
 
-[![Portfólio](https://img.shields.io/badge/PORTFÓLIO-VER_CASES-111111?style=for-the-badge)](https://mayconxzdev.github.io/)
+[![Portfólio](https://img.shields.io/badge/PORTFÓLIO-CONHEÇA_MEUS_PROJETOS-111111?style=for-the-badge)](https://mayconxzdev.github.io/)
 [![Currículo](https://img.shields.io/badge/CURRÍCULO-PT--BR-2563EB?style=for-the-badge)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Analista_Automacao_IA_Integracoes.pdf)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-PERFIL-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maycon-ferreira-7bb870231/)
 
@@ -18,49 +18,35 @@ Transformo processos operacionais em automações e sistemas internos que as equ
 
 </div>
 
-Trabalho com **automação de processos, IA aplicada e integrações**. Converso com quem usa os processos para entender regras e exceções, construo as soluções e acompanho implantação e suporte. Na empresa onde atuo, também presto suporte de TI a usuários e sistemas internos.
+## Projetos
 
-## Resultados em uso
+| Projeto | O que resolve |
+| --- | --- |
+| [Belarc Inventory](https://github.com/Mayconxzdev/Belarc-Inventory) | Reúne inventário de computadores e contexto útil para o atendimento de TI. |
+| [Produção Operacional](https://github.com/Mayconxzdev/ProducaoOperacional) | Organiza ordens e ajuda escritório e fábrica a acompanhar a produção. |
+| [ComprasVesper](https://github.com/Mayconxzdev/ComprasProducao) | Apoia a rotina de cotações e acompanhamento de compras. |
+| [Postagem Redes](https://github.com/Mayconxzdev/PostagemRedes) | Prepara conteúdo a partir de contexto aprovado e mantém a revisão humana antes da publicação. |
+| [Central ISO](https://github.com/Mayconxzdev/Central-ISO) | Facilita a consulta de documentos e informações ligados a processos da Qualidade. |
 
-- **10 mil+ execuções de workflows em produção** no ambiente n8n que administro.
-- Propostas simples passaram de **2–4 minutos para menos de 30 segundos**, com uso diário por 4 profissionais.
-- Produção Operacional implantada em **10+ computadores e uma TV**, apoiando **20+ profissionais em 9 setores produtivos**.
-- **Belarc Inventory em uso interno**, co-desenvolvido com agente Windows em Rust, servidor Axum/SQLite e coleta PowerShell/CIM.
+Também desenvolvi um [tradutor documental para Word e ODT](https://mayconxzdev.github.io/cases/tradutor-documental/), usado internamente para preparar materiais técnicos em português e inglês, e uma ferramenta de [propostas comerciais](https://mayconxzdev.github.io/cases/vesper-propostas/) que reúne modelos, documentos, revisão e envio. O [Scanner de documentos](https://mayconxzdev.github.io/cases/scanner-documentos/) mostra outra automação de rotina administrativa.
 
-## Projetos em destaque
-
-| Projeto | Evidência | Estado |
-| --- | --- | --- |
-| [Belarc Inventory](https://github.com/Mayconxzdev/Belarc-Inventory) | agente Windows, serviço web local, inventário e contexto de suporte | uso interno; repositório sanitizado |
-| [Produção Operacional](https://github.com/Mayconxzdev/ProducaoOperacional) | implantação em vários computadores, painel compartilhado e adoção por setores | produção |
-| [ComprasVesper](https://github.com/Mayconxzdev/ComprasProducao) | aplicação Python de compras com e-mail, fila persistente e tratamento de falhas | uso interno; demonstração pública bloqueia rede/e-mail |
-| [Postagem Redes](https://github.com/Mayconxzdev/PostagemRedes) | grounding/RAG, aprovação humana e evals reproduzíveis | validado em teste; não é produção |
-| [Central ISO](https://github.com/Mayconxzdev/Central-ISO) | regras determinísticas, leitura controlada e rastreabilidade | piloto técnico |
-
-O [case Vesper Propostas](https://mayconxzdev.github.io/cases/vesper-propostas/) descreve um sistema interno cujo código não é público. A [Mala Direta](https://github.com/Mayconxzdev/MalaDireta) automatiza campanhas de e-mail em n8n; o [HelpDesk](https://github.com/Mayconxzdev/HelpDesk) é usado por 11 pessoas, e sua assistência local de IA segue experimental.
-
-Também desenvolvi o [Hubora](https://github.com/Mayconxzdev/Hubora), um produto demonstrativo, e o [Catálogo Operacional](https://github.com/Mayconxzdev/CatalogoOperacional), voltado a compras. O [Portal](https://github.com/Mayconxzdev/Portal) está em desenvolvimento; o case público descreve uma versão anterior sanitizada.
+Em uma colaboração independente da minha função atual, trabalho com um parceiro desde a concepção de uma plataforma SaaS B2B multiempresa usada por empresas. Participamos dos fluxos do produto, permissões e isolamento das informações de cada organização.
 
 ## Como trabalho
 
-Entendo o fluxo e suas exceções, escolho o nível adequado de automação, integro APIs ou sistemas internos, testo falhas e duplicidades e preparo implantação, treinamento e suporte. Para ações externas e conteúdo gerado por IA, incluo revisão humana e limites explícitos.
+Entendo as regras e exceções com as pessoas que usam o processo, procuro a forma mais simples de resolver o problema e acompanho a implantação. Quando uma necessidade se repete, busco transformá-la em uma automação ou ferramenta que a equipe consiga usar e manter.
 
-**Núcleo:** n8n · Power Automate · Python · APIs REST/JSON · webhooks · SQL.
+Minha experiência complementar inclui suporte a usuários e sistemas internos, Power BI e Power Query, integração de dados, AWS em projetos práticos anteriores e desenvolvimento de aplicações Windows. Os projetos mostram o contexto e o que foi construído em cada caso.
 
-**Experiência complementar:** Power Automate Cloud/Desktop, Prompt Engineering, FastAPI, PostgreSQL, Redis, Power BI/Power Query e inventário de estações Windows com Rust e PowerShell/CIM, descritos nos projetos correspondentes.
-
-Concluí as **Microsoft Applied Skills — MCP Tools with Agents**. O case Postagem Redes demonstra RAG e revisão humana em testes; não está em produção.
-
-## Currículos e perfil
+## Currículos
 
 - [Geral — Automação e IA (PT-BR)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Analista_Automacao_IA_Integracoes.pdf)
 - [Automação e IA (PT-BR)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Automacao_IA_n8n_Python_LLMs.pdf)
 - [Automação e BI (PT-BR)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Automacao_BI_Power_Automate_Power_BI.pdf)
 - [General resume (EN)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf)
-- [Portfólio](https://mayconxzdev.github.io/) · [LinkedIn](https://www.linkedin.com/in/maycon-ferreira-7bb870231/)
 
-## Formação e ensino
+## Formação
 
-Tecnólogo em Análise e Desenvolvimento de Sistemas — UNISUAM, conclusão prevista para dez. 2026. Experiência prática anterior em dados e cloud pela Compass UOL. Português nativo; inglês com leitura técnica intermediária; escrita e conversação básicas.
+Tecnólogo em Análise e Desenvolvimento de Sistemas — UNISUAM, conclusão prevista para dezembro de 2026. Experiência prática anterior em dados e cloud pela Compass UOL. Português nativo; inglês com leitura técnica intermediária e escrita e conversação básicas.
 
-Desde outubro de 2024, também atuo como **Instrutor de Informática Freelancer**, com aulas pagas para públicos e níveis diversos em Excel/Google Sheets, Power BI, Power Query, VBA, Word, PowerPoint, Outlook, Windows e fundamentos de Linux.
+Desde outubro de 2024, também atuo como **Instrutor de Informática Freelancer**, com aulas pagas para pessoas de diferentes idades e níveis de experiência.
