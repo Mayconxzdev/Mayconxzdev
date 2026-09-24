@@ -24,11 +24,11 @@ Converso com quem faz o trabalho, entendo o processo e construo automações e s
 | --- | --- |
 | [Belarc Inventory](https://github.com/Mayconxzdev/Belarc-Inventory) | Reúne inventário de computadores e contexto útil para o atendimento de TI. |
 | [Produção Operacional](https://github.com/Mayconxzdev/ProducaoOperacional) | Organiza ordens e ajuda escritório e fábrica a acompanhar a produção. |
-| [ComprasVesper](https://github.com/Mayconxzdev/ComprasProducao) | Apoia a rotina de cotações e acompanhamento de compras. |
+| [Compras e Cotações](https://github.com/Mayconxzdev/ComprasProducao) | Apoia a rotina de cotações e acompanhamento de compras. [Veja o case](https://mayconxzdev.github.io/cases/compras-e-cotacoes/). |
 | [Postagem Redes](https://github.com/Mayconxzdev/PostagemRedes) | Prepara conteúdo a partir de contexto aprovado e mantém a revisão humana antes da publicação. |
 | [Central ISO](https://github.com/Mayconxzdev/Central-ISO) | Facilita a consulta de documentos e informações ligados a processos da Qualidade. |
 
-Também desenvolvi um [tradutor documental para Word e ODT](https://mayconxzdev.github.io/cases/tradutor-documental/), usado internamente para preparar materiais técnicos em português e inglês, e uma ferramenta de [propostas comerciais](https://mayconxzdev.github.io/cases/vesper-propostas/) que reúne modelos, documentos, revisão e envio. O [Scanner de documentos](https://mayconxzdev.github.io/cases/scanner-documentos/) mostra outra automação de rotina administrativa.
+Também desenvolvi um [tradutor documental para Word e ODT](https://mayconxzdev.github.io/cases/tradutor-documental/), usado internamente para preparar materiais técnicos em português e inglês, e uma ferramenta de [propostas comerciais](https://mayconxzdev.github.io/cases/proposta-comercial/) que reúne modelos, documentos, revisão e envio. O [Scanner de documentos](https://mayconxzdev.github.io/cases/scanner-documentos/) mostra outra automação de rotina administrativa.
 
 Em uma colaboração independente da minha função atual, trabalho com um parceiro desde a concepção de uma plataforma SaaS B2B multiempresa usada por empresas. Participamos dos fluxos do produto, permissões e isolamento das informações de cada organização.
 

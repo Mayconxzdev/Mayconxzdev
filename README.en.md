@@ -24,11 +24,11 @@ I talk with the people doing the work, learn how the process runs and build auto
 | --- | --- |
 | [Belarc Inventory](https://github.com/Mayconxzdev/Belarc-Inventory) | Brings together computer inventory and context that helps IT support. |
 | [Production Operations](https://github.com/Mayconxzdev/ProducaoOperacional) | Organizes production orders and helps office and factory teams follow the work. |
-| [ComprasVesper](https://github.com/Mayconxzdev/ComprasProducao) | Supports the procurement quotation and follow-up routine. |
+| [Purchasing and Quotes](https://github.com/Mayconxzdev/ComprasProducao) | Supports supplier quotations and purchase follow-up. [See the case](https://mayconxzdev.github.io/en/cases/purchasing-and-quotes/). |
 | [Social Publishing](https://github.com/Mayconxzdev/PostagemRedes) | Prepares content from approved context, with human review before publication. |
 | [Central ISO](https://github.com/Mayconxzdev/Central-ISO) | Makes documents and information related to Quality processes easier to consult. |
 
-I also built an [offline document translator](https://mayconxzdev.github.io/en/cases/offline-document-translator/) for Word and ODT, used internally to prepare technical material in Portuguese and English, and a [commercial proposal tool](https://mayconxzdev.github.io/en/cases/vesper-propostas/) that brings templates, documents, review and sending together. The [tablet document scanner](https://mayconxzdev.github.io/en/cases/tablet-document-scanner/) shows another way I automate an administrative routine.
+I also built an [offline document translator](https://mayconxzdev.github.io/en/cases/offline-document-translator/) for Word and ODT, used internally to prepare technical material in Portuguese and English, and a [commercial proposal tool](https://mayconxzdev.github.io/en/cases/commercial-proposal/) that brings templates, documents, review and sending together. The [tablet document scanner](https://mayconxzdev.github.io/en/cases/tablet-document-scanner/) shows another way I automate an administrative routine.
 
 In a collaboration independent of my current role, I work with a partner on a B2B multi-company SaaS platform from its early design. The platform is used by businesses, and we work on product workflows, permissions and data isolation for each organization.
 
