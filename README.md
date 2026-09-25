@@ -30,7 +30,7 @@ Converso com quem faz o trabalho, entendo o processo e construo automações e s
 
 Também desenvolvi um [tradutor documental para Word e ODT](https://mayconxzdev.github.io/cases/tradutor-documental/), usado internamente para preparar materiais técnicos em português e inglês, e uma ferramenta de [propostas comerciais](https://mayconxzdev.github.io/cases/proposta-comercial/) que reúne modelos, documentos, revisão e envio. O [Scanner de documentos](https://mayconxzdev.github.io/cases/scanner-documentos/) mostra outra automação de rotina administrativa.
 
-Em uma colaboração independente da minha função atual, trabalho com um parceiro desde a concepção de uma plataforma SaaS B2B multiempresa usada por empresas. Participamos dos fluxos do produto, permissões e isolamento das informações de cada organização.
+Em uma colaboração independente da minha função atual, trabalho com um parceiro desde a concepção de uma plataforma SaaS B2B multiempresa. Participamos dos fluxos do produto, permissões, isolamento das informações de cada organização e evolução das funcionalidades.
 
 ## Como trabalho
 
