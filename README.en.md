@@ -41,7 +41,7 @@ Generating code with AI is not the same as validating software. The goal is reli
 
 ## Resumes
 
-[**Browse all versions**](https://mayconxzdev.github.io/assets/cv/)
+[**Browse all versions (English)**](https://mayconxzdev.github.io/en/resumes/)
 
 - [General — Digital Solutions, Automation & Applied AI](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf) **(main)**
 - [General — Portuguese](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Solucoes_Digitais_Automacao_IA.pdf)
