@@ -2,51 +2,62 @@
 
 # Maycon Ferreira
 
-### Automação · IA aplicada · integrações
+### Soluções Digitais · Automação de Processos · IA Aplicada
 
-**Analista de Automação e IA**
+**Transformo problemas de operações, TI e comunicação em soluções digitais utilizáveis.**
 
-Converso com quem faz o trabalho, entendo o processo e construo automações e sistemas que ajudam as equipes no dia a dia. Trabalho principalmente com n8n, Power Automate, Python e APIs; também participo da operação de TI no ambiente industrial onde atuo.
+Conduzo projetos por **especificações, arquitetura e engenharia de contexto**. Utilizo agentes de IA para acelerar a implementação, mas mantenho responsabilidade técnica sobre requisitos, revisão de código, segurança, testes e entrega.
 
-[![Portfólio](https://img.shields.io/badge/PORTFÓLIO-CONHEÇA_MEUS_PROJETOS-111111?style=for-the-badge)](https://mayconxzdev.github.io/)
-[![Currículo](https://img.shields.io/badge/CURRÍCULO-PT--BR-2563EB?style=for-the-badge)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Analista_Automacao_IA_Integracoes.pdf)
+[![Portfólio](https://img.shields.io/badge/PORTFÓLIO-EXPLORAR_PROJETOS-17384F?style=for-the-badge)](https://mayconxzdev.github.io/)
+[![Currículo Geral](https://img.shields.io/badge/CURRÍCULO-GERAL_2026-087E86?style=for-the-badge)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Solucoes_Digitais_Automacao_IA.pdf)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-PERFIL-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maycon-ferreira-7bb870231/)
 
-`n8n` · `Power Automate` · `Python` · `APIs`
+`IA aplicada` · `Automação` · `Python / APIs` · `Sistemas internos` · `Web` · `Dados`
 
-[English README](README.en.md)
+[English version](README.en.md)
 
 </div>
 
-## Projetos
+## Projetos que mostram minha atuação
 
-| Projeto | O que resolve |
+| Projeto | Competência demonstrada |
 | --- | --- |
-| [Belarc Inventory](https://github.com/Mayconxzdev/Belarc-Inventory) | Reúne inventário de computadores e contexto útil para o atendimento de TI. |
-| [Produção Operacional](https://github.com/Mayconxzdev/ProducaoOperacional) | Organiza ordens e ajuda escritório e fábrica a acompanhar a produção. |
-| [Compras e Cotações](https://github.com/Mayconxzdev/ComprasProducao) | Apoia a rotina de cotações e acompanhamento de compras. [Veja o case](https://mayconxzdev.github.io/cases/compras-e-cotacoes/). |
-| [Postagem Redes](https://github.com/Mayconxzdev/PostagemRedes) | Prepara conteúdo a partir de contexto aprovado e mantém a revisão humana antes da publicação. |
-| [Central ISO](https://github.com/Mayconxzdev/Central-ISO) | Facilita a consulta de documentos e informações ligados a processos da Qualidade. |
+| [Produção Operacional](https://github.com/Mayconxzdev/ProducaoOperacional) | Sistema Windows para ordens, validação de importações e acompanhamento fabril; integração entre software e rotina real |
+| [Belarc Inventory](https://github.com/Mayconxzdev/Belarc-Inventory) | Co-desenvolvimento de sistema de inventário e suporte a computadores Windows |
+| [Manutenção em Campo](https://github.com/Mayconxzdev/ManutencaoEmCampo) | React, FastAPI, ordens, checklists, QR Code, histórico e evidências |
+| [Postagem Redes](https://github.com/Mayconxzdev/PostagemRedes) | IA aplicada a conteúdo, fontes verificáveis, integrações, aprovação humana e tratamento de falhas |
+| [Hubora](https://github.com/Mayconxzdev/Hubora) | Aplicação web/PWA apresentada como projeto final na Casa Firjan, na formação em IA e automações |
+| [Catálogo Operacional](https://github.com/Mayconxzdev/CatalogoOperacional) | Busca com SQLite FTS5, controle de revisão, concorrência e backups |
 
-Também desenvolvi um [tradutor documental para Word e ODT](https://mayconxzdev.github.io/cases/tradutor-documental/), usado internamente para preparar materiais técnicos em português e inglês, e uma ferramenta de [propostas comerciais](https://mayconxzdev.github.io/cases/proposta-comercial/) que reúne modelos, documentos, revisão e envio. O [Scanner de documentos](https://mayconxzdev.github.io/cases/scanner-documentos/) mostra outra automação de rotina administrativa.
+Também desenvolvo sites e catálogos institucionais publicados para [Vesper](https://vesper.ind.br/) e [Vent Rio](https://www.ventrio.ind.br/), produção/edição de conteúdo audiovisual técnico com IA e soluções de propostas e tradução de documentos. Há mais contextos no [portfólio](https://mayconxzdev.github.io/).
 
-Em uma colaboração independente da minha função atual, trabalho com um parceiro desde a concepção de uma plataforma SaaS B2B multiempresa. Participamos dos fluxos do produto, permissões, isolamento das informações de cada organização e evolução das funcionalidades.
+## Como conduzo projetos com IA
 
-## Como trabalho
+- **Antes da implementação:** requisitos, regras de negócio, arquitetura, contratos de dados, especificações versionadas e critérios de aceitação.
+- **Durante a execução:** engenharia de contexto, planejamento por etapas e agentes supervisionados para desenvolvimento e automação.
+- **Antes da entrega:** revisão de diffs, validação de lógica e segurança, testes, documentação, implantação e feedback de usuários.
 
-Entendo as regras e exceções com as pessoas que usam o processo, procuro a forma mais simples de resolver o problema e acompanho a implantação. Quando uma necessidade se repete, busco transformá-la em uma automação ou ferramenta que a equipe consiga usar e manter.
+Não trato geração de código por IA como validação técnica. O objetivo é entregar soluções verificáveis e sustentáveis, e não depender de uma tecnologia específica.
 
-Minha experiência complementar inclui suporte a usuários e sistemas internos, Power BI e Power Query, integração de dados, AWS em projetos práticos anteriores e desenvolvimento de aplicações Windows. Os projetos mostram o contexto e o que foi construído em cada caso.
+## Currículos por área
 
-## Currículos
+[**Ver e escolher todas as versões**](https://mayconxzdev.github.io/assets/cv/)
 
-- [Geral — Automação e IA (PT-BR)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Analista_Automacao_IA_Integracoes.pdf)
-- [Automação e IA (PT-BR)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Automacao_IA_n8n_Python_LLMs.pdf)
-- [Automação e BI (PT-BR)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Automacao_BI_Power_Automate_Power_BI.pdf)
-- [General resume (EN)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf)
+- [Geral — Soluções Digitais, Automação e IA](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Solucoes_Digitais_Automacao_IA.pdf) **(principal)**
+- [Automação e Integrações](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Automacao_Integracoes.pdf)
+- [Sistemas e Backend](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Sistemas_Backend.pdf)
+- [Web e Produtos Digitais](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Web_Produtos_Digitais.pdf)
+- [IA Aplicada e Agentes MCP](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_IA_Agentes_MCP.pdf)
+- [Dados e BI](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Dados_BI.pdf)
+- [Conteúdo Digital e Vídeo com IA](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Conteudo_Video_IA.pdf)
+- [General Resume (English)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf)
 
-## Formação
+## Experiência e formação
 
-Tecnólogo em Análise e Desenvolvimento de Sistemas — UNISUAM, conclusão prevista para dezembro de 2026. Experiência prática anterior em dados e cloud pela Compass UOL. Português nativo; inglês com leitura técnica intermediária e escrita e conversação básicas.
+Atuo na **Vesper Equipamentos EX** como Técnico Júnior em Automação de Processos, com soluções para TI, produção, processos e comunicação.
 
-Desde outubro de 2024, também atuo como **Instrutor de Informática Freelancer**, com aulas pagas para pessoas de diferentes idades e níveis de experiência.
+Na **Compass UOL (out/2024–mar/2025)**, participei de estágio/formação prática em Engenharia de Dados, construindo pipeline AWS com S3, Lambda, Glue/PySpark, Athena e dashboard QuickSight. Também atuei na VemSer com informática e ofereço aulas particulares de informática.
+
+**ADS na UNISUAM** (conclusão prevista: dez/2026) · **Piscine 42 Rio** · **Microsoft Applied Skills** em agentes Foundry, MCP e Power Apps · **SENAI Casa Firjan** (IA, agentes e automações).
+
+Português nativo · Inglês com leitura técnica intermediária e conversação básica.
