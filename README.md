@@ -2,61 +2,57 @@
 
 # Maycon Ferreira
 
-### Sistemas · Automação · Integrações · IA aplicada
+### Engenharia de software · Integrações · Agentes de IA (em evolução)
 
-**Desenvolvo sistemas e automações para problemas de operação, suporte e conteúdo.**
+**Desenvolvo software para problemas reais e investigo como construir sistemas de IA mais confiáveis.**
 
-Trabalho com Python, APIs, dados e produtos web. Uso ferramentas de IA quando ajudam no desenvolvimento ou no fluxo, e continuo responsável por entender o requisito, revisar a solução e conferir o resultado.
+Tenho experiência prática com aplicações implantadas, automações, APIs e sistemas locais. Minha especialização em desenvolvimento é **engenharia de sistemas com IA e agentes**, com foco em integração, testes, rastreabilidade e controle de execução.
 
-[Portfólio](https://mayconxzdev.github.io/) · [LinkedIn](https://www.linkedin.com/in/maycon-ferreira-7bb870231/) · [Currículos](https://mayconxzdev.github.io/assets/cv/)
+[Portfólio](https://mayconxzdev.github.io/) · [LinkedIn](https://www.linkedin.com/in/maycon-ferreira-7bb870231/) · [Currículos existentes](https://mayconxzdev.github.io/assets/cv/)
 
-`Python` · `APIs` · `n8n` · `SQL/SQLite` · `Web` · `MCP`
-
-[English](README.en.md)
+`Python` · `Rust` · `TypeScript` · `APIs` · `SQLite/SQL` · `Docker` · `n8n` · `MCP`
 
 </div>
 
-## Projetos selecionados
+## Trabalhos com evidências
 
-| Projeto | O que mostra |
-|---|---|
-| [Produção Operacional](https://github.com/Mayconxzdev/ProducaoOperacional) | Aplicação interna para ordens de produção, importação validada e acompanhamento em TV. |
-| [Manutenção em Campo](https://github.com/Mayconxzdev/ManutencaoEmCampo) | Fluxo de inspeções por ativo, checklists, QR e histórico; demo pública usa dados fictícios. |
-| [Mala Direta](https://github.com/Mayconxzdev/MalaDireta) | Preparação de campanhas sob demanda, com revisão, fila, tratamento de falhas e registro. |
-| [Engenharia de Dados · Compass UOL](https://github.com/Mayconxzdev/Estagio-CompassUOL) | Experiência de estágio/formação prática com ingestão, AWS Glue/PySpark, Athena e QuickSight. |
-| [Hubora](https://github.com/Mayconxzdev/Hubora) | Produto pessoal web/PWA para descobrir e organizar conteúdos. |
-| [Belarc Inventory](https://github.com/Mayconxzdev/Belarc-Inventory) | Co-desenvolvimento com Diogo Rodrigues de inventário de computadores e acompanhamento de suporte. |
+| Trabalho | Evidência pública | Papel e estado |
+| --- | --- | --- |
+| **[Belarc Inventory](https://github.com/Mayconxzdev/Belarc-Inventory)** | Agente Windows, servidor central, inventário contínuo, chamados e histórico operacional. | Desenvolvido em colaboração com **Diogo Rodrigues**; documentado como sistema em uso interno. |
+| **[Produção Operacional](https://github.com/Mayconxzdev/ProducaoOperacional)** | Aplicação Windows, importação revisável, cache e painel TV. O repositório documenta implantação em **10+ computadores e 1 TV**, atendendo **20+ pessoas em 9 setores**. | Arquitetura, implementação, implantação, treinamento e sustentação. |
+| **[CarreiraPessoal](https://github.com/Mayconxzdev/CarreiraPessoal)** | Aplicação local-first com controles determinísticos de direção profissional, verificação de evidências e revisão humana; demo pública reproduzível. | Produto pessoal em uso. A versão integral documenta **283 testes**; o repositório público contém uma edição sanitizada, não o código completo. |
+| **[Mala Direta](https://github.com/Mayconxzdev/MalaDireta)** | Fila por destinatário, deduplicação, cancelamento revalidado, tratamento de erros e histórico auditável. | Automação documentada para operação interna, com exportação pública sanitizada. |
 
-Também desenvolvi sites para [Vesper](https://vesper.ind.br/) e [Vent Rio](https://www.ventrio.ind.br/), e um site freelance para [ZERO21FOTOS](https://zero21fotos.com.br/). O portfólio reúne mais contexto e limitações de cada trabalho.
+[Ver estudos de caso e outros projetos](https://mayconxzdev.github.io/)
 
-### Experimentos e projetos em desenvolvimento
+## Engenharia de agentes: área em aprofundamento
 
-- [Postagem Redes](https://github.com/Mayconxzdev/PostagemRedes): experimento concluído com n8n, APIs, RAG e revisão humana; não é uma operação ativa.
-- VideoMind: ferramenta pessoal em desenvolvimento para operar uma infraestrutura de edição com apoio de agentes; as saídas continuam sob revisão.
-- ArsenalMind: catálogo de ferramentas MCP local; não tem uma interface gráfica pública.
+Uso agentes de programação e ferramentas MCP em fluxos de desenvolvimento e investigação técnica. No **ArsenalMind** (ambiente local de experimentação), exploro descoberta de ferramentas e práticas de análise crítica e verificação de entregas. O trabalho é **experimental/local**, não deve ser confundido com uma plataforma pública ou com agentes de IA em produção na empresa.
 
-## Como trabalho com IA
+Próximos critérios de aprofundamento:
+- **Execução verificável:** condições de sucesso, estado final e testes de regressão;
+- **Confiabilidade:** recuperação de falhas, logs, tracing e limites de execução;
+- **Segurança:** permissões mínimas, aprovação humana e isolamento;
+- **Medição:** taxa de conclusão, latência, custo e falhas em cenários reproduzíveis.
 
-- Entendo o processo e descrevo entradas, regras, saídas e exceções.
-- Especifico o fluxo e as integrações antes de escolher a ferramenta.
-- Uso agentes e ferramentas de IA para acelerar etapas que consigo revisar.
-- Testo casos normais e falhas, documento decisões e verifico a saída antes de considerar o trabalho concluído.
+## Como avalio uma solução
 
-IA ajuda na implementação; a responsabilidade por requisitos, código e validação continua comigo.
+1. Entendo o problema, o usuário e as regras antes de escolher a tecnologia.
+2. Separo o que é automação determinística do que realmente precisa de IA.
+3. Especifico entradas, exceções, permissões e critérios de aceite.
+4. Uso IA para acelerar a implementação, revisando a arquitetura e o código.
+5. Testo fluxos reais, falhas e limites; documento o que ainda não foi validado.
 
-## Currículos
-
-- [Geral — sistemas, automação e IA aplicada (PT-BR)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Geral_Automacao_IA_PT.pdf)
-- [Desenvolvimento e automação com IA (PT-BR)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Agentes_Automacao_n8n_PT.pdf)
-- [Produtos digitais e conteúdo com IA (PT-BR)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Produtos_Conteudo_IA_PT.pdf)
-- [Systems, Automation & Applied AI (English)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_General_Automation_AI_EN.pdf)
-- [Development & AI Automation (English)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Agents_Automation_n8n_EN.pdf)
-- [AI-enabled Digital Products & Content (English)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Digital_Products_Content_EN.pdf)
+**Uma demo não equivale a produção.** Diferencio implantação real, demonstração com dados fictícios e investigação experimental.
 
 ## Experiência e formação
 
-Atuo como **Técnico Júnior em Automação de Processos** na Vesper Equipamentos EX. Na Compass UOL, participei de estágio/formação prática em Engenharia de Dados de outubro de 2024 a março de 2025. Também trabalhei com suporte de informática e dou aulas particulares de informática.
+- **Vesper Equipamentos EX** — Técnico Júnior em Automação de Processos (desde janeiro de 2026).
+- **Compass UOL** — estágio/formação prática em Engenharia de Dados e AWS (outubro de 2024 a março de 2025).
+- **Instrutoria freelancer** — aulas particulares de informática e ferramentas digitais.
+- **UNISUAM** — Tecnólogo em Análise e Desenvolvimento de Sistemas (conclusão prevista: dezembro de 2026); experiência complementar na **42 Rio**.
 
-Tecnólogo em Análise e Desenvolvimento de Sistemas na **UNISUAM**, com conclusão prevista para dezembro de 2026. Formação complementar inclui a 42 Rio, Microsoft Applied Skills e cursos de IA, agentes e automação.
+**Idiomas:** português nativo; inglês com leitura técnica intermediária e conversação/escrita em desenvolvimento.
 
-Português nativo · Inglês: leitura técnica intermediária; escrita e conversação básicas.
+[GitHub](https://github.com/Mayconxzdev) · [Portfólio](https://mayconxzdev.github.io/) · [LinkedIn](https://www.linkedin.com/in/maycon-ferreira-7bb870231/)
+
