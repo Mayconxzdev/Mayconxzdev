@@ -12,7 +12,7 @@ Hoje meu foco é **engenharia de software e sistemas de IA**, principalmente int
 
 | Projeto | Por que fiz e o que desenvolvi |
 | --- | --- |
-| **[ArsenalMind Universal](cases/ARSENALMIND.md)** | Criei para ajudar meus agentes a descobrir e comparar tecnologias, em vez de repetir as mesmas sugestões. Reúne ferramentas MCP, radar de projetos e apoio à pesquisa. Usei essa estrutura na pesquisa técnica do Desapega AI. |
+| **[ArsenalMind Universal](cases/ARSENALMIND.md)** | Criei para ajudar meus agentes a descobrir e comparar tecnologias, em vez de repetir as mesmas sugestões. Reúne ferramentas MCP, radar de projetos e apoio à pesquisa. Usei essa estrutura na pesquisa técnica do Desapega AI. [Código e testes de um módulo](samples/arsenalmind-capability-watch/README.md). |
 | **[Desapega AI](cases/DESAPEGA.md)** | Fiz para ajudar meu irmão com revenda de produtos. Trabalhei com IA, Telegram, estado local, regras de preço e aprovações, além de integrações de publicação que ainda estou documentando por versão. |
 | **[Belarc Inventory](https://github.com/Mayconxzdev/Belarc-Inventory)** | Desenvolvi em parceria com **Diogo Rodrigues** um sistema de inventário e suporte para computadores Windows, com agente em Rust, servidor e portal de chamados. |
 | **[Produção Operacional](https://github.com/Mayconxzdev/ProducaoOperacional)** | Desenvolvi uma aplicação Windows para acompanhar ordens de produção, organizar importações e mostrar o andamento em uma TV. Participei também da instalação e do suporte ao uso. |
