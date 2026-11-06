@@ -1,48 +1,39 @@
-# Desapega AI — assistente de revenda com IA e regras comerciais
+# Desapega AI
 
-**Tipo:** projeto pessoal para ajudar um familiar que revende produtos.  
-**Direção técnica:** IA aplicada, integrações, estado persistente, validação determinística e supervisão humana (*human-in-the-loop*).  
-**Estado:** há componentes e testes locais; o vendedor relatou uso para sugestões de revenda e publicação de anúncios. **O mecanismo de publicação externa ainda não foi revalidado de forma independente**.
+**Assistente de revenda que fiz para meu irmão**
 
-[Voltar ao perfil](../README.md) · [ArsenalMind e pesquisa técnica](ARSENALMIND.md) · [Método de evidências](EVIDENCIAS.md)
+[Voltar ao perfil](../README.md) · [English](DESAPEGA.en.md) · [Como o ArsenalMind entrou na pesquisa](ARSENALMIND.md)
 
-## Problema e usuário
+## Por que fiz
 
-O vendedor precisava transformar fotos e descrições informais em anúncios, obter sugestões e lidar com possíveis negociações sem revelar seu preço mínimo nem assumir compromissos sem aprovação.
+Meu irmão revende produtos e boa parte do tempo dele ia para pesquisar preço, preparar anúncios e acompanhar interessados. Eu quis facilitar essa rotina sem criar um sistema complicado de usar.
 
-O projeto foi pensado para operar com uma conversa simples pelo Telegram e recursos locais no Windows, evitando um painel complexo como requisito para o usuário.
+A ideia foi trabalhar por conversa: ele envia informações do produto, pede sugestões de revenda e decide o que quer anunciar. Algumas ações podem ser automatizadas, mas preço mínimo, negociação e fechamento precisam continuar sob controle dele.
 
-## Componentes presentes no código examinado
+## O que desenvolvi
 
-| Camada | Responsabilidade |
-| --- | --- |
-| Interpretação assistida por IA | Apoio na leitura de pedidos e elaboração de sugestões; não é a fonte final de regras de negócio. |
-| Regras determinísticas | Validação de preços, restrições de negociação e confirmação de informações. |
-| Estado local | SQLite, filas e prevenção de processamento duplicado em cenários documentados. |
-| Aprovação humana | Decisões comerciais sensíveis devem depender do vendedor. |
-| Integrações | Telegram, extensões e conectores de marketplaces em **estágios diferentes de implementação**. |
+- **Python e SQLite** para manter produtos, estado das conversas e pendências.
+- **Telegram** como um dos canais de interação, sem depender de um painel complexo.
+- Regras de negócio fora do modelo de IA: limites de preço, condições de pagamento, confirmações e decisões sensíveis.
+- Tratamento de mensagens duplicadas, retomada de estado e testes de fluxos com dados fictícios.
+- Conectores e automações de navegador para publicação e acompanhamento, desenvolvidos em versões diferentes.
 
-## O que foi observado e o que ainda não foi comprovado
+Também usei o [ArsenalMind](ARSENALMIND.md) para pesquisar modelos locais, integração com serviços e riscos antes de definir parte das soluções.
 
-- **Código inspecionado:** módulos de segurança comercial e testes de jornada sintética; registros de oito casos marcados como aprovados.
-- **Relato do usuário:** o vendedor utilizou o sistema para pedir recomendações e publicar anúncios automaticamente.
-- **Documentação de versões:** arquivos mais antigos apontam canais de marketplace ainda assistidos ou bloqueados por autorização; alguns relatórios posteriores afirmam uma automação mais ampla.
-- **Pendente:** vincular a publicação relatada à versão/código exatos, verificar logs de confirmação da plataforma sem dados pessoais, confirmar conformidade com as regras de cada serviço e medir impacto real.
+## O que aconteceu na prática
 
-Não declaro vendas fechadas, economia de horas ou compatibilidade permanente com OLX/Facebook/Mercado Livre sem registros verificáveis.
+Meu irmão **já usou o sistema para pedir sugestões e publicar anúncios**. Ele relatou publicações automáticas nas plataformas, não apenas textos preparados para copiar.
 
-## Por que é um trabalho de engenharia
+O projeto, porém, passou por várias versões. Algumas documentações antigas ainda registram publicação assistida ou integrações não homologadas. Antes de apresentar essa publicação automática como funcionalidade estável, preciso relacionar os anúncios à versão exata, ao mecanismo usado e aos retornos das plataformas. Não vou divulgar sessões, mensagens de compradores ou contas para demonstrar isso.
 
-Há uma separação explícita entre **interpretação probabilística** e **execução de ações sujeitas a regras**. Isso permite testar limites de preço, recusas, estados de anúncio e aprovação sem depender apenas do texto gerado pelo modelo.
+Nos testes locais que examinei, há componentes de validação comercial e cenários de estado e negociação, mas eles não substituem uma homologação de todas as integrações externas.
 
-Há também trabalho de validação de idempotência, falhas e persistência. Os testes registrados **não equivalem à homologação de todas as integrações externas**.
+## Uma decisão importante
 
-## Relação com ArsenalMind
+Eu não quis deixar o modelo de IA decidir tudo. Ele ajuda a interpretar um pedido ou sugerir um anúncio; as restrições de preço e de negociação precisam ser verificadas por regras explícitas. Se uma ação pode comprometer o vendedor, ela deve exigir confirmação.
 
-O ArsenalMind foi utilizado para pesquisar alternativas de modelos locais e mecanismos de integração para o Desapega. O relatório interno datado de 30/10/2026 documenta essa pesquisa; isso é evidência de apoio à decisão, não de que o ArsenalMind publicou anúncios ou escreveu automaticamente todo o sistema.
+## O que ainda falta
 
-## Distribuição e privacidade
+Quero consolidar as versões que ficaram espalhadas, revisar integrações e permissões de cada plataforma e medir resultados concretos, como tempo gasto por anúncio ou propostas recebidas. Ainda não tenho esses números organizados e não declaro vendas concluídas automaticamente pelo robô.
 
-O código da instalação contém dados privados, arquivos de configuração e informações de sessão. **Não é disponibilizado aqui.** Qualquer demonstração pública deve ser independente, sem tokens, cookies, contas reais, mensagens de compradores ou automação que contorne regras de plataforma.
-
-Um case de uso real tem valor mesmo quando alguns recursos ainda precisam ser homologados — desde que essa distinção seja transparente.
+O código integral e as configurações da instalação não estão públicos porque existem sessões e dados pessoais envolvidos. Este case descreve o trabalho sem expor essas informações.
