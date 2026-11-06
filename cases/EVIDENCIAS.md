@@ -1,32 +1,18 @@
-# Política de evidências dos projetos
+# Como documento meus projetos
 
 [Voltar ao perfil](../README.md)
 
-Este perfil reúne trabalhos de objetivos e maturidades diferentes. Para não transformar volume de arquivos ou testes sintéticos em alegações de produto concluído, uso esta escala:
+Uso meus repositórios para mostrar o que fiz e, principalmente, o que uma pessoa consegue conferir por conta própria. Não trato teste passando como sinônimo de produto pronto.
 
-| Nível | O que significa | O que **não** prova |
-| --- | --- | --- |
-| **Declarado** | Há relato do autor, usuário ou README. | Execução independente. |
-| **Inspecionado** | Código, estrutura ou documentação foram examinados. | Que o fluxo funcione integralmente. |
-| **Testado** | Testes reproduzidos para um escopo específico. | Uso externo ou cobertura total. |
-| **Demonstrado** | Jornada completa realizada em ambiente controlado. | Operação em produção. |
-| **Uso relatado / documentado** | Há experiência com usuário real ou implantação descrita. | Impacto quantificado ou auditoria externa. |
-| **Impacto medido** | Métrica com origem, método e período verificáveis. | Generalização para outros contextos. |
+| Tipo | Como interpreto |
+| --- | --- |
+| **Declarado** | O README ou uma pessoa relata uma funcionalidade. Ainda preciso conferir sua execução. |
+| **Inspecionado** | Vi o código e entendi o fluxo, mas não necessariamente executei tudo. |
+| **Testado** | Rodei testes para condições específicas. |
+| **Demonstrado** | Consegui terminar a tarefa principal em um ambiente de teste. |
+| **Uso real** | Alguém utilizou a solução fora do desenvolvimento, com o nível de comprovação indicado. |
+| **Impacto medido** | Tenho números, período e método de medição. |
 
-## Proteção de dados e direitos
+Quando um trabalho tem coautoria, faço questão de indicar isso. Quando depende de recursos privados, uso demonstrações com dados fictícios, se houver autorização, em vez de publicar informações de clientes, sessões, tokens ou documentos internos.
 
-- Projetos profissionais podem ter limitações de propriedade intelectual, autorização e sigilo.
-- Não compartilho bases reais, configurações de infraestrutura, tokens, arquivos de sessão ou conversas de terceiros.
-- Demonstrações usam dados fictícios quando possível e devem ser distinguíveis de capturas de produção.
-- Relatórios de testes e documentação podem conter lacunas; uma suite verde não substitui o teste da tarefa final.
-- Repositórios com revisões de segurança pendentes não devem ser promovidos como sistemas seguros para internet pública.
-
-## Como avaliar meu trabalho
-
-1. Comece pelo problema real e minha contribuição individual.
-2. Consulte arquitetura e decisões difíceis.
-3. Execute testes ou demos explicitamente disponibilizados.
-4. Identifique as limitações publicadas.
-5. Em caso de coautoria, atribua os resultados à equipe, não apenas a mim.
-
-Essa política também orienta as revisões de README e os cases subsequentes.
+Se um projeto ainda está incompleto, prefiro explicar o que funciona e o que falta. É muito mais fácil conversar sobre uma decisão de engenharia real do que defender uma funcionalidade que só existe no README.
