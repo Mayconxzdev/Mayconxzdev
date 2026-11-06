@@ -1,0 +1,24 @@
+name: ArsenalMind sample (offline)
+
+on:
+  push:
+    paths:
+      - "samples/arsenalmind-capability-watch/**"
+      - ".github/workflows/arsenalmind-sample.yml"
+  pull_request:
+    paths:
+      - "samples/arsenalmind-capability-watch/**"
+      - ".github/workflows/arsenalmind-sample.yml"
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run offline Python tests
+        run: python -m unittest discover -s samples/arsenalmind-capability-watch/tests -p "test_*.py" -v
+      - name: Check CLI without network
+        run: python samples/arsenalmind-capability-watch/scripts/capability_watch.py doctor
