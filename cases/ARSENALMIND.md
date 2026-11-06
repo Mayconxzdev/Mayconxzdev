@@ -38,6 +38,10 @@ Esse é um exemplo real de **apoio à pesquisa e à decisão técnica**. Não te
 | Sem auto-instalação dos resultados | Evitar introduzir código desconhecido no computador apenas porque apareceu numa busca. |
 | Histórico de descobertas | Conseguir voltar a uma alternativa e entender por que ela foi considerada. |
 
+## Um módulo que dá para executar
+
+Publiquei o [Capability Watch](../samples/arsenalmind-capability-watch/README.md), um recorte real do radar com testes offline e instruções para reproduzir. Ele ajuda a entender a parte de coleta e histórico, mas não representa sozinho o ArsenalMind inteiro.
+
 ## Estado atual e o que quero validar melhor
 
 Uso o ArsenalMind localmente. A versão doméstica inclui o pacote 2.3.0, com runtime MCP 2.2.1 e módulos adicionais de radar e skills. Existem testes de componentes e registros de integração, mas ainda não publiquei um pacote independente que permita a qualquer pessoa reproduzir todo o fluxo de ponta a ponta.
