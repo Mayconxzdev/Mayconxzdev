@@ -1,53 +1,45 @@
-# ArsenalMind Universal — descoberta e avaliação de tecnologias para agentes
+# ArsenalMind Universal
 
-**Tipo:** ferramenta pessoal de desenvolvimento e pesquisa.  
-**Direção técnica:** MCP, descoberta de capacidades, developer tooling e critérios de verificação.  
-**Estado:** módulos locais existentes e testes documentados; **não** é um serviço SaaS nem um agente autônomo universal em produção.
+**Ferramentas MCP, pesquisa de tecnologias e seleção de capacidades para agentes**
 
-[Voltar ao perfil](../README.md) · [Aplicação relacionada: Desapega AI](DESAPEGA.md) · [Método de evidências](EVIDENCIAS.md)
+[Voltar ao perfil](../README.md) · [English](ARSENALMIND.en.md) · [Desapega AI](DESAPEGA.md)
 
-## Por que foi criado
+## Por que fiz
 
-Ferramentas, skills, modelos e repositórios mudam rapidamente. Eu queria que meus agentes não ficassem limitados a um catálogo antigo, nem escolhessem uma biblioteca só porque já a conheciam.
+Eu usava Codex e Antigravity para criar coisas muito diferentes e percebia um problema: os agentes tendiam a indicar ferramentas conhecidas mesmo quando talvez já existisse algo mais adequado. Como acompanho repositórios e lançamentos com frequência, queria reunir essa pesquisa em uma ferramenta que eu pudesse usar no dia a dia.
 
-O ArsenalMind reúne uma camada de ferramentas MCP, skills para pesquisa e revisão crítica e um radar tecnológico para levantar alternativas. Seu propósito é **ajudar na decisão de engenharia**, não instalar automaticamente qualquer novidade.
+Foi assim que comecei o ArsenalMind. A ideia não era montar um agente que fizesse tudo sozinho, e sim ajudar os agentes que já uso a **descobrir, comparar e selecionar recursos** com mais critério.
 
-## O que existe na instalação pessoal
+## O que construí
 
-- Runtime MCP em Node para diagnóstico, planejamento e descoberta de ferramentas; teste documentado de inicialização, listagem e chamadas.
-- **Tech Intelligence:** radar com registros e histórico local para fontes públicas, incluindo pesquisa em repositórios e documentação.
-- **Solution Scout:** busca de candidatos por problema, consulta a README/licenças/metadados e produção de shortlist com ressalvas.
-- Skills de descoberta, análise crítica e verificação de entregas, utilizadas como orientação de trabalho com Codex/Antigravity.
-- Política de **não confundir descoberta com aprovação**: candidatos são leads até passarem por análise, teste e decisão.
+A instalação que mantenho em casa reúne módulos que evoluíram em etapas:
 
-As verificações documentadas são de diferentes datas e camadas. Por exemplo, há testes isolados de MCP e suítes de scripts; o registro de 208 leads em uma execução do radar **não significa 208 soluções testadas**. Configuração em IDE também não comprova uso de todas as funcionalidades em execução ponta a ponta.
+- **Servidor MCP:** ferramentas de diagnóstico, descoberta e planejamento acessíveis por clientes compatíveis.
+- **Tech Intelligence:** um radar para consultar fontes públicas e manter histórico de descobertas.
+- **Solution Scout:** pesquisa repositórios e documentação para montar listas de alternativas relacionadas a uma tarefa.
+- **Skills:** instruções reutilizáveis para descoberta, revisão crítica e verificação de entregas.
 
-## Aplicação concreta: Desapega AI
+Separei **encontrar uma ferramenta** de **aprovar seu uso**. O radar pode descobrir um projeto promissor, mas isso não comprova que ele funciona bem ou que pode ser instalado com segurança.
 
-Em **30/10/2026**, usei as ferramentas MCP do ArsenalMind e scripts de descoberta em pesquisa para o Desapega AI. O registro local `PESQUISA_ARSENALMIND_MODELOS_20261030.md` descreve:
+## Onde já usei: Desapega AI
 
-1. Pesquisa de alternativas de modelos locais e integrações de marketplaces.
-2. Comparação documental de custos, compatibilidade, licenças e riscos.
-3. Identificação de testes necessários em regras de preço, extensão de navegador e confirmação de publicações.
-4. Recomendação de validar regras comerciais por código determinístico e manter controles de aprovação humana.
+Em 30/10/2026, usei o ArsenalMind na pesquisa técnica do [Desapega AI](DESAPEGA.md), um assistente de revenda que fiz para meu irmão.
 
-**Escopo da evidência:** o ArsenalMind ajudou a pesquisar e planejar; a implementação do Desapega é um projeto separado. Essa execução não comprova melhoria quantitativa, uso continuado de cada skill em IDE nem homologação de todas as integrações externas.
+Pesquisei alternativas de modelos locais e possibilidades de integração, comparei requisitos e riscos e organizei pontos que precisariam ser testados. A partir daí, trabalhei no Desapega como um projeto próprio, com regras comerciais em código e etapas sujeitas à aprovação do vendedor.
 
-## Decisões de engenharia
+Esse é um exemplo real de **apoio à pesquisa e à decisão técnica**. Não tenho um benchmark mostrando quantas horas o ArsenalMind economizou nem posso dizer que ele escreveu ou colocou o Desapega em produção sozinho.
 
-| Decisão | Motivo / trade-off |
+## Algumas escolhas que fiz
+
+| Escolha | Motivo |
 | --- | --- |
-| MCP e skills separadas | Acesso a ferramentas de execução distinto das instruções de pesquisa. |
-| Fontes diversas e alternativas pouco populares | Reduz dependência de rankings, mas aumenta o volume de candidatos irrelevantes. |
-| Radar não instala automaticamente | Reduz riscos de supply chain e permissões excessivas. |
-| Estados de evidência separados | Resultado de busca não vira afirmação de ferramenta funcional. |
-| Plano não é execução | Arquiteturas propostas requerem implementação e testes próprios. |
+| MCP e skills separados | Uma coisa é executar ferramentas; outra é orientar a pesquisa e a revisão. |
+| Fontes variadas | Não depender apenas de repositórios populares, mas também não recomendar novidade sem avaliar. |
+| Sem auto-instalação dos resultados | Evitar introduzir código desconhecido no computador apenas porque apareceu numa busca. |
+| Histórico de descobertas | Conseguir voltar a uma alternativa e entender por que ela foi considerada. |
 
-## Limitações e próximos critérios de comprovação
+## Estado atual e o que quero validar melhor
 
-- Não há benchmark independente demonstrando que a ferramenta melhora qualidade/tempo de entrega em comparação a agentes sem ArsenalMind.
-- Parte das integrações foi validada em subprocessos, não em cenários completos dentro de cada IDE.
-- A escolha final de bibliotecas ainda depende de revisão humana de licença, riscos e compatibilidade.
-- O código integral é local e não está disponibilizado neste repositório; **este estudo de caso não substitui uma demonstração reproduzível**.
+Uso o ArsenalMind localmente. A versão doméstica inclui o pacote 2.3.0, com runtime MCP 2.2.1 e módulos adicionais de radar e skills. Existem testes de componentes e registros de integração, mas ainda não publiquei um pacote independente que permita a qualquer pessoa reproduzir todo o fluxo de ponta a ponta.
 
-**Próxima demonstração ideal:** mesma tarefa de pesquisa e implementação com e sem ArsenalMind, com critérios pré-registrados, ferramentas escolhidas, justificativas, tempo e resultado funcional comparável. Publicar somente fixtures sintéticas, código autorizado e logs sanitizados.
+O próximo teste que quero fazer é simples: dar a mesma tarefa de pesquisa e implementação a um agente **com e sem ArsenalMind**, comparar as escolhas, verificar o resultado final e repetir o experimento. Isso é mais útil do que anunciar que a ferramenta encontrou centenas de repositórios.
