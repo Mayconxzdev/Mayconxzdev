@@ -8,10 +8,18 @@ from __future__ import annotations
 import argparse, datetime as dt, html, json, os, re, sqlite3, sys, time
 from pathlib import Path
 from urllib.parse import urlencode, urlparse
-from urllib.request import Request, urlopen
+from urllib.request import Request, build_opener, HTTPRedirectHandler
 from urllib.error import HTTPError, URLError
 
 UA='ArsenalMind-CapabilityWatch/2.3 (metadata-only; no-auto-install)'
+ALLOWED_HOSTS=('api.github.com','hn.algolia.com')
+
+class RestrictedRedirectHandler(HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        dest=urlparse(newurl)
+        if dest.scheme!='https' or dest.hostname not in ALLOWED_HOSTS:
+            raise ValueError('Redirect fora das fontes permitidas')
+        return super().redirect_request(req,fp,code,msg,headers,newurl)
 SEEDS=["agent skills", "AI agent quality assurance", "MCP tools", "software engineering automation", "AI evaluation", "agent security", "open source creative tools", "developer productivity", "workflow orchestration", "accessibility testing", "AI video generation", "agent interoperability", "data quality", "computer use agents"]
 CUTOFF_DAYS=14
 
@@ -22,9 +30,10 @@ def data_home():
     return Path(os.environ.get('XDG_STATE_HOME',str(Path.home()/'.local'/'state')))/'arsenalmind'/'capability-watch'
 
 def fetch(url,timeout=9):
-    if urlparse(url).hostname not in ('api.github.com','hn.algolia.com'): raise ValueError('Host nao permitido')
+    parsed=urlparse(url)
+    if parsed.scheme!='https' or parsed.hostname not in ALLOWED_HOSTS: raise ValueError('Host nao permitido')
     req=Request(url,headers={'User-Agent':UA,'Accept':'application/json'})
-    with urlopen(req,timeout=timeout) as res:
+    with build_opener(RestrictedRedirectHandler()).open(req,timeout=timeout) as res:
         size=min(1_000_000,int(res.headers.get('Content-Length','1000000') or '1000000'))
         raw=res.read(size+1)
         if len(raw)>1_000_000: raise ValueError('Resposta maior que limite')
