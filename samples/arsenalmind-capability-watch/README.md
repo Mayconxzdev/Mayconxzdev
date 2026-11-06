@@ -40,4 +40,4 @@ Este script **não é o servidor MCP completo**, não faz a seleção final para
 
 Também não fiz uma comparação A/B de desempenho dos agentes usando este módulo. Ele é um exemplo executável de como registro e filtro descobertas, não uma promessa de que a ferramenta encontra sempre a melhor alternativa.
 
-O código foi retirado do **ArsenalMind Kit 2.3.0**. Mantive a licença MIT do kit e os testes originais para permitir a avaliação independente.
+O código foi retirado do **ArsenalMind Kit 2.3.0** e recebeu uma proteção adicional para impedir redirecionamentos HTTP para hosts fora da lista permitida. Mantive a licença MIT do kit e os testes originais para permitir a avaliação independente.
