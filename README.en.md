@@ -12,7 +12,7 @@ My current direction is **software and AI systems engineering**, particularly in
 
 | Project | Why I built it and my contribution |
 | --- | --- |
-| **[ArsenalMind Universal](cases/ARSENALMIND.en.md)** | I wanted my coding agents to discover and compare current tools instead of recycling the same suggestions. I built MCP tooling and technology research workflows; I used them while researching Desapega AI. |
+| **[ArsenalMind Universal](cases/ARSENALMIND.en.md)** | I wanted my coding agents to discover and compare current tools instead of recycling the same suggestions. I built MCP tooling and technology research workflows; I used them while researching Desapega AI. [Runnable module and offline tests](samples/arsenalmind-capability-watch/README.md). |
 | **[Desapega AI](cases/DESAPEGA.en.md)** | I built a resale assistant for my brother, combining AI, Telegram, persistent state, price rules, human approvals and marketplace integrations at different stages of verification. |
 | **[Belarc Inventory](https://github.com/Mayconxzdev/Belarc-Inventory)** | Co-developed with **Diogo Rodrigues**: Windows inventory and support tooling with a Rust agent, server and ticket portal. |
 | **[Production Operations](https://github.com/Mayconxzdev/ProducaoOperacional)** | Built a Windows application for tracking production orders, importing data and keeping a shared TV display up to date; also worked on deployment and support. |
