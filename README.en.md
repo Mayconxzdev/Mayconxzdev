@@ -2,61 +2,41 @@
 
 # Maycon Ferreira
 
-### Systems · Automation · Integrations · Applied AI
+### Software Engineering · Applied AI · Agent Tooling
 
-**I build systems and automations for operational, support and content workflows.**
+**I build software and integrations for real-world problems, and explore how to make AI agents more useful, verifiable and safe.**
 
-I work with Python, APIs, data and web products. I use AI tools when they help with development or a workflow, and remain responsible for understanding the requirement, reviewing the solution and checking the result.
+[Portfolio (PT-BR)](https://mayconxzdev.github.io/) · [LinkedIn](https://www.linkedin.com/in/maycon-ferreira-7bb870231/) · [Português](README.md)
 
-[Portfolio (PT-BR)](https://mayconxzdev.github.io/) · [LinkedIn](https://www.linkedin.com/in/maycon-ferreira-7bb870231/) · [Resume catalog](https://mayconxzdev.github.io/assets/cv/)
-
-`Python` · `APIs` · `n8n` · `SQL/SQLite` · `Web` · `MCP`
-
-[Português](README.md)
+`Python` · `TypeScript` · `Rust` · `APIs` · `SQL / SQLite` · `MCP` · `n8n`
 
 </div>
 
-## Selected projects
+## Selected work
 
-| Project | What it shows |
-|---|---|
-| [Production Operations](https://github.com/Mayconxzdev/ProducaoOperacional) | Internal application for production orders, validated imports and a shared TV view. |
-| [Field Maintenance](https://github.com/Mayconxzdev/ManutencaoEmCampo) | Asset inspections, checklists, QR codes and history; the public demo uses fictional data. |
-| [Mala Direta](https://github.com/Mayconxzdev/MalaDireta) | On-demand campaign preparation with review, queues, error handling and records. |
-| [Data Engineering · Compass UOL](https://github.com/Mayconxzdev/Estagio-CompassUOL) | Internship/practical training with ingestion, AWS Glue/PySpark, Athena and QuickSight. |
-| [Hubora](https://github.com/Mayconxzdev/Hubora) | Personal web/PWA product for discovering and organizing media. |
-| [Belarc Inventory](https://github.com/Mayconxzdev/Belarc-Inventory) | Co-development with Diogo Rodrigues of a computer inventory and support tracking tool. |
+| Project | What I contributed | Evidence / status |
+| --- | --- | --- |
+| **[ArsenalMind Universal](cases/ARSENALMIND.md)** | Personal MCP tooling, technology discovery, capability selection, and research support for Codex/Antigravity. Used during **Desapega AI's technical research**. | [Technical case (PT-BR)](cases/ARSENALMIND.md); full local code is not public. |
+| **[Desapega AI](cases/DESAPEGA.md)** | Resale assistant, deterministic business-policy checks, local state, and human approval. | Reported use by a real seller; [case and limitations (PT-BR)](cases/DESAPEGA.md). |
+| **[Belarc Inventory](https://github.com/Mayconxzdev/Belarc-Inventory)** | Co-developed with **Diogo Rodrigues**: Windows agent, Rust server, device inventory, support workflow. | [Public sample and source](https://github.com/Mayconxzdev/Belarc-Inventory); LAN/VPN only. |
+| **[Produção Operacional](https://github.com/Mayconxzdev/ProducaoOperacional)** | Desktop app, data import, persistence, shared TV view, internal deployment support. | [Demo mode and source](https://github.com/Mayconxzdev/ProducaoOperacional). |
 
-I also developed websites for [Vesper](https://vesper.ind.br/) and [Vent Rio](https://www.ventrio.ind.br/), and a freelance site for [ZERO21FOTOS](https://zero21fotos.com.br/). The portfolio provides more context and project limits.
+**Additional work:** [Mala Direta](https://github.com/Mayconxzdev/MalaDireta) (queuing, deduplication, cancellation, audit), and [Compass UOL data engineering](https://github.com/Mayconxzdev/Estagio-CompassUOL) (AWS, ETL, PySpark; training project).
 
-### Experiments and work in progress
+## How these projects connect
 
-- [Postagem Redes](https://github.com/Mayconxzdev/PostagemRedes): completed experiment with n8n, APIs, RAG and human review; it is not an active operation.
-- VideoMind: personal tool in development to operate an editing infrastructure with agent assistance; outputs remain under review.
-- ArsenalMind: local MCP tool catalog; there is no public graphical interface.
+ArsenalMind helps me research and evaluate software capabilities instead of blindly adopting the newest tools. I used it while researching model and integration choices for **Desapega AI**. This does **not** mean ArsenalMind autonomously built Desapega or that it has proven measurable performance gains. The [case study](cases/ARSENALMIND.md) explains the scope.
 
-## How I work with AI
+## Engineering approach
 
-- I understand the workflow and describe its inputs, rules, outputs and exceptions.
-- I specify the process and integrations before choosing a tool.
-- I use AI agents and tools to accelerate steps I can review.
-- I test expected and failure paths, document decisions and check outputs before considering work complete.
+- Define requirements, risks and acceptance criteria before choosing tools.
+- Use AI coding agents to accelerate work while retaining responsibility for verification.
+- Use deterministic safeguards and human review for sensitive actions.
+- Distinguish implementation, automated tests, end-to-end use, reported adoption and measured impact.
+- Disclose limitations rather than presenting experiments as production systems.
 
-AI can help with implementation; responsibility for requirements, code and validation remains with me.
+**Background:** Junior Process Automation Technician since January 2026; data engineering practical training at Compass UOL (2024–2025); Systems Analysis and Development at UNISUAM and additional learning at 42 Rio.
 
-## Resumes
+**Career direction:** software engineering, applied AI, APIs, agent infrastructure and integration reliability. I do not claim senior-level autonomous agent operations without evidence.
 
-- [General — Systems, Automation & Applied AI (PT-BR)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Geral_Automacao_IA_PT.pdf)
-- [Development & AI Automation (PT-BR)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Agentes_Automacao_n8n_PT.pdf)
-- [Digital Products & AI Content (PT-BR)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_Produtos_Conteudo_IA_PT.pdf)
-- [Systems, Automation & Applied AI (English)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_General_Automation_AI_EN.pdf)
-- [Development & AI Automation (English)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Agents_Automation_n8n_EN.pdf)
-- [AI-enabled Digital Products & Content (English)](https://mayconxzdev.github.io/assets/cv/Maycon_Ferreira_AI_Digital_Products_Content_EN.pdf)
-
-## Experience and education
-
-I work as a **Junior Process Automation Technician** at Vesper Equipamentos EX. At Compass UOL, I completed a practical internship/training experience in Data Engineering from October 2024 to March 2025. I also have IT support experience and teach practical computer skills.
-
-I am pursuing a Technology Degree in Systems Analysis and Development at **UNISUAM**, with expected completion in December 2026. Additional learning includes 42 Rio, Microsoft Applied Skills and training in AI, agents and automation.
-
-Native Portuguese · English: intermediate technical reading; basic writing and speaking.
+[Evidence methodology (PT-BR)](cases/EVIDENCIAS.md) · [Portfolio](https://mayconxzdev.github.io/) · [LinkedIn](https://www.linkedin.com/in/maycon-ferreira-7bb870231/)

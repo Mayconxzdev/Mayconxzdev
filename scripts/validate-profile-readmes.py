@@ -1,73 +1,71 @@
+"""Validate the current professional profile contract (GitHub Part 1 / 2026-11).
+
+This check is deliberately based on *verifiable presentation*, not on the
+presence of obsolete job titles or old resume filenames.
+"""
 from pathlib import Path
+from urllib.parse import unquote, urlsplit
+import re
 
-profiles = {
-    "README.md": {
-        "required": [
-            "Sistemas · Automação · Integrações · IA aplicada",
-            "Técnico Júnior em Automação de Processos",
-            "Python", "APIs", "n8n", "MCP",
-            "Produção Operacional", "Manutenção em Campo",
-            "Engenharia de Dados", "Compass UOL", "Hubora",
-            "Belarc Inventory", "ZERO21FOTOS",
-            "Postagem Redes", "experimento concluído",
-            "Maycon_Ferreira_Geral_Automacao_IA_PT.pdf",
-            "Maycon_Ferreira_Agentes_Automacao_n8n_PT.pdf",
-            "Maycon_Ferreira_Produtos_Conteudo_IA_PT.pdf",
-            "Maycon_Ferreira_General_Automation_AI_EN.pdf",
-            "Maycon_Ferreira_AI_Agents_Automation_n8n_EN.pdf",
-            "Maycon_Ferreira_AI_Digital_Products_Content_EN.pdf",
-        ],
-        "stale": [
-            "Maycon_Ferreira_Analista_Automacao_IA_Integracoes.pdf",
-            "Maycon_Ferreira_Automacao_IA_n8n_Python_LLMs.pdf",
-            "Maycon_Ferreira_Automacao_BI_Power_Automate_Power_BI.pdf",
-            "Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf",
-            "10 mil+ execuções da Mala Direta",
-            "sênior em IA",
-        ],
-    },
-    "README.en.md": {
-        "required": [
-            "Systems · Automation · Integrations · Applied AI",
-            "Junior Process Automation Technician",
-            "Python", "APIs", "n8n", "MCP",
-            "Production Operations", "Field Maintenance",
-            "Data Engineering", "Compass UOL", "Hubora",
-            "Belarc Inventory", "ZERO21FOTOS",
-            "Postagem Redes", "completed experiment",
-            "Maycon_Ferreira_Geral_Automacao_IA_PT.pdf",
-            "Maycon_Ferreira_Agentes_Automacao_n8n_PT.pdf",
-            "Maycon_Ferreira_Produtos_Conteudo_IA_PT.pdf",
-            "Maycon_Ferreira_General_Automation_AI_EN.pdf",
-            "Maycon_Ferreira_AI_Agents_Automation_n8n_EN.pdf",
-            "Maycon_Ferreira_AI_Digital_Products_Content_EN.pdf",
-        ],
-        "stale": [
-            "Maycon_Ferreira_Analista_Automacao_IA_Integracoes.pdf",
-            "Maycon_Ferreira_Automacao_IA_n8n_Python_LLMs.pdf",
-            "Maycon_Ferreira_Automacao_BI_Power_Automate_Power_BI.pdf",
-            "Maycon_Ferreira_AI_Automation_Integrations_Analyst.pdf",
-            "10,000+ Mala Direta sends",
-            "senior AI engineer",
-        ],
-    },
+ROOT = Path(__file__).resolve().parent.parent
+REQUIRED = {
+    "README.md": [
+        "Engenharia de Software", "IA Aplicada", "ArsenalMind Universal",
+        "Desapega AI", "Belarc Inventory", "Produção Operacional",
+        "Compass UOL", "Técnico Júnior", "MCP", "LinkedIn",
+        "cases/EVIDENCIAS.md",
+    ],
+    "README.en.md": [
+        "Software Engineering", "Applied AI", "ArsenalMind Universal",
+        "Desapega AI", "Belarc Inventory", "Produção Operacional",
+        "Compass UOL", "Junior Process Automation Technician", "MCP",
+        "LinkedIn", "cases/EVIDENCIAS.md",
+    ],
+    "cases/ARSENALMIND.md": [
+        "Desapega AI", "não", "MCP", "30/10/2026",
+    ],
+    "cases/DESAPEGA.md": [
+        "regras comerciais", "supervisão", "não", "publicação",
+    ],
+    "cases/EVIDENCIAS.md": [
+        "Declarado", "Inspecionado", "Testado", "Impacto medido",
+    ],
 }
-
+FORBIDDEN = {
+    "README.md": [
+        "produto pessoal em uso", "sênior em IA",
+        "10 mil+ execuções da Mala Direta",
+    ],
+    "README.en.md": [
+        "senior AI engineer", "10,000+ Mala Direta sends",
+    ],
+}
+LINK_PATTERN = re.compile(r"(?<!!)\[[^\]]+\]\(([^)]+)\)")
 errors = []
-for filename, checks in profiles.items():
-    text = Path(filename).read_text(encoding="utf-8")
-    for phrase in checks["required"]:
-        if phrase not in text:
-            errors.append(f"{filename}: missing current fact or canonical PDF: {phrase}")
-    for phrase in checks["stale"]:
-        if phrase in text:
-            errors.append(f"{filename}: stale or unsupported wording: {phrase}")
-    for pdf in (phrase for phrase in checks["required"] if phrase.endswith(".pdf")):
-        if text.count(pdf) != 1:
-            errors.append(f"{filename}: expected one link for {pdf}")
+for filename, required in REQUIRED.items():
+    path = ROOT / filename
+    if not path.is_file():
+        errors.append(f"missing required profile document: {filename}")
+        continue
+    content = path.read_text(encoding="utf-8")
+    for token in required:
+        if token not in content:
+            errors.append(f"{filename}: missing selected-work evidence: {token}")
+    for token in FORBIDDEN.get(filename, []):
+        if token in content:
+            errors.append(f"{filename}: unsupported or stale claim: {token}")
+    for target in LINK_PATTERN.findall(content):
+        if target.startswith(("#", "https://", "http://", "mailto:")):
+            continue
+        ref = unquote(urlsplit(target).path)
+        dest = (path.parent / ref).resolve()
+        if not dest.is_relative_to(ROOT.resolve()):
+            errors.append(f"{filename}: relative link escapes repository: {target}")
+        elif not dest.exists():
+            errors.append(f"{filename}: broken relative link: {target}")
 
 if errors:
-    print("\n".join(f"ERROR: {error}" for error in errors))
+    print("\n".join(f"ERROR: {err}" for err in errors))
     raise SystemExit(1)
 
-print("Profile README proposals validated: current positioning, six canonical PDFs per language, no stale filenames.")
+print("Profile documentation validated: focus, cross-project cases, relative links and truthful claims.")
