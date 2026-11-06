@@ -1,7 +1,7 @@
 # Desapega AI — assistente de revenda com IA e regras comerciais
 
 **Tipo:** projeto pessoal para ajudar um familiar que revende produtos.  
-**Direção técnica:** IA aplicada, integrações, estado persistente, validação determinística e human-in-the-loop.  
+**Direção técnica:** IA aplicada, integrações, estado persistente, validação determinística e supervisão humana (*human-in-the-loop*).  
 **Estado:** há componentes e testes locais; o vendedor relatou uso para sugestões de revenda e publicação de anúncios. **O mecanismo de publicação externa ainda não foi revalidado de forma independente**.
 
 [Voltar ao perfil](../README.md) · [ArsenalMind e pesquisa técnica](ARSENALMIND.md) · [Método de evidências](EVIDENCIAS.md)
