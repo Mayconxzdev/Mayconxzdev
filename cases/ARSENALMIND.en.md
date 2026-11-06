@@ -25,6 +25,10 @@ On October 30, 2026, I used ArsenalMind to research local models and integration
 
 That is a real example of research support, **not** a claim that ArsenalMind wrote the project by itself or improved its performance by a measured percentage.
 
+## Runnable example
+
+I published the [Capability Watch module](../samples/arsenalmind-capability-watch/README.md) from my personal ArsenalMind kit. It includes the real metadata radar code and offline tests. It does not include the complete private MCP setup.
+
 ## Technical decisions
 
 I keep tool execution separate from reusable instructions, avoid automatically installing newly discovered code and retain research history so I can revisit decisions.
