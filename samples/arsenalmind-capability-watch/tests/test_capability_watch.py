@@ -29,6 +29,14 @@ class CapabilityWatchTests(unittest.TestCase):
   script=(ROOT/'scripts'/'capability_watch.py').read_text()
   self.assertNotIn('subprocess.run(',script)
   with self.assertRaises(ValueError): w.fetch('http://localhost/shell')
+ def test_redirect_cannot_leave_allowed_hosts(self):
+  from urllib.request import Request
+  handler=w.RestrictedRedirectHandler()
+  req=Request('https://api.github.com/search/repositories')
+  with self.assertRaises(ValueError):
+   handler.redirect_request(req,None,302,'found',{},'https://example.com/redirect')
+  with self.assertRaises(ValueError):
+   w.fetch('http://api.github.com/search/repositories')
  def test_evidence_metadata_only(self):
   with tempfile.TemporaryDirectory() as d:
    db=sqlite3.connect(Path(d)/'watch.sqlite');w.initdb(db)
