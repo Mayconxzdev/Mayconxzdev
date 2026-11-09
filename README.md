@@ -2,13 +2,13 @@
 
 **Engenharia de software · IA aplicada · ferramentas para agentes**
 
-Gosto de pegar um problema, entender como ele funciona e construir algo que as pessoas consigam usar. No trabalho, isso passa por sistemas, APIs, bancos de dados e automações. Nos projetos pessoais, venho explorando como agentes de IA podem pesquisar melhor, usar ferramentas e executar tarefas com mais controle.
+Desenvolvo software para rotinas em que informações e pessoas precisam trabalhar juntas. No trabalho, construo aplicações, APIs e automações para processos operacionais. Nos projetos pessoais, desenvolvo ferramentas para agentes de IA pesquisarem tecnologias, usarem recursos e verificarem o resultado.
 
-Hoje meu foco é **engenharia de software e sistemas de IA**, principalmente integrações, MCP, agentes e confiabilidade. Não fico preso a uma linguagem: uso Python, TypeScript, Rust, SQL e outras ferramentas conforme o problema.
+Hoje meu foco é **engenharia de software e sistemas de IA**, principalmente integrações, MCP, agentes e confiabilidade. Trabalho com Python, TypeScript, Rust e SQL, escolhendo a stack de acordo com os requisitos de cada projeto.
 
-[Portfólio](https://mayconxzdev.github.io/) · [LinkedIn](https://www.linkedin.com/in/maycon-ferreira-7bb870231/) · [English](README.en.md)
+[Portfólio](https://mayconxzdev.github.io/) · [Currículos PT/EN](https://mayconxzdev.github.io/assets/cv/) · [LinkedIn](https://www.linkedin.com/in/maycon-ferreira-7bb870231/) · [English](README.en.md)
 
-## Projetos que eu destacaria
+## Projetos selecionados
 
 | Projeto | Por que fiz e o que desenvolvi |
 | --- | --- |
@@ -19,17 +19,17 @@ Hoje meu foco é **engenharia de software e sistemas de IA**, principalmente int
 
 Outros trabalhos: **[Mala Direta](https://github.com/Mayconxzdev/MalaDireta)** (n8n, filas, deduplicação e cancelamento), **[Compass UOL](https://github.com/Mayconxzdev/Estagio-CompassUOL)** (pipeline de dados na AWS) e [demais repositórios](https://github.com/Mayconxzdev?tab=repositories).
 
-## Uma coisa que conecta meus projetos
+## ArsenalMind na prática
 
-O ArsenalMind começou como uma ferramenta para meu próprio dia a dia: todo dia aparece uma biblioteca, skill, modelo ou repositório novo, e eu queria comparar alternativas com mais critério.
+Criei o ArsenalMind para comparar bibliotecas, modelos e ferramentas que meus agentes poderiam usar. Registro as alternativas pesquisadas e os critérios de escolha.
 
-Quando comecei a desenvolver o **Desapega AI**, usei o ArsenalMind para pesquisar modelos locais, possibilidades de integração e riscos das automações. Foi apoio para tomar decisões; o ArsenalMind não criou o outro projeto sozinho. [Contei essa ligação com mais detalhes aqui](cases/ARSENALMIND.md).
+Quando comecei a desenvolver o **Desapega AI**, usei o ArsenalMind para pesquisar modelos locais, possibilidades de integração e riscos das automações. O ArsenalMind apoiou as decisões técnicas. A implementação do Desapega foi um trabalho separado. [Contei essa ligação com mais detalhes aqui](cases/ARSENALMIND.md).
 
 ## Como eu trabalho
 
 Normalmente começo pelo problema e pelas restrições. Depois pesquiso as opções, monto uma primeira versão, testo os caminhos principais e reviso o que não funcionou. Uso agentes de IA no desenvolvimento, mas continuo responsável por entender o resultado e decidir o que entra.
 
-Prefiro deixar claro quando algo ainda está em teste. Nem todo projeto meu virou produto final: **CarreiraPessoal** e **VideoMind**, por exemplo, ainda têm partes pendentes. Também não publico dados e arquivos de instalações privadas.
+Registro o estado de cada entrega e os testes disponíveis. **CarreiraPessoal** e **VideoMind** ainda têm partes pendentes. Dados e arquivos de instalações privadas ficam fora da publicação.
 
 ## Um pouco da minha trajetória
 
