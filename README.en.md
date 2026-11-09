@@ -2,11 +2,11 @@
 
 **Software engineering · Applied AI · Agent tooling**
 
-I like understanding how a problem works and building something people can actually use. At work that means software, APIs, databases and automation. In my personal projects I explore ways to help AI agents find better tools, make better decisions and execute tasks with more control.
+I build software for operational workflows where people need reliable access to information. My work includes applications, APIs and automation. In personal projects, I develop tools that help AI agents research technologies, use capabilities and check results.
 
-My current direction is **software and AI systems engineering**, particularly integrations, MCP, agents and reliability. I work with Python, TypeScript, Rust, SQL and whichever tool makes sense for the problem.
+My current direction is **software and AI systems engineering**, particularly integrations, MCP, agents and reliability. I use Python, TypeScript, Rust and SQL, selecting the stack based on each project's requirements.
 
-[Portfolio (PT-BR)](https://mayconxzdev.github.io/) · [LinkedIn](https://www.linkedin.com/in/maycon-ferreira-7bb870231/) · [Português](README.md)
+[Portfolio (PT-BR)](https://mayconxzdev.github.io/) · [Resumes PT/EN](https://mayconxzdev.github.io/assets/cv/) · [LinkedIn](https://www.linkedin.com/in/maycon-ferreira-7bb870231/) · [Português](README.md)
 
 ## Selected work
 
@@ -19,17 +19,17 @@ My current direction is **software and AI systems engineering**, particularly in
 
 Other work: [Mala Direta](https://github.com/Mayconxzdev/MalaDireta) (n8n, queues, deduplication and cancellation), [Compass UOL](https://github.com/Mayconxzdev/Estagio-CompassUOL) (AWS data pipeline) and [all repositories](https://github.com/Mayconxzdev?tab=repositories).
 
-## How the projects connect
+## ArsenalMind in practice
 
-I started ArsenalMind because new libraries, models and agent skills appear every day. I wanted to research and compare options instead of relying on whichever tool I already knew.
+I built ArsenalMind to compare libraries, models and tools my coding agents could use. It records candidates and supports technical selection.
 
-While building Desapega AI, I used ArsenalMind to research local models, integrations and automation risks. It helped me make technical decisions; it did **not** autonomously build Desapega. [Read the case](cases/ARSENALMIND.en.md).
+While building Desapega AI, I used ArsenalMind to research local models, integrations and automation risks. It informed technical decisions. I developed Desapega separately. [Read the case](cases/ARSENALMIND.en.md).
 
 ## How I work
 
 I start with the problem and constraints, compare approaches, build a working version, test the important paths and fix what did not work. AI coding agents help with implementation, but I remain responsible for the decisions and the result.
 
-I prefer to be clear about unfinished work. CarreiraPessoal and VideoMind, for example, are still in development. I also keep private deployment data out of public repositories.
+I document the current state of each project and the tests available. CarreiraPessoal and VideoMind still have unfinished parts. Private deployment data stays out of public repositories.
 
 ## Background
 
