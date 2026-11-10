@@ -27,7 +27,7 @@ Quando comecei a desenvolver o **Desapega AI**, usei o ArsenalMind para pesquisa
 
 ## Como eu trabalho
 
-Normalmente começo pelo problema e pelas restrições. Depois pesquiso as opções, monto uma primeira versão, testo os caminhos principais e reviso o que não funcionou. Uso agentes de IA no desenvolvimento, mas continuo responsável por entender o resultado e decidir o que entra.
+Normalmente começo pelo problema e pelas restrições. Pesquiso alternativas, desenvolvo um fluxo utilizável e verifico o resultado. Os agentes de IA ajudam na implementação, e eu reviso decisões, testes e comportamento. Já precisei identificar e corrigir uma cópia duplicada de banco criada durante o desenvolvimento assistido por IA.
 
 Registro o estado de cada entrega e os testes disponíveis. **CarreiraPessoal** e **VideoMind** ainda têm partes pendentes. Dados e arquivos de instalações privadas ficam fora da publicação.
 
@@ -37,4 +37,4 @@ Atuo como **Técnico Júnior em Automação de Processos** desde janeiro de 2026
 
 Estou buscando oportunidades em **software engineering, applied AI, integrações e agent tooling**. Os links dos projetos mostram meu trabalho, minhas decisões e o que já consegui colocar para funcionar.
 
-[Entrar em contato pelo LinkedIn](https://www.linkedin.com/in/maycon-ferreira-7bb870231/) · [Como documento e testo meus projetos](cases/EVIDENCIAS.md)
+[Entrar em contato pelo LinkedIn](https://www.linkedin.com/in/maycon-ferreira-7bb870231/) · [Como documento e testo meus projetos](cases/EVIDENCIAS.md) · [Demonstração guiada do ArsenalMind](cases/DEMO_ENTREVISTA.md) · [Preparação para entrevistas](cases/ENTREVISTAS.md)
