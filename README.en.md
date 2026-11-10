@@ -27,7 +27,7 @@ While building Desapega AI, I used ArsenalMind to research local models, integra
 
 ## How I work
 
-I start with the problem and constraints, compare approaches, build a working version, test the important paths and fix what did not work. AI coding agents help with implementation, but I remain responsible for the decisions and the result.
+I start with the problem and constraints, compare options, build a working flow and check the result. AI coding agents help with implementation; I review decisions, tests and behavior. I have also diagnosed and resolved a duplicate database copy introduced during AI-assisted development.
 
 I document the current state of each project and the tests available. CarreiraPessoal and VideoMind still have unfinished parts. Private deployment data stays out of public repositories.
 
@@ -37,4 +37,4 @@ I have worked as a **Junior Process Automation Technician** since January 2026. 
 
 I'm interested in **software engineering, applied AI, integrations and agent tooling** roles. I use my repositories to show what I've built, the decisions I made and what I have actually tested.
 
-[Contact me on LinkedIn](https://www.linkedin.com/in/maycon-ferreira-7bb870231/) · [Evidence and testing notes](cases/EVIDENCIAS.md)
+[Contact me on LinkedIn](https://www.linkedin.com/in/maycon-ferreira-7bb870231/) · [Evidence and testing notes](cases/EVIDENCIAS.md) · [ArsenalMind demonstration guide](cases/DEMO_ENTREVISTA.en.md) · [Interview preparation](cases/ENTREVISTAS.en.md)
