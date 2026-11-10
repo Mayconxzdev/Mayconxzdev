@@ -29,6 +29,8 @@ That is a real example of research support, **not** a claim that ArsenalMind wro
 
 I can demonstrate the complete ArsenalMind installation on my own computer, including capability research and an explanation of why a tool is suggested. The local arsenal-capability-router reports the difference between planned, mentioned and actually invoked capabilities during execution. **This is reported local behavior, not an independently published trace of the full stack.** I prepared a [demonstration guide](DEMO_ENTREVISTA.en.md) that focuses on reproducible calls, outputs, failed runs and privacy.
 
+[Observed MCP smoke test (November 10, 2026): 7/7 checks, 23 tools listed](ARSENALMIND_SMOKE_20261110.md). The result verifies selected server calls, not end-to-end agent quality.
+
 ## Runnable example
 
 I published the [Capability Watch module](../samples/arsenalmind-capability-watch/README.md) from my personal ArsenalMind kit. It includes the real metadata radar code and offline tests. It does not include the complete private MCP setup.

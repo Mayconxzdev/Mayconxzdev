@@ -42,6 +42,8 @@ Esse é um exemplo real de **apoio à pesquisa e à decisão técnica**. Não te
 
 Consigo demonstrar o ArsenalMind completo no meu ambiente local, incluindo descoberta de skills e a apresentação do motivo de selecionar uma ferramenta. O `arsenal-capability-router` diferencia capacidades planejadas, citadas e efetivamente invocadas nos relatórios que vejo durante a execução. **Essa é uma funcionalidade relatada e demonstrável localmente, mas não há uma captura independente de toda a jornada publicada.** Preparei um [roteiro de demonstração com evidências esperadas](DEMO_ENTREVISTA.md), sem expor dados de trabalho ou configurações privadas.
 
+[Teste MCP local observado em 10/11/2026: 7/7 checks, 23 ferramentas anunciadas](ARSENALMIND_SMOKE_20261110.md). O smoke test comprova algumas chamadas do servidor, mas não uma avaliação de qualidade de todos os agentes.
+
 ## Um módulo que dá para executar
 
 Publiquei o [Capability Watch](../samples/arsenalmind-capability-watch/README.md), um recorte real do radar com testes offline e instruções para reproduzir. Ele ajuda a entender a parte de coleta e histórico, mas não representa sozinho o ArsenalMind inteiro.
