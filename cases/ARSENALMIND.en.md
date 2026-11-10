@@ -25,6 +25,10 @@ On October 30, 2026, I used ArsenalMind to research local models and integration
 
 That is a real example of research support, **not** a claim that ArsenalMind wrote the project by itself or improved its performance by a measured percentage.
 
+## Full local demonstration and public subset
+
+I can demonstrate the complete ArsenalMind installation on my own computer, including capability research and an explanation of why a tool is suggested. The local arsenal-capability-router reports the difference between planned, mentioned and actually invoked capabilities during execution. **This is reported local behavior, not an independently published trace of the full stack.** I prepared a [demonstration guide](DEMO_ENTREVISTA.en.md) that focuses on reproducible calls, outputs, failed runs and privacy.
+
 ## Runnable example
 
 I published the [Capability Watch module](../samples/arsenalmind-capability-watch/README.md) from my personal ArsenalMind kit. It includes the real metadata radar code and offline tests. It does not include the complete private MCP setup.
