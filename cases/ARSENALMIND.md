@@ -38,6 +38,10 @@ Esse é um exemplo real de **apoio à pesquisa e à decisão técnica**. Não te
 | Sem auto-instalação dos resultados | Evitar introduzir código desconhecido no computador apenas porque apareceu numa busca. |
 | Histórico de descobertas | Conseguir voltar a uma alternativa e entender por que ela foi considerada. |
 
+## Demonstração completa e módulo público
+
+Consigo demonstrar o ArsenalMind completo no meu ambiente local, incluindo descoberta de skills e a apresentação do motivo de selecionar uma ferramenta. O `arsenal-capability-router` diferencia capacidades planejadas, citadas e efetivamente invocadas nos relatórios que vejo durante a execução. **Essa é uma funcionalidade relatada e demonstrável localmente, mas não há uma captura independente de toda a jornada publicada.** Preparei um [roteiro de demonstração com evidências esperadas](DEMO_ENTREVISTA.md), sem expor dados de trabalho ou configurações privadas.
+
 ## Um módulo que dá para executar
 
 Publiquei o [Capability Watch](../samples/arsenalmind-capability-watch/README.md), um recorte real do radar com testes offline e instruções para reproduzir. Ele ajuda a entender a parte de coleta e histórico, mas não representa sozinho o ArsenalMind inteiro.
