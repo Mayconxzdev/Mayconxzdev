@@ -27,6 +27,14 @@ O script iniciou o servidor MCP local via Node e enviou requisições JSON-RPC p
 
 **Limites:** este teste comprova conectividade e respostas de algumas ferramentas no runtime local observado. Não prova que cada uma das 23 ferramentas esteja funcional, que o kit inteiro foi testado, que o capability-router esteja ativo em todas as IDEs, que o agente escolheu a melhor skill ou que existem ganhos de desempenho mensurados. A instalação local e suas configurações completas não são publicadas aqui.
 
+## Segundo teste: módulo público em checkout limpo
+
+Além do servidor local, fiz um clone separado do repositório público e executei a suíte de testes offline do Capability Watch diretamente na pasta do módulo. O comando foi:
+
+    python -m unittest discover -s tests -v
+
+**Resultado observado:** 7 testes executados, 7 aprovados, duração relatada de 0,032 s. Os testes cobriram importação de metadados GitHub/Hacker News, ausência de auto-instalação, restrição de hosts/redirecionamentos, rejeição de segredos e cálculo temporal sem crescimento inventado. Não foi um teste de integração de todos os agentes nem um benchmark de desempenho.
+
 ## English summary
 
 On November 10, 2026, I ran the existing local MCP acceptance script on the authorised Windows computer. It launched the server over stdio, successfully completed initialize and tools/list, and invoked arsenalmind_plan and arsenalmind_health with successful responses. The script reported **23 listed tools and all 7 checks passing**. This is a directly observed local smoke test, not a public end-to-end benchmark or verification of all agent clients.
