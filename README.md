@@ -1,40 +1,45 @@
 # Maycon Ferreira
 
-**Engenharia de software · IA aplicada · ferramentas para agentes**
+**IA aplicada · Automação de processos · Produtos digitais · Criação audiovisual**
 
-Desenvolvo software para rotinas em que informações e pessoas precisam trabalhar juntas. No trabalho, construo aplicações, APIs e automações para processos operacionais. Nos projetos pessoais, desenvolvo ferramentas para agentes de IA pesquisarem tecnologias, usarem recursos e verificarem o resultado.
+Uso inteligência artificial para resolver problemas de operação, desenvolver produtos e produzir conteúdo visual. Trabalho como técnico júnior em automação de processos em ambiente industrial, acompanhando as demandas desde a conversa com os usuários até os testes e a implantação.
 
-Hoje meu foco é **engenharia de software e sistemas de IA**, principalmente integrações, MCP, agentes e confiabilidade. Trabalho com Python, TypeScript, Rust e SQL, escolhendo a stack de acordo com os requisitos de cada projeto.
+[Portfólio](https://mayconxzdev.github.io/) · [Currículos](https://mayconxzdev.github.io/curriculos/) · [LinkedIn](https://www.linkedin.com/in/maycon-ferreira-7bb870231/) · [English](README.en.md)
 
-[Portfólio](https://mayconxzdev.github.io/) · [Currículos PT/EN](https://mayconxzdev.github.io/assets/cv/) · [LinkedIn](https://www.linkedin.com/in/maycon-ferreira-7bb870231/) · [English](README.en.md)
+## Trabalhos selecionados
 
-## Projetos selecionados
-
-| Projeto | Por que fiz e o que desenvolvi |
+| Trabalho | O que entreguei |
 | --- | --- |
-| **[ArsenalMind Universal](cases/ARSENALMIND.md)** | Criei para ajudar meus agentes a descobrir e comparar tecnologias, em vez de repetir as mesmas sugestões. Reúne ferramentas MCP, radar de projetos e apoio à pesquisa. Usei essa estrutura na pesquisa técnica do Desapega AI. [Código e testes de um módulo](samples/arsenalmind-capability-watch/README.md). |
-| **[Desapega AI](cases/DESAPEGA.md)** | Fiz para ajudar meu irmão com revenda de produtos. Trabalhei com IA, Telegram, estado local, regras de preço e aprovações, além de integrações de publicação que ainda estou documentando por versão. |
-| **[Belarc Inventory](https://github.com/Mayconxzdev/Belarc-Inventory)** | Desenvolvi em parceria com **Diogo Rodrigues** um sistema de inventário e suporte para computadores Windows, com agente em Rust, servidor e portal de chamados. |
-| **[Produção Operacional](https://github.com/Mayconxzdev/ProducaoOperacional)** | Desenvolvi uma aplicação Windows para acompanhar ordens de produção, organizar importações e mostrar o andamento em uma TV. Participei também da instalação e do suporte ao uso. |
+| [Produção Operacional](https://github.com/Mayconxzdev/ProducaoOperacional) | Aplicativo em uso interno para organizar ordens, acompanhar setores, consultar relatórios e compartilhar o andamento na TV da fábrica. [Case](https://mayconxzdev.github.io/projetos/producao-operacional/) |
+| [Hubora](https://github.com/Mayconxzdev/Hubora) | Produto pessoal para descobrir e organizar filmes, séries e jogos, com experiência de uso própria e [demo pública](https://hubora.netlify.app/). |
+| [Inventário e HelpDesk](https://github.com/Mayconxzdev/Belarc-Inventory) | Desenvolvimento em parceria: inventário de computadores, contexto técnico e atendimento interno de TI. |
+| [Manutenção em Campo](https://github.com/Mayconxzdev/ManutencaoEmCampo) | Versão pública demonstrativa com ativos, checklists, histórico e evidências fictícias. |
+| [Mala Direta](https://github.com/Mayconxzdev/MalaDireta) | Automação sob demanda com n8n, revisão de destinatários, fila, cancelamento e tratamento de falhas. |
+| [Compass UOL](https://github.com/Mayconxzdev/Estagio-CompassUOL) | Formação prática em engenharia de dados: dez sprints, pipeline AWS, SQL e visualização. |
 
-Outros trabalhos: **[Mala Direta](https://github.com/Mayconxzdev/MalaDireta)** (n8n, filas, deduplicação e cancelamento), **[Compass UOL](https://github.com/Mayconxzdev/Estagio-CompassUOL)** (pipeline de dados na AWS) e [demais repositórios](https://github.com/Mayconxzdev?tab=repositories).
+Também trabalho com sites, comunicação digital e vídeo generativo. A [seleção criativa](https://mayconxzdev.github.io/audiovisual/) apresenta essa outra parte da minha atuação. Há projetos internos e pessoais que não estão publicados; compartilho somente materiais autorizados.
 
-## ArsenalMind na prática
+## Como uso IA no trabalho
 
-Criei o ArsenalMind para comparar bibliotecas, modelos e ferramentas que meus agentes poderiam usar. Registro as alternativas pesquisadas e os critérios de escolha.
+- Investigo necessidades, comparo alternativas e defino fluxos e requisitos.
+- Uso agentes e modelos de IA para apoiar a implementação, com revisão, testes e validação humana.
+- Integro APIs, webhooks, dados e ferramentas de automação; acompanho falhas e a utilização das entregas.
+- Na criação visual, combino concepção, geração de imagens e cenas, edição e acabamento.
 
-Quando comecei a desenvolver o **Desapega AI**, usei o ArsenalMind para pesquisar modelos locais, possibilidades de integração e riscos das automações. O ArsenalMind apoiou as decisões técnicas. A implementação do Desapega foi um trabalho separado. [Contei essa ligação com mais detalhes aqui](cases/ARSENALMIND.md).
+**Ferramentas que utilizo:** n8n, APIs REST, modelos de IA e agentes, MCP, SQL, Python, Docker, Git, ferramentas web, Google Flow, Veo e CapCut. Escolho a combinação conforme o trabalho; nem toda solução necessita de IA incorporada.
 
-## Como eu trabalho
+## Formação
 
-Normalmente começo pelo problema e pelas restrições. Pesquiso alternativas, desenvolvo um fluxo utilizável e verifico o resultado. Os agentes de IA ajudam na implementação, e eu reviso decisões, testes e comportamento. Já precisei identificar e corrigir uma cópia duplicada de banco criada durante o desenvolvimento assistido por IA.
+- UNISUAM — Análise e Desenvolvimento de Sistemas, em andamento.
+- Firjan SENAI — Ferramentas de IA: Agentes e Automações, 40h.
+- n8n — N8N102 e N8N103; LangChain Academy — Introduction to LangGraph.
+- AWS Academy — Cloud Foundations, 20h; Compass UOL — formação prática em Engenharia de Dados.
+- Google AI Essentials; Enap — RPA e mapeamento de processos; Piscine 42 Rio (2025).
 
-Registro o estado de cada entrega e os testes disponíveis. **CarreiraPessoal** e **VideoMind** ainda têm partes pendentes. Dados e arquivos de instalações privadas ficam fora da publicação.
+## Outros estudos e experimentos
 
-## Um pouco da minha trajetória
+[ArsenalMind](cases/ARSENALMIND.md) e [Desapega AI](cases/DESAPEGA.md) documentam experiências com agentes e integrações em diferentes estágios. São complementares ao trabalho em uso, não provas de operação comercial completa. [Módulo e testes do ArsenalMind](samples/arsenalmind-capability-watch/README.md).
 
-Atuo como **Técnico Júnior em Automação de Processos** desde janeiro de 2026. Antes, participei do programa de formação prática em Engenharia de Dados da Compass UOL, trabalhando com Python, SQL, AWS e pipelines. Estudo Análise e Desenvolvimento de Sistemas na UNISUAM e participei da 42 Rio.
+[Todos os repositórios públicos](https://github.com/Mayconxzdev?tab=repositories) · [Contato](https://mayconxzdev.github.io/contato/)
 
-Estou buscando oportunidades em **software engineering, applied AI, integrações e agent tooling**. Os links dos projetos mostram meu trabalho, minhas decisões e o que já consegui colocar para funcionar.
-
-[Entrar em contato pelo LinkedIn](https://www.linkedin.com/in/maycon-ferreira-7bb870231/) · [Como documento e testo meus projetos](cases/EVIDENCIAS.md) · [Demonstração guiada do ArsenalMind](cases/DEMO_ENTREVISTA.md) · [Preparação para entrevistas](cases/ENTREVISTAS.md)
+Estou aberto a oportunidades em IA aplicada, automação, implantação de soluções, produtos digitais e criação.
