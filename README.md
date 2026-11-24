@@ -29,6 +29,9 @@ Também trabalho com sites, comunicação digital e vídeo generativo. A [seleç
 
 **Ferramentas que utilizo:** n8n, APIs REST, modelos de IA e agentes, MCP, SQL, Python, Docker, Git, ferramentas web, Google Flow, Veo e CapCut. Escolho a combinação conforme o trabalho; nem toda solução necessita de IA incorporada.
 
+
+Também atuo como instrutor freelance de informática: aulas de Microsoft Office, Excel, Google Sheets, Power BI, Power Query, VBA introdutório e Windows/Linux, com suporte técnico quando necessário. Tenho conhecimentos de BPMN e mapeamento de requisitos, separados da experiência de ensino.
+
 ## Formação
 
 - UNISUAM — Análise e Desenvolvimento de Sistemas, em andamento.
