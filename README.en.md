@@ -15,6 +15,7 @@ I use AI to address operational problems, build digital products and produce vis
 | [Inventory and HelpDesk](https://github.com/Mayconxzdev/Belarc-Inventory) | Co-developed Windows inventory and IT support tooling. |
 | [Field Maintenance](https://github.com/Mayconxzdev/ManutencaoEmCampo) | Public demonstration with fictional assets, checklists, records and evidence. |
 | [Mala Direta](https://github.com/Mayconxzdev/MalaDireta) | On-demand n8n email campaign workflow with recipient queues, review and failure handling. |
+| [Social Content Workflow](https://github.com/Mayconxzdev/PostagemRedes) | Editorial automation experiment with AI, RAG, human review and grounding tests; recurring use ended. [Case](https://mayconxzdev.github.io/projetos/postagem-redes/) |
 | [Compass UOL](https://github.com/Mayconxzdev/Estagio-CompassUOL) | Practical data engineering training with ten sprints and an AWS pipeline. |
 
 I also work with websites, digital communication and generative video. [Creative work](https://mayconxzdev.github.io/audiovisual/) complements the technical cases. Other internal and personal projects are not publicly available.
