@@ -24,8 +24,7 @@ I also work with websites, digital communication and generative video. [Creative
 
 I define requirements, research options, use AI agents to assist implementation, test the result and review the delivery. My tools include n8n, APIs, webhooks, SQL, Python, Docker, Git, MCP, LLMs, Google Flow, Veo and CapCut. AI-assisted development and AI embedded in a product are distinct.
 
-
-I also teach computer skills as a freelancer: Microsoft Office, Excel, Google Sheets, Power BI, Power Query, introductory VBA and Windows/Linux, with technical support when needed. My process knowledge includes BPMN and requirements mapping, separately from this teaching work.
+Since October 2024, I have also taught computer skills as a freelancer: Microsoft Office, Excel, Google Sheets, Power BI, Power Query, introductory VBA and Windows/Linux, with technical support when needed. My process work also draws on BPMN and requirements mapping.
 
 ## Education and training
 
