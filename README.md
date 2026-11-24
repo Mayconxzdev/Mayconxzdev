@@ -15,6 +15,7 @@ Uso inteligência artificial para resolver problemas de operação, desenvolver 
 | [Inventário e HelpDesk](https://github.com/Mayconxzdev/Belarc-Inventory) | Desenvolvimento em parceria: inventário de computadores, contexto técnico e atendimento interno de TI. |
 | [Manutenção em Campo](https://github.com/Mayconxzdev/ManutencaoEmCampo) | Versão pública demonstrativa com ativos, checklists, histórico e evidências fictícias. |
 | [Mala Direta](https://github.com/Mayconxzdev/MalaDireta) | Automação sob demanda com n8n, revisão de destinatários, fila, cancelamento e tratamento de falhas. |
+| [Postagem Redes](https://github.com/Mayconxzdev/PostagemRedes) | Experimento de automação editorial com IA, RAG, revisão humana e testes de fontes; uso recorrente encerrado. [Case](https://mayconxzdev.github.io/projetos/postagem-redes/) |
 | [Compass UOL](https://github.com/Mayconxzdev/Estagio-CompassUOL) | Formação prática em engenharia de dados: dez sprints, pipeline AWS, SQL e visualização. |
 
 Também trabalho com sites, comunicação digital e vídeo generativo. A [seleção criativa](https://mayconxzdev.github.io/audiovisual/) apresenta essa outra parte da minha atuação. Há projetos internos e pessoais que não estão publicados; compartilho somente materiais autorizados.
